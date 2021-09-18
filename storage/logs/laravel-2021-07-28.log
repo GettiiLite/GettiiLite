@@ -1,0 +1,296 @@
+[2021-07-28 00:03:26] production.DEBUG: [Create]The data form DB  
+[2021-07-28 00:22:59] production.DEBUG: [Create]The data form DB  
+[2021-07-28 00:29:51] production.DEBUG: [Create]The data form DB  
+[2021-07-28 00:32:03] production.DEBUG: [Create]The data form DB  
+[2021-07-28 00:34:05] production.DEBUG: [Create]The data form DB  
+[2021-07-28 00:35:44] production.DEBUG: [Create]The data form DB  
+[2021-07-28 01:28:05] production.DEBUG: [Create]The data form DB  
+[2021-07-28 01:31:03] production.DEBUG: [Create]The data form DB  
+[2021-07-28 01:31:40] production.DEBUG: [Create]The data form DB  
+[2021-07-28 01:32:10] production.DEBUG: [Create]The data form DB  
+[2021-07-28 01:32:41] production.DEBUG: [Create]The data form DB  
+[2021-07-28 01:33:27] production.DEBUG: [Create]The data form DB  
+[2021-07-28 01:38:35] production.DEBUG: [Create]The data form DB  
+[2021-07-28 01:43:35] production.DEBUG: [Create]The data form DB  
+[2021-07-28 01:45:30] production.DEBUG: [Create]The data form DB  
+[2021-07-28 01:46:37] production.DEBUG: ler.addData()  
+[2021-07-28 01:46:37] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-28 01:46:37] production.DEBUG: ***先行販売期間未設定***  
+[2021-07-28 01:46:37] production.DEBUG: ***席種・券種未設定***  
+[2021-07-28 01:46:37] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-28 01:46:37] production.DEBUG: *** sales_term_status  ***  
+[2021-07-28 01:46:37] production.DEBUG: false  
+[2021-07-28 01:46:37] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-28 01:46:37] production.DEBUG: 0  
+[2021-07-28 01:46:37] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-28 01:46:37] production.DEBUG: 0  
+[2021-07-28 01:46:37] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-28 01:46:38] production.DEBUG: [create] It is old data  
+[2021-07-28 01:46:58] production.DEBUG: [edit]The data from DB  
+[2021-07-28 01:47:05] production.DEBUG: has  
+[2021-07-28 01:49:34] production.DEBUG: [edit]The data from DB  
+[2021-07-28 01:49:41] production.DEBUG: has  
+[2021-07-28 09:24:34] production.DEBUG: [Create]The data form DB  
+[2021-07-28 09:34:25] production.DEBUG: [edit]The data from DB  
+[2021-07-28 09:34:31] production.DEBUG: has  
+[2021-07-28 09:39:41] production.DEBUG: [edit]The data from DB  
+[2021-07-28 09:39:47] production.DEBUG: has  
+[2021-07-28 09:45:37] production.DEBUG: [edit]The data from DB  
+[2021-07-28 09:45:43] production.DEBUG: has  
+[2021-07-28 09:46:23] production.DEBUG: [EventController] update  
+[2021-07-28 09:46:23] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-28 09:46:23] production.DEBUG: ***席種・券種未設定***  
+[2021-07-28 09:46:23] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-28 09:46:23] production.DEBUG: *** sales_term_status  ***  
+[2021-07-28 09:46:23] production.DEBUG: false  
+[2021-07-28 09:46:23] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-28 09:46:23] production.DEBUG: 0  
+[2021-07-28 09:46:23] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-28 09:46:23] production.DEBUG: 0  
+[2021-07-28 09:46:23] production.DEBUG: [EventManageService]updateJson  
+[2021-07-28 09:46:24] production.DEBUG: [edit]It is old data  
+[2021-07-28 09:46:24] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-28 09:50:29] production.DEBUG: [edit]The data from DB  
+[2021-07-28 09:50:36] production.DEBUG: has  
+[2021-07-28 09:58:48] production.DEBUG: [edit]The data from DB  
+[2021-07-28 09:58:55] production.DEBUG: has  
+[2021-07-28 10:08:19] production.DEBUG: [edit]The data from DB  
+[2021-07-28 10:08:26] production.DEBUG: has  
+[2021-07-28 10:09:48] production.DEBUG: [edit]The data from DB  
+[2021-07-28 10:09:55] production.DEBUG: has  
+[2021-07-28 10:11:52] production.DEBUG: [edit]The data from DB  
+[2021-07-28 10:11:58] production.DEBUG: has  
+[2021-07-28 10:16:31] production.DEBUG: [edit]The data from DB  
+[2021-07-28 10:16:38] production.DEBUG: has  
+[2021-07-28 10:17:22] production.DEBUG: [edit]The data from DB  
+[2021-07-28 10:17:29] production.DEBUG: has  
+[2021-07-28 10:17:48] production.DEBUG: [edit]The data from DB  
+[2021-07-28 10:17:55] production.DEBUG: has  
+[2021-07-28 10:22:44] production.DEBUG: [edit]The data from DB  
+[2021-07-28 10:22:51] production.DEBUG: has  
+[2021-07-28 11:31:01] production.DEBUG: [edit]The data from DB  
+[2021-07-28 11:31:07] production.DEBUG: has  
+[2021-07-28 11:53:49] production.DEBUG: [Create]The data form DB  
+[2021-07-28 11:55:39] production.DEBUG: ler.addData()  
+[2021-07-28 11:55:39] production.DEBUG: ***全席自由***  
+[2021-07-28 11:55:39] production.DEBUG: ***券種or料金未入力***  
+[2021-07-28 11:55:39] production.DEBUG: *** sales_term_status  ***  
+[2021-07-28 11:55:39] production.DEBUG: true  
+[2021-07-28 11:55:39] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-28 11:55:39] production.DEBUG: 0  
+[2021-07-28 11:55:39] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-28 11:55:39] production.DEBUG: 2  
+[2021-07-28 11:55:39] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-28 11:55:40] production.DEBUG: [create] It is old data  
+[2021-07-28 12:03:18] production.DEBUG: [edit]The data from DB  
+[2021-07-28 12:03:25] production.DEBUG: has  
+[2021-07-28 14:41:37] production.DEBUG: [edit]The data from DB  
+[2021-07-28 14:41:44] production.DEBUG: has  
+[2021-07-28 14:42:08] production.DEBUG: [EventController] update  
+[2021-07-28 14:42:08] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-28 14:42:08] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 14:42:08] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 14:42:08] production.DEBUG: ***席種・券種未設定***  
+[2021-07-28 14:42:08] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-28 14:42:08] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-28 14:42:08] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-28 14:42:08] production.DEBUG: *** sales_term_status  ***  
+[2021-07-28 14:42:08] production.DEBUG: false  
+[2021-07-28 14:42:08] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-28 14:42:08] production.DEBUG: 0  
+[2021-07-28 14:42:08] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-28 14:42:08] production.DEBUG: 0  
+[2021-07-28 14:42:08] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-28 14:42:09] production.DEBUG: [edit]It is old data  
+[2021-07-28 14:43:18] production.DEBUG: [EventController] update  
+[2021-07-28 14:43:18] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-28 14:43:18] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 14:43:18] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 14:43:18] production.DEBUG: ***席種・券種未設定***  
+[2021-07-28 14:43:18] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-28 14:43:18] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-28 14:43:18] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-28 14:43:18] production.DEBUG: *** sales_term_status  ***  
+[2021-07-28 14:43:18] production.DEBUG: false  
+[2021-07-28 14:43:18] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-28 14:43:18] production.DEBUG: 0  
+[2021-07-28 14:43:18] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-28 14:43:18] production.DEBUG: 2  
+[2021-07-28 14:43:18] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-28 14:43:19] production.DEBUG: [edit]It is old data  
+[2021-07-28 14:43:55] production.DEBUG: [EventController] update  
+[2021-07-28 14:43:55] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-28 14:43:55] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 14:43:55] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 14:43:55] production.DEBUG: ***席種・券種未設定***  
+[2021-07-28 14:43:55] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-28 14:43:55] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-28 14:43:55] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-28 14:43:55] production.DEBUG: *** sales_term_status  ***  
+[2021-07-28 14:43:55] production.DEBUG: false  
+[2021-07-28 14:43:55] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-28 14:43:55] production.DEBUG: 0  
+[2021-07-28 14:43:55] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-28 14:43:55] production.DEBUG: 2  
+[2021-07-28 14:43:55] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-28 14:43:56] production.DEBUG: [edit]It is old data  
+[2021-07-28 14:45:52] production.DEBUG: [EventController] update  
+[2021-07-28 14:45:52] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-28 14:45:52] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 14:45:52] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 14:45:52] production.DEBUG: ***席種・券種未設定***  
+[2021-07-28 14:45:52] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-28 14:45:52] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-28 14:45:52] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-28 14:45:52] production.DEBUG: *** sales_term_status  ***  
+[2021-07-28 14:45:52] production.DEBUG: false  
+[2021-07-28 14:45:52] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-28 14:45:52] production.DEBUG: 0  
+[2021-07-28 14:45:52] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-28 14:45:52] production.DEBUG: 2  
+[2021-07-28 14:46:11] production.DEBUG: [edit]The data from DB  
+[2021-07-28 14:46:18] production.DEBUG: has  
+[2021-07-28 14:46:24] production.DEBUG: [EventController] update  
+[2021-07-28 14:46:24] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-28 14:46:24] production.DEBUG: ***席種・券種未設定***  
+[2021-07-28 14:46:24] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-28 14:46:24] production.DEBUG: *** sales_term_status  ***  
+[2021-07-28 14:46:24] production.DEBUG: false  
+[2021-07-28 14:46:24] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-28 14:46:24] production.DEBUG: 0  
+[2021-07-28 14:46:24] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-28 14:46:24] production.DEBUG: 0  
+[2021-07-28 14:46:27] production.DEBUG: [edit]The data from DB  
+[2021-07-28 14:46:34] production.DEBUG: has  
+[2021-07-28 14:47:18] production.DEBUG: [EventController] update  
+[2021-07-28 14:47:18] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-28 14:47:18] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 14:47:18] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 14:47:18] production.DEBUG: ***席種・券種未設定***  
+[2021-07-28 14:47:18] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-28 14:47:18] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-28 14:47:18] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-28 14:47:18] production.DEBUG: *** sales_term_status  ***  
+[2021-07-28 14:47:18] production.DEBUG: false  
+[2021-07-28 14:47:18] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-28 14:47:18] production.DEBUG: 0  
+[2021-07-28 14:47:18] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-28 14:47:18] production.DEBUG: 0  
+[2021-07-28 14:47:18] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-28 14:47:19] production.DEBUG: [edit]It is old data  
+[2021-07-28 14:47:45] production.DEBUG: [EventController] update  
+[2021-07-28 14:47:45] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-28 14:47:45] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 14:47:45] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 14:47:45] production.DEBUG: ***席種・券種未設定***  
+[2021-07-28 14:47:45] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-28 14:47:45] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-28 14:47:45] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-28 14:47:45] production.DEBUG: *** sales_term_status  ***  
+[2021-07-28 14:47:45] production.DEBUG: false  
+[2021-07-28 14:47:45] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-28 14:47:45] production.DEBUG: 0  
+[2021-07-28 14:47:45] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-28 14:47:45] production.DEBUG: 0  
+[2021-07-28 14:47:45] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-28 14:47:46] production.DEBUG: [edit]It is old data  
+[2021-07-28 15:09:08] production.DEBUG: [EventController] update  
+[2021-07-28 15:09:08] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-28 15:09:08] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 15:09:08] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-28 15:09:08] production.DEBUG: ***席種・券種未設定***  
+[2021-07-28 15:09:08] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-28 15:09:08] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-28 15:09:08] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-28 15:09:08] production.DEBUG: *** sales_term_status  ***  
+[2021-07-28 15:09:08] production.DEBUG: false  
+[2021-07-28 15:09:08] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-28 15:09:08] production.DEBUG: 0  
+[2021-07-28 15:09:08] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-28 15:09:08] production.DEBUG: 0  
+[2021-07-28 15:09:08] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-28 15:09:09] production.DEBUG: [edit]It is old data  
+[2021-07-28 15:38:13] production.DEBUG: UserManagerService.transportUserInfo@20210728153813  
+[2021-07-28 15:38:27] production.DEBUG: UserManagerService.transportUserInfo@20210728153827  
+[2021-07-28 15:41:07] production.DEBUG: UserManagerService.transportUserInfo@20210728154107  
+[2021-07-28 15:41:07] production.ERROR: Undefined property: stdClass::$disp_flg {"exception":"[object] (ErrorException(code: 0): Undefined property: stdClass::$disp_flg at /home/vagrant/code/htest/gettiilite/app/Services/AdminManageServices.php:105)
+[stacktrace]
+#0 /home/vagrant/code/htest/gettiilite/app/Services/AdminManageServices.php(105): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', '/home/vagrant/c...', 105, Array)
+#1 /home/vagrant/code/htest/gettiilite/app/Services/AdminManageServices.php(666): App\\Services\\AdminManageServices->transportUserInfo('147')
+#2 /home/vagrant/code/htest/gettiilite/app/Http/Controllers/AdminManageController.php(71): App\\Services\\AdminManageServices->dataValidationUpload(Array)
+#3 [internal function]: App\\Http\\Controllers\\AdminManageController->dataValidationUpload(Object(Illuminate\\Http\\Request))
+#4 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#5 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('dataValidationU...', Array)
+#6 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\AdminManageController), 'dataValidationU...')
+#7 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Route.php(169): Illuminate\\Routing\\Route->runController()
+#8 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\\Routing\\Route->run()
+#9 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#10 /home/vagrant/code/htest/gettiilite/app/Http/Middleware/CheckAdminPermission.php(23): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\CheckAdminPermission->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /home/vagrant/code/htest/gettiilite/app/Http/Middleware/CheckLogin.php(38): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\CheckLogin->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#26 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#29 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#32 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#35 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(660): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#37 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#38 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(590): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#39 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#40 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#41 /home/vagrant/code/htest/gettiilite/vendor/fideloper/proxy/src/TrustProxies.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#45 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#48 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#51 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#54 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#57 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#58 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#59 /home/vagrant/code/htest/gettiilite/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#60 {main}
+"} 
+[2021-07-28 15:41:46] production.DEBUG: UserManagerService.transportUserInfo@20210728154146  
+[2021-07-28 15:42:24] production.DEBUG: UserManagerService.transportUserInfo@20210728154224  
+[2021-07-28 15:42:48] production.DEBUG: UserManagerService.transportUserInfo@20210728154248  
+[2021-07-28 15:47:11] production.DEBUG: UserManagerService.transportUserInfo@20210728154711  
+[2021-07-28 15:48:02] production.DEBUG: UserManagerService.transportUserInfo@20210728154802  
+[2021-07-28 15:48:02] production.DEBUG: UserManagerRepositories.portalMstOutputInsert  
+[2021-07-28 15:52:03] production.DEBUG: UserManagerService.transportUserInfo@20210728155203  
+[2021-07-28 15:52:03] production.DEBUG: UserManagerRepositories.portalMstOutputInsert  
+[2021-07-28 15:54:33] production.DEBUG: UserManagerService.transportUserInfo@20210728155433  
+[2021-07-28 15:56:23] production.DEBUG: UserManagerService.transportUserInfo@20210728155623  
+[2021-07-28 15:56:54] production.DEBUG: UserManagerService.transportUserInfo@20210728155654  
+[2021-07-28 15:58:40] production.DEBUG: UserManagerService.transportUserInfo@20210728155840  
+[2021-07-28 15:58:48] production.DEBUG: UserManagerService.transportUserInfo@20210728155848  
+[2021-07-28 15:59:05] production.DEBUG: UserManagerService.transportUserInfo@20210728155904  
+[2021-07-28 15:59:05] production.DEBUG: UserManagerRepositories.portalMstOutputInsert  
+[2021-07-28 16:04:02] production.DEBUG: UserManagerService.transportUserInfo@20210728160402  
+[2021-07-28 16:04:02] production.DEBUG: UserManagerRepositories.portalMstOutputInsert  

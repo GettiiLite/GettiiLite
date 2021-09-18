@@ -1,0 +1,241 @@
+[2021-08-20 10:57:25] production.INFO: error code : 21   
+[2021-08-20 10:58:01] production.DEBUG: [Create]The data form DB  
+[2021-08-20 11:01:43] production.DEBUG: [Create]The data form DB  
+[2021-08-20 11:02:55] production.DEBUG: ler.addData()  
+[2021-08-20 11:02:55] production.DEBUG: ***(spec)表示公演日時***  
+[2021-08-20 11:02:55] production.DEBUG: ***全席自由***  
+[2021-08-20 11:02:55] production.DEBUG: ***席種名未入力***  
+[2021-08-20 11:02:55] production.DEBUG: ***席種・券種未設定***  
+[2021-08-20 11:02:55] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-20 11:02:55] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 11:02:55] production.DEBUG: false  
+[2021-08-20 11:02:55] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 11:02:55] production.DEBUG: 0  
+[2021-08-20 11:02:55] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 11:02:55] production.DEBUG: 2  
+[2021-08-20 11:02:55] production.DEBUG: EvenManageServices.addData()  
+[2021-08-20 11:02:55] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-20 11:03:52] production.DEBUG: [edit]The data from DB  
+[2021-08-20 11:03:59] production.DEBUG: has  
+[2021-08-20 11:05:05] production.DEBUG: [EventController] update  
+[2021-08-20 11:05:05] production.DEBUG: ***全席自由***  
+[2021-08-20 11:05:05] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 11:05:05] production.DEBUG: true  
+[2021-08-20 11:05:05] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 11:05:05] production.DEBUG: 1  
+[2021-08-20 11:05:05] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 11:05:05] production.DEBUG: 3  
+[2021-08-20 11:05:05] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-20 11:05:05] production.DEBUG: [edit]It is old data  
+[2021-08-20 11:10:32] production.DEBUG: [EventController] update  
+[2021-08-20 11:10:32] production.DEBUG: ***全席自由***  
+[2021-08-20 11:10:32] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 11:10:32] production.DEBUG: true  
+[2021-08-20 11:10:32] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 11:10:32] production.DEBUG: 1  
+[2021-08-20 11:10:32] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 11:10:32] production.DEBUG: 3  
+[2021-08-20 11:10:32] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-20 11:10:32] production.DEBUG: [edit]It is old data  
+[2021-08-20 11:11:05] production.DEBUG: [EventController] update  
+[2021-08-20 11:11:05] production.DEBUG: ***全席自由***  
+[2021-08-20 11:11:05] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 11:11:05] production.DEBUG: true  
+[2021-08-20 11:11:05] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 11:11:05] production.DEBUG: 1  
+[2021-08-20 11:11:05] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 11:11:05] production.DEBUG: 3  
+[2021-08-20 11:11:05] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-20 11:11:05] production.DEBUG: [edit]It is old data  
+[2021-08-20 11:11:31] production.DEBUG: [EventController] update  
+[2021-08-20 11:11:31] production.DEBUG: ***全席自由***  
+[2021-08-20 11:11:31] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 11:11:31] production.DEBUG: true  
+[2021-08-20 11:11:31] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 11:11:31] production.DEBUG: 1  
+[2021-08-20 11:11:31] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 11:11:31] production.DEBUG: 3  
+[2021-08-20 11:11:32] production.DEBUG: [EventManageService]updateJson  
+[2021-08-20 11:11:32] production.DEBUG: _createHallInfo : [青森県][八戸市] -> ID => 3001302  
+[2021-08-20 11:11:32] production.DEBUG: [edit]It is old data  
+[2021-08-20 11:11:32] production.DEBUG: [edit]Reading data form draft.  
+[2021-08-20 11:11:52] production.DEBUG: [EventManageService] republish  
+[2021-08-20 11:11:52] production.DEBUG: has  
+[2021-08-20 11:11:52] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-20 11:11:52] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2319","performance_date":"2021\/08\/28","start_time":"12:00","disp_performance_date":"yuu","sch_kbn":"0","stcd":2606,"update_account_cd":270}  
+[2021-08-20 11:11:52] production.DEBUG: specDateScheduleCreateorUpdate:2319-2021/08/28-2606-12:00  
+[2021-08-20 11:11:52] production.DEBUG: specDateScheduleCreateorUpdate: id =15022  
+[2021-08-20 11:11:53] production.DEBUG: export event mst_data satart  
+[2021-08-20 11:11:53] production.DEBUG: export event mst_data finished  
+[2021-08-20 11:16:03] production.DEBUG: [EventController] update  
+[2021-08-20 11:16:03] production.DEBUG: ***全席自由***  
+[2021-08-20 11:16:03] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 11:16:03] production.DEBUG: true  
+[2021-08-20 11:16:03] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 11:16:03] production.DEBUG: 1  
+[2021-08-20 11:16:03] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 11:16:03] production.DEBUG: 3  
+[2021-08-20 11:16:03] production.DEBUG: [EventManageService]updateJson  
+[2021-08-20 11:16:03] production.DEBUG: _createHallInfo : [青森県][八戸市] -> ID => 3001302  
+[2021-08-20 11:16:03] production.DEBUG: [edit]It is old data  
+[2021-08-20 11:16:03] production.DEBUG: [edit]Reading data form draft.  
+[2021-08-20 11:18:38] production.DEBUG: [EventManageService] republish  
+[2021-08-20 11:18:38] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-20 11:18:38] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2319","performance_date":"2021\/08\/28","start_time":"12:00","disp_performance_date":"yuu","sch_kbn":"0","stcd":2606,"update_account_cd":270}  
+[2021-08-20 11:18:38] production.DEBUG: specDateScheduleCreateorUpdate:2319-2021/08/28-2606-12:00  
+[2021-08-20 11:18:38] production.DEBUG: specDateScheduleCreateorUpdate: id =15022  
+[2021-08-20 11:18:39] production.DEBUG: export event mst_data satart  
+[2021-08-20 11:18:39] production.DEBUG: export event mst_data finished  
+[2021-08-20 11:25:19] production.DEBUG: [EventController] update  
+[2021-08-20 11:25:19] production.DEBUG: ***全席自由***  
+[2021-08-20 11:25:19] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 11:25:19] production.DEBUG: true  
+[2021-08-20 11:25:19] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 11:25:19] production.DEBUG: 1  
+[2021-08-20 11:25:19] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 11:25:19] production.DEBUG: 3  
+[2021-08-20 11:25:19] production.DEBUG: [EventManageService]updateJson  
+[2021-08-20 11:25:19] production.DEBUG: _createHallInfo : [青森県][八戸市] -> ID => 3001302  
+[2021-08-20 11:25:19] production.DEBUG: [edit]It is old data  
+[2021-08-20 11:25:19] production.DEBUG: [edit]Reading data form draft.  
+[2021-08-20 11:25:56] production.DEBUG: [EventManageService] republish  
+[2021-08-20 11:25:56] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-20 11:25:56] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2319","performance_date":"2021\/08\/28","start_time":"12:00","disp_performance_date":"yuu","sch_kbn":"0","stcd":2606,"update_account_cd":270}  
+[2021-08-20 11:25:56] production.DEBUG: specDateScheduleCreateorUpdate:2319-2021/08/28-2606-12:00  
+[2021-08-20 11:25:56] production.DEBUG: specDateScheduleCreateorUpdate: id =15022  
+[2021-08-20 11:25:57] production.DEBUG: export event mst_data satart  
+[2021-08-20 11:25:57] production.DEBUG: export event mst_data finished  
+[2021-08-20 11:26:23] production.DEBUG: [Create]The data form DB  
+[2021-08-20 11:27:40] production.DEBUG: ler.addData()  
+[2021-08-20 11:27:40] production.DEBUG: ***全席自由***  
+[2021-08-20 11:27:40] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 11:27:40] production.DEBUG: true  
+[2021-08-20 11:27:40] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 11:27:40] production.DEBUG: 1  
+[2021-08-20 11:27:40] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 11:27:40] production.DEBUG: 3  
+[2021-08-20 11:27:40] production.DEBUG: EvenManageServices.addData()  
+[2021-08-20 11:27:40] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-20 11:27:45] production.DEBUG: [EventManageService] republish  
+[2021-08-20 11:27:45] production.DEBUG: has  
+[2021-08-20 11:27:45] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-20 11:27:45] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2322","performance_date":"2021\/08\/28","start_time":"12:00","disp_performance_date":"yuu","sch_kbn":"0","stcd":2608,"update_account_cd":270}  
+[2021-08-20 11:27:45] production.DEBUG: specDateScheduleCreateorUpdate:2322-2021/08/28-2608-12:00  
+[2021-08-20 11:27:45] production.DEBUG: specDateScheduleCreateorUpdate: id =15024  
+[2021-08-20 11:27:46] production.DEBUG: export event mst_data satart  
+[2021-08-20 11:27:46] production.DEBUG: export event mst_data finished  
+[2021-08-20 11:59:07] production.DEBUG: [edit]The data from DB  
+[2021-08-20 12:27:19] production.DEBUG: [EventManageService] republish  
+[2021-08-20 12:27:19] production.DEBUG: has  
+[2021-08-20 12:27:19] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-20 12:27:19] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2326","performance_date":"2021\/08\/31","start_time":"12:00","disp_performance_date":"yuu","sch_kbn":"0","stcd":2610,"update_account_cd":270}  
+[2021-08-20 12:27:19] production.DEBUG: specDateScheduleCreateorUpdate:2326-2021/08/31-2610-12:00  
+[2021-08-20 12:27:19] production.DEBUG: specDateScheduleCreateorUpdate: id =15026  
+[2021-08-20 12:27:20] production.DEBUG: export event mst_data satart  
+[2021-08-20 12:27:20] production.DEBUG: export event mst_data finished  
+[2021-08-20 12:29:59] production.DEBUG: [edit]The data from DB  
+[2021-08-20 12:30:34] production.DEBUG: [edit]The data from DB  
+[2021-08-20 12:31:03] production.DEBUG: [EventController] update  
+[2021-08-20 12:31:03] production.DEBUG: ***全席自由***  
+[2021-08-20 12:31:03] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 12:31:03] production.DEBUG: true  
+[2021-08-20 12:31:03] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 12:31:03] production.DEBUG: 1  
+[2021-08-20 12:31:03] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 12:31:03] production.DEBUG: 3  
+[2021-08-20 12:31:03] production.DEBUG: [EventManageService]updateJson  
+[2021-08-20 12:31:03] production.DEBUG: _createHallInfo : [青森県][八戸市] -> ID => 3001123  
+[2021-08-20 12:31:03] production.DEBUG: [edit]It is old data  
+[2021-08-20 12:31:03] production.DEBUG: [edit]Reading data form draft.  
+[2021-08-20 12:32:02] production.DEBUG: [EventManageService] republish  
+[2021-08-20 12:32:02] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-20 12:32:02] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2326","performance_date":"2021\/08\/31","start_time":"12:00","disp_performance_date":"yuu","sch_kbn":"0","stcd":2610,"update_account_cd":270}  
+[2021-08-20 12:32:02] production.DEBUG: specDateScheduleCreateorUpdate:2326-2021/08/31-2610-12:00  
+[2021-08-20 12:32:02] production.DEBUG: specDateScheduleCreateorUpdate: id =15026  
+[2021-08-20 12:32:03] production.DEBUG: export event mst_data satart  
+[2021-08-20 12:32:03] production.DEBUG: export event mst_data finished  
+[2021-08-20 12:39:27] production.DEBUG: UserManagerService.transportUserInfo@20210820123927  
+[2021-08-20 12:39:27] production.DEBUG: UserManagerRepositories.portalMstOutputInsert  
+[2021-08-20 12:42:42] production.DEBUG: [edit]The data from DB  
+[2021-08-20 12:42:56] production.DEBUG: [edit]The data from DB  
+[2021-08-20 12:43:06] production.DEBUG: has  
+[2021-08-20 12:43:20] production.DEBUG: has  
+[2021-08-20 12:43:22] production.DEBUG: [edit]The data from DB  
+[2021-08-20 12:43:45] production.DEBUG: has  
+[2021-08-20 12:44:02] production.DEBUG: [EventController] update  
+[2021-08-20 12:44:02] production.DEBUG: ***全席自由***  
+[2021-08-20 12:44:02] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 12:44:02] production.DEBUG: true  
+[2021-08-20 12:44:02] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 12:44:02] production.DEBUG: 1  
+[2021-08-20 12:44:02] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 12:44:02] production.DEBUG: 3  
+[2021-08-20 12:44:02] production.DEBUG: [EventManageService]updateJson  
+[2021-08-20 12:44:02] production.DEBUG: _createHallInfo : [青森県][八戸市] -> ID => 3001123  
+[2021-08-20 12:44:02] production.DEBUG: [edit]It is old data  
+[2021-08-20 12:44:02] production.DEBUG: [edit]Reading data form draft.  
+[2021-08-20 12:46:25] production.DEBUG: [EventManageService] republish  
+[2021-08-20 12:46:25] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-20 12:46:25] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2326","performance_date":"2021\/08\/31","start_time":"12:00","disp_performance_date":"yuu","sch_kbn":"0","stcd":2610,"update_account_cd":270}  
+[2021-08-20 12:46:25] production.DEBUG: specDateScheduleCreateorUpdate:2326-2021/08/31-2610-12:00  
+[2021-08-20 12:46:25] production.DEBUG: specDateScheduleCreateorUpdate: id =15026  
+[2021-08-20 12:46:26] production.DEBUG: export event mst_data satart  
+[2021-08-20 12:46:26] production.DEBUG: export event mst_data finished  
+[2021-08-20 12:53:41] production.DEBUG: [Create]The data form DB  
+[2021-08-20 12:57:12] production.DEBUG: ler.addData()  
+[2021-08-20 12:57:12] production.DEBUG: ***全席自由***  
+[2021-08-20 12:57:12] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 12:57:12] production.DEBUG: true  
+[2021-08-20 12:57:12] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 12:57:12] production.DEBUG: 1  
+[2021-08-20 12:57:12] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 12:57:12] production.DEBUG: 3  
+[2021-08-20 12:57:12] production.DEBUG: EvenManageServices.addData()  
+[2021-08-20 12:57:12] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-20 12:57:18] production.DEBUG: [EventManageService] republish  
+[2021-08-20 12:57:18] production.DEBUG: has  
+[2021-08-20 12:57:18] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-20 12:57:18] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2327","performance_date":"2021\/08\/23","start_time":"12:00","disp_performance_date":"yuu","sch_kbn":"0","stcd":2611,"update_account_cd":270}  
+[2021-08-20 12:57:18] production.DEBUG: specDateScheduleCreateorUpdate:2327-2021/08/23-2611-12:00  
+[2021-08-20 12:57:18] production.DEBUG: specDateScheduleCreateorUpdate: id =15027  
+[2021-08-20 12:57:19] production.DEBUG: export event mst_data satart  
+[2021-08-20 12:57:19] production.DEBUG: export event mst_data finished  
+[2021-08-20 13:08:55] production.DEBUG: [Create]The data form DB  
+[2021-08-20 13:14:43] production.DEBUG: [Create]The data form DB  
+[2021-08-20 13:15:31] production.DEBUG: ler.addData()  
+[2021-08-20 13:15:31] production.DEBUG: ***(spec)表示公演日時***  
+[2021-08-20 13:15:31] production.DEBUG: ***販売期間未設定***  
+[2021-08-20 13:15:31] production.DEBUG: ***全席自由***  
+[2021-08-20 13:15:31] production.DEBUG: ***席種名未入力***  
+[2021-08-20 13:15:31] production.DEBUG: ***席種・券種未設定***  
+[2021-08-20 13:15:31] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-20 13:15:31] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 13:15:31] production.DEBUG: false  
+[2021-08-20 13:15:31] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 13:15:31] production.DEBUG: 0  
+[2021-08-20 13:15:31] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 13:15:31] production.DEBUG: 0  
+[2021-08-20 13:15:31] production.DEBUG: EvenManageServices.addData()  
+[2021-08-20 13:15:31] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-20 13:15:57] production.DEBUG: [edit]The data from DB  
+[2021-08-20 13:16:04] production.DEBUG: has  
+[2021-08-20 13:23:36] production.DEBUG: [edit]The data from DB  
+[2021-08-20 13:23:43] production.DEBUG: has  
+[2021-08-20 13:26:02] production.DEBUG: [EventController] update  
+[2021-08-20 13:26:02] production.DEBUG: ***全席自由***  
+[2021-08-20 13:26:02] production.DEBUG: *** sales_term_status  ***  
+[2021-08-20 13:26:02] production.DEBUG: true  
+[2021-08-20 13:26:02] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-20 13:26:02] production.DEBUG: 1  
+[2021-08-20 13:26:02] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-20 13:26:02] production.DEBUG: 3  
+[2021-08-20 13:26:02] production.DEBUG: [EventManageService]updateJson  
+[2021-08-20 13:26:02] production.DEBUG: _createHallInfo : [青森県][八戸市] -> ID => 3001123  
+[2021-08-20 13:26:02] production.DEBUG: [edit]It is old data  
+[2021-08-20 13:26:02] production.DEBUG: [edit]Reading data form draft.  
+[2021-08-20 13:26:49] production.DEBUG: [Create]The data form DB  
+[2021-08-20 13:27:00] production.DEBUG: [edit]The data from DB  
+[2021-08-20 13:30:00] production.DEBUG: [edit]The data from DB  
+[2021-08-20 13:31:39] production.DEBUG: [Create]The data form DB  
+[2021-08-20 13:32:16] production.DEBUG: [edit]The data from DB  
+[2021-08-20 13:34:00] production.DEBUG: [edit]The data from DB  

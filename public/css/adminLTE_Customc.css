@@ -1,0 +1,1549 @@
+/*basis*/
+.curtain{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    z-index: 9999;
+    background-color: rgba(255,255,255,1);
+}
+/*basis*/
+/*loading-page*/
+.loading-page{
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 250, 250, 1);
+    display: table;
+    transition: opacity .3s ease;
+}
+/*loading-page*/
+/*row box*/
+.basisBox.box-align-cender{
+    margin-left: 8.33333333%;
+    display: grid;
+}
+.basisBox.box-color{
+    background-color: rgba(150,150,150,1);
+}
+/*row box*/
+/*registered page*/
+.col-specification{
+    padding: 10px 30px;
+}
+.specification-area{
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,1);
+}
+.btn-apply{
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(100,150,250);
+    color: rgba(255,255,255,1);
+}
+.col-footer{
+    margin: 10px 0px 20px 0px;
+}
+/*registered page*/
+/*vue v-show*/
+.slide-fade-enter-active {
+    transition: all .3s ease;
+}
+.slide-fade-leave-active {
+    transition: all .5s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to{
+    transform: translateX(2px);
+    opacity: 0;
+}
+/*events index*/
+.event-index-header .row.order-row{
+    display: flex;
+}
+.order-column span{
+    display: inline-grid;
+    float: left;
+    margin: 2px 15px;
+}
+.order-column span.order-title{
+    width: 10%;
+    font-size: 25px;
+    margin: 0px 5px 0px 5px;
+}
+.order-column span.order-select{
+    width: 20%;
+    margin: 0px 0px 0px 5px;
+}
+.order-column span.order-icon{
+    width: 5%;
+    font-size: 30px;
+    margin: 0px 20px 0px 0px;
+}
+.order-column span.order-feature{
+    width: 40%;
+    margin: 0px 20px 0px 5px;
+}
+.order-column span.order-btn{
+    width: 10%;
+    margin: 0px 20px 0px 5px;
+}
+.select-feature{
+    padding-right: 10px;
+    display: block;
+}
+.select-feature button{
+    background-color: rgba(250,220,0,1);
+    margin: 2px 4px;
+    min-width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.select-feature button span{
+    color: rgba(250,250,250,1);
+}
+.select-feature button label{
+    margin-bottom: 0px;
+}
+.add-event a{
+    width: 100%;
+    height: 100%;
+    border-style: groove;
+    border-color: rgba(20,20,20,0.2);
+    border-radius: 10px;
+    background-color: rgba(250,250,250,0.6);
+    color: rgba(0,0,0,1);
+}
+.add-event  a label{
+    position: relative;
+    top: 25%;
+}
+.add-event a span{
+    position: absolute;
+    top: 25%;
+    right: 25px;
+    font-size: 35px;
+    color: rgba(250,0,0,0.8);
+}
+.header-pages-num{
+    background-color: rgba(20,20,20,0.1);
+    margin: 10px 0;
+    padding: 5px 0px;
+    border-radius: 10px;
+}
+.header-pages-num span{
+    display: inline-block;
+    float: left;
+}
+.header-pages-num .pages-select{
+    width: 20%;
+}
+.header-pages-num .pager-num{
+    float: right;
+    margin: 0;
+}
+.header-pages-num .pager-num .pager{
+    margin: 0;
+}
+.header-pages-num .pages-title label{
+    padding: 5px;
+}
+.footer-pages-num{
+    margin: 10px 0;
+    padding: 5px 15px;
+}
+.footer-pages-num .pager-num{
+    float: right;
+    margin: 0;
+}
+.event-table .status-title{
+    display: table;
+    padding: 5px;
+    position: relative;
+    top: 5%;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(100,210,150,1);
+    border-style: solid;
+    border-color: rgba(100,210,150,1);
+    border-radius: 5px;
+}
+.event-table .table-row{
+    display: contents;
+    padding: 0px;
+}
+.event-table .table-row .event-title-col{
+    padding: 5px 20px;
+    min-height: 70px;
+    background-color: rgba(255,255,135,1);
+}
+.event-table .table-row .event-title-col span{
+    display: block;
+}
+.event-table .table-row .event-title-col .event-sub-title{
+    padding: 5px 20px;
+    background-color: rgba(255,255,135,1);
+}
+.event-table .table-row .event-title-col .event-title{
+    padding: 5px 20px;
+    background-color: rgba(255,255,135,1);
+    font-size: 18px;
+    font-weight: bolder;
+}
+.event-table .table-inside{
+    top: -10px;
+    background-color: rgba(120,120,120,0.1);
+}
+.event-table .row.table-col{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.2);
+}
+.event-table .row.table-col .title{
+    display: flex;
+    padding: 10px 0px 0px 10px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.2);
+    background-color: rgba(180,180,180,1);
+}
+.event-table .row.table-col .content-col p{
+    position: relative;
+    top: 10px;
+}
+.event-option .btn{
+    top: 20%;
+    position: relative;
+    margin: 0 10px;
+    min-width: 80px;
+}
+.table-col div{
+    background-color: rgba(250, 250, 250, 1);
+    z-index: 2;
+}
+/*events index*/
+/*events sell manage index*/
+.sell-manage-index-header .row.order-row{
+    display: flex;
+}
+.sell-manage-index-header .order-column span{
+    display: inline-grid;
+    float: left;
+    margin: 2px 15px;
+}
+.sell-manage-index-header .order-column span.order-feature{
+    width: 80%;
+    margin: 0px 20px 0px 5px;
+}
+.sell-manage-index-header .order-column span.order-btn{
+    width: 10%;
+    margin: 0px 20px 0px 5px;
+}
+.sell-manage-index-header .select-feature{
+    padding-right: 10px;
+    display: inline-block;
+    width: 80%;
+}
+.sell-manage-index-header .csv-btn{
+    display: inline-block;
+    float: right;
+    width: 15%;
+}
+.sell-manage-index-header .csv-btn button{
+    float: right;
+    width: 100%;
+    border-radius: 5px;
+}
+.sell-manage-index-header .select-feature button{
+    background-color: rgba(250,220,0,1);
+    margin: 2px 4px;
+    min-width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.sell-manage-index-header .select-feature button span{
+    color: rgba(250,250,250,1);
+}
+.sell-manage-index-header .select-feature button label{
+    margin-bottom: 0px;
+}
+.sell-manage-index-header .add-event a{
+    width: 100%;
+    height: 100%;
+    border-style: groove;
+    border-color: rgba(20,20,20,0.2);
+    border-radius: 10px;
+    background-color: rgba(250,250,250,0.6);
+    color: rgba(0,0,0,1);
+}
+.sell-manage-index-header .add-event  a label{
+    position: relative;
+    top: 25%;
+}
+.sell-manage-index-header .add-event a span{
+    position: absolute;
+    top: 25%;
+    right: 25px;
+    font-size: 35px;
+    color: rgba(250,0,0,0.8);
+}
+.table-sell-manage table, th, td{
+    border: 1px solid #444;
+}
+.table-sell-manage table{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.table-sell-manage  th, td{
+    height: 50px;
+    padding: 10px;
+}
+.table-sell-manage thead th{
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(150,150,150,1);
+}
+.table-sell-manage thead th.tilte{
+    width: 40%;
+}
+.table-sell-manage tbody td.text{
+    text-align: center;
+}
+.table-sell-manage tbody td.num{
+    text-align: right;
+}
+.table-sell-manage tbody td a{
+    width: 100%;
+}
+.table-sell-manage tbody td.total{
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(150,150,150,1);
+}
+/*events sell manage index*/
+/*events sell manage sell-manage*/
+.sell-manage-show-header{
+    display: flow-root;
+}
+.sell-manage-show-header .csv-col{
+    float: right;
+}
+.sell-manage-show-header .csv-btn button{
+    width: 100%;
+    border-radius: 5px;
+}
+.sell-manage-show-content .header-col span{
+    font-size: 26px;
+    font-weight: bolder;
+}
+.sell-manage-show-content .row.event-show-row{
+    display: flex;
+}
+.sell-manage-show-content .event-show-title{
+    padding: 10px 0px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+    background-color: rgba(150,150,150,1);
+}
+.sell-manage-show-content .event-show-content{
+    padding: 10px 0px;
+    background-color: rgba(255,255,135,1);
+}
+.sell-manage-show-content .event-show-content label{
+    padding: 0 10px;
+    text-decoration: underline;
+    color: rgba(150,20,250,1);
+}
+.sell-manage-show-content .event-show-content button{
+    padding: 5px 20px;
+    margin: 0 10px;
+}
+.sell-manage-show-content .table-sell-manage{
+    padding: 10px 20px;
+    background-color: rgba(220,220,220,1);
+}
+.sell-manage-show-content .table-sell-manage table, th, tr{
+    background-color: rgba(255,255,255,1);
+}
+.sell-manage-show-content .table-sell-manage tr.red{
+    background-color: rgba(245,25,25,1);
+}
+.sell-manage-show-content .table-sell-manage tr .stop{
+    color: rgba(245,225,25,1);
+}
+.sell-manage-show-content .table-sell-manage .no{
+    background-color: rgba(150,150,150,1);
+}
+.sell-manage-show-content .table-sell-manage .option-btn{
+    width: 20%;
+    background-color: rgba(255,255,255,1);
+}
+.sell-manage-show-content .table-sell-manage .option-btn span{
+    margin: 0 5%;
+    display: inline-block;
+    font-size: 12px;
+}
+.sell-manage-show-content .table-sell-manage .option-btn a{
+    border-radius: 5px;
+}
+/*events sell manage sell-manage*/
+/*events sell manage stop*/
+.sell-manage-stop .table-sell-manage{
+    padding: 0px;
+    margin-top: 10px;
+}
+.sell-manage-stop .event-inf-col .event-stop-title{
+    padding: 10px 20px;
+    display: grid;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(150,150,150,1);
+}
+.sell-manage-stop .event-inf-col .event-stop-title label{
+    margin: 0 auto;
+}
+.sell-manage-stop .event-inf-col .event-stop-content{
+    padding: 10px 20px;
+    display: grid;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(255,255,135,1);
+}
+.sell-manage-stop .width-setting{
+    width: 30%;
+}
+.sell-manage-stop .table-sell-manage .table-change-btn{
+    width: fit-content;
+    display: inline-grid;
+    float: right;
+}
+.checkbox.checkbox-only label, .radio label{
+    padding: 0px;
+}
+.checkbox.checkbox-only .cr, .radio .cr{
+    margin-right: 0px;
+}
+/*events sell manage stop*/
+/*events sell manage detail*/
+.sell-manage-detail .basisBox{
+    padding: 10px 25px;
+}
+.sell-manage-detail .event-inf-col .event-detail-title{
+    padding: 10px 20px;
+    display: grid;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255,255,255,1);
+    background-color: rgba(150,150,150,1);
+}
+.sell-manage-detail .event-inf-col .event-detail-content{
+    padding: 10px 20px;
+    display: grid;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255,255,255,1);
+    background-color: rgba(255,255,135,1);
+}
+.middle-btn-col{
+    width: fit-content;
+    display: block;
+    margin: 10px auto;
+}
+.middle-btn-col button{
+    display: inline-block;
+    margin-left: 50px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.control-label.right{
+    float: right;
+}
+/*events sell manage detail*/
+/*events sell manage detail table*/
+.sell-manage-detail .grig-table{
+    display: grid;
+    grid-template-columns:1fr 2fr 2fr 2fr 2fr 2fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    justify-content: center;   
+    text-align: center;
+}
+.sell-manage-detail .grig-table-sub{
+    display: grid;
+    grid-template-columns:1fr 21fr;
+    justify-content: center;   
+    text-align: center;
+}
+.sell-manage-detail .grig-table-sub span.back-line{
+    background-color: rgba(10,10,10,1);
+}
+.sell-manage-detail .grig-table-sub span .userMail{
+    width: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0px;
+    word-break: break-all;
+}
+.sell-manage-detail .grig-table-other-data{
+    display: grid;
+    grid-template-columns:1fr 2fr 2fr 2fr 3fr;
+    justify-content: center;   
+    text-align: center;
+}
+.sell-manage-detail .box{
+   border-top: 0px solid #d2d6de; 
+}
+.box-body.sub-content{
+    padding: 0px 15px;
+}
+.sell-manage-detail .grig-table.table-title span{
+    background-color: rgba(170,170,170,1);
+}
+.sell-manage-detail .grig-table.content-data span{
+    background-color: rgba(255,255,255,1);
+}
+.sell-manage-detail .grig-table span{
+    padding-top: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+.sell-manage-detail .box{
+    margin-bottom: 0px; 
+}
+.sub-content .row.content-position{
+    padding: 10px;
+}
+.sub-content .grig-table-other-data span{
+    padding: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+.sub-content .grig-table-other-data.title span{
+    background-color: rgba(170,170,170,1);
+}
+.sub-content .grig-table-other-data.content-data span{
+    background-color: rgba(255,255,255,1);
+}
+.sell-manage-detail .grig-table-footer{
+    display: grid;
+    grid-template-columns:19fr 1fr 2fr;
+    justify-content: center;   
+    text-align: center;
+}
+.sell-manage-detail .grig-table-footer span{
+    padding: 5px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+.sell-manage-detail .grig-table-footer span.back-line{
+    background-color: rgba(170,170,170,1);
+}
+.middle-btn-col .search-btn{
+    padding: 5px 50px;
+}
+.sell-manage-detail .event-inf-col .event-detail-content.red{
+    display: block;
+    background-color: rgba(255,50,50,1);
+}
+.sell-manage-detail .event-inf-col .event-detail-content.red .warn{
+    float: right;
+}
+/*events sell manage detail table*/
+/*events sell manage seatMap*/
+.sell-manage-seat-map .event-inf-col .event-seat-title{
+    padding: 10px 20px;
+    display: grid;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255,255,255,1);
+    background-color: rgba(150,150,150,1);
+}
+.sell-manage-seat-map .event-inf-col .event-seat-content{
+    padding: 10px 20px;
+    display: grid;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255,255,255,1);
+    background-color: rgba(255,255,135,1);
+}
+.sell-manage-seat-map .event-inf-col .event-seat-content.red{
+    display: block;
+    background-color: rgba(255,50,50,1);
+}
+.sell-manage-seat-map .event-inf-col .event-seat-content.red .warn{
+    float: right;
+}
+.sell-manage-seat-map .grig-table-seat-data{
+    display: grid;
+    grid-template-columns:2fr 3fr 3fr 3fr 8fr;
+    justify-content: center;   
+    text-align: center;
+}
+.sell-manage-seat-map .grig-seat-setting{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-content: center;   
+    text-align: center;
+}
+.sell-manage-seat-map .grig-seat-setting > span{
+    width: 90%;
+    height: 95px;
+    position: relative;
+    margin: 5px auto;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 10px;    
+}
+/*events sell manage seatMap*/
+/*seat box setting*/
+.basis-box{
+    background-color: rgba(255,255,255,1);
+}
+div.basis-box-col-title{
+    display: block;
+    position: absolute;
+    margin: 5px;
+    top: 5px;
+    left: 10px;
+}
+div.basis-box-col-seat{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    margin: 5px;
+}
+.custom-box{
+    background-color: rgba(255,255,255,1);
+}
+div.custom-box-col-title{
+    display: block;
+    position: absolute;
+    margin: 5px;
+    top: 5px;
+    left: 10px;
+}
+div.custom-box-col-icon{
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    padding: 1px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgba(250,250,150,1);
+}
+div.custom-box-col-seat{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    margin: 5px;
+}
+.icon-box{
+    background-color: rgba(255,255,255,1);
+}
+div.icon-box-col-title{
+    display: block;
+    position: absolute;
+    margin: 5px;
+    top: 5px;
+    left: 10px;
+}
+div.icon-box-col-header-icon{
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 1px 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgba(120,120,120,1);
+    background-color: rgba(120,120,120,1);
+    color: rgba(255,255,150,1);
+}
+div.icon-box-col-icon{
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    padding: 1px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgba(250,250,150,1);
+}
+div.icon-box-col-seat{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    margin: 5px;
+}
+div.icon-box-col-seat input{
+    width: 50px;
+    text-align: right;
+}
+span.add-box-col{
+    background-color: rgba(205,205,205,1);
+    color: rgba(255,255,100,1);
+}
+.add-box-col span{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size: 50px;
+}
+/*seat box setting*/
+/*position table*/
+.position-table-title{
+    padding: 5px 15px;
+}
+.position-table-title > span{
+    display: block;
+    padding: 5px;
+    width: 100%;
+    background-color: rgba(155,155,155,1);
+    text-align: center;
+}
+.position-table{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    justify-content: center;   
+    text-align: center;
+}
+.position-table > span{
+    margin: 1px;
+    padding: 5px;
+    background-color: rgba(255,255,255,1);
+}
+/*position table*/
+/* seat map*/
+.seat-map-title{
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: rgba(155,155,155,1);
+    text-align: center;
+}
+.seat-map-sub-title > .table-col{
+    display: grid;
+    grid-template-columns:2fr 5fr 1fr;
+}
+.table-col > span{
+    padding: 10px 10px;
+    background-color: #42b983;
+}
+.table-col .col-button{
+    height: 100%;
+    margin: 0px 5px;
+    padding: 0px 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(80,80,250,1);
+    background-color: rgba(80,80,250,1);
+    color: rgba(255,255,255,1);
+}
+.table-col .button-box .btn{
+    margin: 0px 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(80,80,250,1);
+    background-color: rgba(80,80,250,1);
+    color: rgba(255,255,255,1);
+}
+.table-col .button-box{
+    background-color: rgba(250, 250, 250, 0);
+}
+.table-col .seat-label{
+    float: right;
+    margin-right: 15px;
+}
+.table-col .checkbox{
+    background-color: rgba(250, 250, 250, 0);
+    padding-top: 0px; 
+    border-color: rgba(50,50,50,1);
+    border-width: 2px;
+}
+.table-col .checkbox .cr{
+    border-color: rgba(50,50,50,1);
+    border-width: 2px;
+}
+/* seat map*/
+/*event table STAR*/
+.event-table-content .row {
+    display: table;
+    width: 100%;
+  }
+  
+.event-table-content .row [class^=col-] {
+    display: table-cell;
+    float: none;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-width: 0.1px;
+  }
+
+.event-table-content-col{
+    padding: 5px;
+    border-bottom-style: ridge;
+}
+.event-table-content-col .title{
+    background-color: rgba(0,0,0,0.1);
+}
+
+/*event table END*/
+.seat-map-box{
+    width: 80%;
+    height: 400px;
+    background-color: rgba(240,240,240,0.3);
+    margin: 0 auto;
+    overflow: scroll;
+}
+.upload-btn-wrapper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}  
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.control-label.text-right{
+    float: right;
+}
+.control-label.left{
+    text-align: left;
+}
+.control-label.center{
+    text-align: center;
+}
+.control-label.right{
+    float: right;
+}
+.basisBox{
+    background-color: rgba(10,10,10,0.1);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.box-basis{
+    max-width: 1024px;
+}
+.seatBox{
+    position: relative;
+    background-color: rgba(250,250,250,0.4);
+    padding: 5px;
+    margin: 0px;
+    border-radius: 10px;
+}
+.right{
+    float: right;
+}
+/**/
+.error-warn{
+    display: none;
+    position: absolute;
+    padding: 3px;
+    top: -5px;
+    right: 0px;
+    background-color: rgba(250,50,50,0.7);
+    border-radius: 5px;
+    z-index: 1000;
+}
+.content-width{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.time-setting-block{
+    font-size: 18px;
+}
+.bg-color-grey-sm{
+    background-color: rgba(40,40,40,0.2);
+}
+.bg-color-grey{
+    background-color: rgba(40,40,40,0.2);
+    padding: 12px 0px;
+}
+.cliseat{
+    min-width: 20px;
+    min-height: 20px;
+}
+/**/
+/* Main Header STAR*/
+
+.main-header .logo{
+    position: relative;
+    height: 200px;
+    background-color: rgba(20,10,20,0.2);
+}
+
+.main-header .navbar.navbar-static-top{
+    height: 50px;
+}
+
+/* Main Header END*/
+/*sidebar STAR*/
+
+.main-sidebar .sidebar{
+    position: relative;
+  
+}
+
+.sidebar-menu>li{
+    padding-bottom: 10px;
+    background-color: rgba(210,210,210,0.4);
+}
+
+.main-sidebar .sidebar .sidebarFooter{
+    top: 200px;
+}
+
+.sidebarFooter .btn-customc{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*sidebar END*/
+/*event content STAR*/
+.event-content{
+    width: 90%;
+    min-width: 1024px;
+    margin: 0 auto;
+}
+.eventEdit{
+    padding: 10px 0px;
+}
+.edit-block{
+    margin-top: 10px;
+}
+/*event content END*/
+/*event image upload STAR*/
+
+.imagePreview {
+    width: 100%;
+    height: 150px;
+    background: url(https://static.thenounproject.com/png/212328-200.png);
+    background-position: center center;
+    background-color: rgba(255,255,255,0.4);
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: inline-block;
+}
+.btn-primary
+{
+    display:block;
+    border-radius:0px;
+    margin-top:-5px;
+}
+.btn.btn-upload-img{
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    background-color: rgba(5,5,5,0.5);
+    color: rgba(255,255,255,1);
+}
+.userManage .btn.btn-upload-img{
+    right: 15px;
+}
+.imgUp.userManage{
+    margin: 0;
+}
+.imgUp{
+    margin: 10px 15px 0px 0px;
+}
+.imgUp .uploadFile.img{
+    display: none;
+}
+
+/*event image upload END*/
+/*checkboX STAR*/
+.checkbox {
+    display: inline-block;
+}
+.checkbox.right{
+    float: right;
+}
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+/*checkboX END*/
+/*ck-editor STAR*/
+.ck.ck-reset.ck-editor.ck-rounded-corners{
+    margin-top: 20px;
+}
+
+.ck-editor__editable { 
+    min-height: 200px; 
+} 
+/*ck-editor END*/
+/*day STAR*/
+.list-group-horizontal.list-group{
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0);
+    box-shadow: 0 1px 2px rgba(0,0,0,0);
+}
+.list-group-horizontal .list-group-item {
+    display: inline-block;
+    padding: 0px;
+    background-color: rgba(255,255,255,0);
+    border: none;
+}
+.list-group-horizontal .list-group-item {
+	margin-bottom: 0;
+	margin-left:-4px;
+	margin-right: 0;
+}
+.list-group-horizontal .list-group-item:first-child {
+	border-top-right-radius:0;
+	border-bottom-left-radius:4px;
+}
+.list-group-horizontal .list-group-item:last-child {
+	border-top-right-radius:4px;
+	border-bottom-left-radius:0;
+}
+/*day END*/
+/*table border 需要重新命名 STAR*/
+.tb-border>div{
+    border:1px solid rgba(20,10,20,0.2);
+}
+.tb-border-left{
+    border-left: groove 2px;
+}
+.tb-time{
+    margin: 10px;
+    background-color: rgba(20,180,20,0.7);
+    border-style: groove;
+    border-radius: 10px;
+}
+.tb-time .tb-no{
+    margin: 1px 3px;
+    background-color: rgba(20,190,250,1);
+}
+.btn-add{
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+/*table border END*/
+/*colorPickSelector STAR*/
+.colorPickSelector {
+    border: solid 3px rgba(255,255,255,0.8);
+    border-radius: 5px;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
+    transition: all linear .2s;
+}
+  
+  .colorPickSelector:hover { transform: scale(1.1); }
+
+  .color-box-show{
+    border: solid 3px rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 5px;
+    width: 33px;
+    height: 33px;
+  }
+/*colorPickSelector END*/
+/*col seat setting STAR*/
+.col-seat-setting {
+    padding: 5px;
+    border-top: groove 1px;
+    border-bottom: groove 1px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+/*col seat setting  END*/
+/*other view page STAR*/
+.radioVvrtical{
+    margin-top: 7%;
+}
+/*other view page END*/
+
+/*userlnf view STAR*/
+
+.col-height .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+  }
+.col-height .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*userlnf view END*/
+/*dialog*/
+  .modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: table;
+    transition: opacity .3s ease;
+  }
+  .modal-mask.user-setting{
+    z-index: 3000;
+  }
+  .user-setting .row{
+    margin: 0 0 2% 0;
+  }
+  .modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .modal-container {
+    width: 500px;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .user-setting .modal-container {
+    width: 650px;
+  }
+  .modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+  }
+  
+  .modal-body {
+    margin: 20px 0;
+  }
+  
+  .modal-default-button {
+    float: left;
+    width: 27%;
+    margin: 2% 3% 0% 3%;
+  }
+  
+  /*
+   * The following styles are auto-applied to elements with
+   * transition="modal" when their visibility is toggled
+   * by Vue.js.
+   *
+   * You can easily play with the modal transition by editing
+   * these styles.
+   */
+  
+  .modal-enter {
+    opacity: 0;
+  }
+  
+  .modal-leave-active {
+    opacity: 0;
+  }
+  
+  .modal-enter .modal-container,
+  .modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  /*dialog*/
+  .dropdown-menu{
+    z-index: 10000;
+  }
+
+/*seat map select*/
+  .seat-blue{
+      display: inline-block;
+      width: 100%;
+      height: 20px;
+      margin: 2px;
+      background-color: rgba(230,230,230,0.5);
+      border-style: double;
+  }
+  .seat-select{
+      border: 6px groove rgba(250, 50, 100, 1);
+  }
+/**/
+/*time setting*/
+  .time-select-label{
+    float: right;
+  }
+/**/
+/*seat setting*/
+.box.box-default.venue-background{
+    background-color: rgba(250,250,250,0.2);
+}
+.box-body.venue-box{
+    margin: 20px 0;
+}
+.venue-title{
+    background-color: rgba(160,160,160,1);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(250,250,250,1);
+    font-weight: bolder;
+}
+.bg-color-grey-title{
+    width: 100%;
+    padding: 5%;
+    background-color: rgba(250,250,250,1);
+}
+.venue-back-title{
+    padding: 0 25px
+}
+.row.venue-name-box{
+    background-color: rgba(20,20,20,0.2);
+    padding: 10px 0px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(250,250,250,1)
+}
+.venue-block{
+    margin: 0px 0px 0px 80px;
+}
+.venue-upload-btn{
+    background-color: rgba(0,150,250,0.8);
+    color: rgba(250,250,250,1);
+    font-size: 16px;
+}
+.saet-setting-block{
+    padding: 7px 15px;
+    background-color: rgba(255,240,90,1);
+}
+.saet-setting-unit{
+    padding-top: 0px;
+    font-size: 15px;
+    color: rgba(250,250,250,0.8);
+}
+/**/
+/*ticket Setting*/
+.ticket-warn{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: -50%;
+    left: 10%;
+    color: rgba(255,50,50,0.6);
+}
+.ticket-setting-box{
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: rgba(250,250,250,0.6);
+}
+.ticket-setting-box-title{
+    padding: 5px;
+    background-color: rgba(150,150,150,0.5);
+}
+.ticket-content{
+    padding: 5px 30px;
+    margin: 0px;
+}
+.ticket-content .ticket-content-no{
+    background-color: white;
+    border-radius: 50%;
+    height: 26px;
+    width: 30px;
+    padding: 4%;
+    margin: 5px 0px 0px 0px;
+    text-align: center;
+}
+.ticket-content .ticket-content-button{
+    float: right;
+}
+.ticket-content .ticket-content-title{
+    display: table;
+    margin: 0 auto;
+}
+.ticket-content .ticket-content-col{
+    padding: 5px 10px;
+    background-color: rgba(250,250,250,0.6);
+    border-radius: 5px;
+}
+.ticket-setting-col{
+    width: 100%;
+    margin: 2px auto;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(40,40,40,0.6);
+}
+.ticket-content .ticket-content-col input.form-control{
+    border-radius: 5px;
+}
+.input-del-btn-inside{
+    margin: 0px -5px;
+    padding: 3px 5px;
+    position: absolute;
+    top: 3%;
+    left: -30px;
+    width: 30px;
+    height: 30px;
+    border-style: initial;
+    border-radius: 30px;
+    background-color: rgba(180,180,180,0.8);
+    z-index: 1000 !important;
+    color: rgba(230,230,230,0.9);
+    font-size: 18px;
+}
+.input-del-btn-inside:active{
+    background-color: rgba(170,170,170,0.8);
+}
+.input-del-btn-inside:hover .glyphicon-remove::before{
+    color: rgba(250,250,250,1);
+}
+.input-del-btn-inside:focus{
+    outline: none;
+}
+.input-del-btn-inside::after{
+    content: "";
+}
+.seat-type-add-btn{
+    margin: 15px auto;
+    width: 90%;
+}
+/**/
+/*userManage*/
+.user-manage-header .row{
+    display: flex;
+}
+.inf-edit-header .cancel-btn{
+    padding: 0px;
+    position: relative;
+    top: 30%;
+    border-style: solid;
+    border-color: rgba(250,180,60,1);
+    background-color: rgba(250,180,60,1);
+    color: rgba(250,250,250,1);
+}
+.inf-edit-header .change-btn{
+    padding: 10px;
+    position: relative;
+    top: 30%;
+    border-style: solid;
+    border-color: rgba(20,150,200,1);
+    background-color: rgba(20,150,200,1);
+    color: rgba(250,250,250,1);
+}
+.user-manage-header .cancel-btn{
+    padding: 0px;
+    position: relative;
+    top: 30%;
+    border-style: solid;
+    border-color: rgba(250,180,60,1);
+    background-color: rgba(250,180,60,1);
+    color: rgba(250,250,250,1);
+}
+.user-manage-header .change-btn{
+    padding: 10px;
+    position: relative;
+    top: 30%;
+    border-style: solid;
+    border-color: rgba(20,150,200,1);
+    background-color: rgba(20,150,200,1);
+    color: rgba(250,250,250,1);
+}
+.account-show label{
+    top: 30%;
+    position: relative;
+}
+.userInfImg img{
+    width: 100%;
+}
+.control-label.text-decoration{
+    text-decoration: underline;
+    margin: 5px;
+}
+.control-label.text-center{
+    display: table; 
+    margin: 0 auto;
+}
+.user-add-btn{
+    margin: 5px auto;
+    width: 90%
+}
+.user-box{
+    padding: 4% 0%;
+}
+.place-input{
+    display: inline-block;
+    width: 40%;
+}
+.col-btn{
+    display: inline-block;
+    width: fit-content;
+    padding: 5px 15px;
+    margin: 0px 2px;
+    border-radius: 10px;
+    font-size: 12pt;
+}
+.modal-container.password-dialog{
+    width: 70%;
+}
+.password-dialog .send-way{
+    margin: 10px 0px;
+}
+.password-show-web{
+    display: flex;
+}
+.password-show-web .content-center{
+    margin: 0 auto;
+}
+.content-center.password-text{
+    color: rgba(250,80,80,1);
+    font-size: 30pt;
+}
+.content-center.password-text{
+    color: rgba(250,80,80,1);
+    font-size: 30pt;
+}
+.content-center .copy-btn{
+    width: fit-content;
+    border-radius: 7px;
+}
+/*userManage*/
+/*userManageEdit*/
+.userInfEdit input{
+    margin: 3px 0;
+    border-radius: 5px;
+}
+.userInfEdit .control-label{
+    margin: 10px 0;
+}
+.back-btn{
+    padding: 10px;
+    position: relative;
+    top: 30%;
+    border-style: solid;
+    border-color: rgba(20,150,200,1);
+    background-color: rgba(20,150,200,1);
+    color: rgba(250,250,250,1);
+}
+.save-btn{
+    padding: 10px;
+    position: relative;
+    top: 30%;
+    border-style: solid;
+    border-color: rgba(20,150,200,1);
+    background-color: rgba(20,150,200,1);
+    color: rgba(250,250,250,1);
+}
+.inf-edit-col-center{
+    display: grid;
+}
+.inf-edit-dialog .col-center{
+   margin: 0 auto;
+}
+.inf-edit-dialog button{
+    margin: 0 auto;
+    border: 1px solid transparent;
+ }
+ .inf-edit-location .place-span{
+    display: inline-block;
+  }
+ .inf-edit-location .place-span:nth-child(1){
+   width: 20%;
+  }
+ .inf-edit-location .place-span:nth-child(2){
+    width: 75px;
+  }
+  .inf-edit-location .place-span:nth-child(3){
+    width: 20%;
+  }
+  .inf-edit-location .place-span:nth-child(4){
+    width: 95px;
+  }
+  .inf-edit-location .place-span>input{
+    border-radius: 10px;
+    letter-spacing: 5px;
+  }
+ .inf-edit-location button{
+    width: 100%;
+    padding: 2px 25px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+ }
+/*userManageEdit*/

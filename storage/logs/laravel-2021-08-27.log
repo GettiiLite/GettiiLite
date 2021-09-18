@@ -1,0 +1,1605 @@
+[2021-08-27 16:52:01] production.INFO: SeatingHK start  
+[2021-08-27 16:52:01] production.INFO: SeatingHK complete  
+[2021-08-27 16:52:47] production.ERROR: There are no commands defined in the "chedule" namespace.
+
+Did you mean this?
+    schedule {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): There are no commands defined in the \"chedule\" namespace.
+
+Did you mean this?
+    schedule at /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php:579)
+[stacktrace]
+#0 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(632): Symfony\\Component\\Console\\Application->findNamespace('chedule')
+#1 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find('chedule:run')
+#2 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2021-08-27 16:52:55] production.INFO: SeatingHK start  
+[2021-08-27 16:52:55] production.INFO: SeatingHK complete  
+[2021-08-27 16:53:02] production.INFO: SeatingHK start  
+[2021-08-27 16:53:02] production.INFO: SeatingHK complete  
+[2021-08-27 16:53:23] production.ERROR: json_decode error: Syntax error {"exception":"[object] (GuzzleHttp\\Exception\\InvalidArgumentException(code: 0): json_decode error: Syntax error at /home/vagrant/code/gettiilite/vendor/guzzlehttp/guzzle/src/functions.php:305)
+[stacktrace]
+#0 /home/vagrant/code/gettiilite/app/Services/SellManageServices.php(689): GuzzleHttp\\json_decode('\"status\":[],\"in...', true)
+#1 /home/vagrant/code/gettiilite/app/Http/Controllers/SellManage.php(327): App\\Services\\SellManageServices->orderCancel(Array)
+#2 [internal function]: App\\Http\\Controllers\\SellManage->orderCancel(Object(Illuminate\\Http\\Request), '14684')
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('orderCancel', Array)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\SellManage), 'orderCancel')
+#6 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Route.php(169): Illuminate\\Routing\\Route->runController()
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(658): Illuminate\\Routing\\Route->run()
+#8 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /home/vagrant/code/gettiilite/app/Http/Middleware/CheckSalesInfoAuthority.php(23): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#10 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\CheckSalesInfoAuthority->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /home/vagrant/code/gettiilite/app/Http/Middleware/CheckLogin.php(38): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): App\\Http\\Middleware\\CheckLogin->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#28 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#34 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(660): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#35 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#36 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#37 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(590): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#38 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#39 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#40 /home/vagrant/code/gettiilite/vendor/fideloper/proxy/src/TrustProxies.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#41 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#47 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#50 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#53 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#56 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#57 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#58 /home/vagrant/code/gettiilite/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#59 {main}
+"} 
+[2021-08-27 16:54:01] production.INFO: SeatingHK start  
+[2021-08-27 16:54:01] production.INFO: SeatingHK complete  
+[2021-08-27 16:54:34] production.DEBUG: api=cancelOrder result=stdClass Object
+(
+    [statusCode] => -1
+    [msn] => 予約取消失敗
+    [info] => 予約取消失敗
+    [http_code] => 201
+)
+  
+[2021-08-27 16:54:53] production.DEBUG: api=cancelOrder result=stdClass Object
+(
+    [statusCode] => -1
+    [msn] => 予約取消失敗
+    [info] => 予約取消失敗
+    [http_code] => 201
+)
+  
+[2021-08-27 16:55:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 16:55:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 16:55:02] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 16:55:02] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 16:55:02] production.DEBUG: 取消情報出力 start  
+[2021-08-27 16:55:02] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 16:55:02] production.DEBUG: 取消情報出力 end  
+[2021-08-27 16:55:02] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 16:55:02] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 16:55:02] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAOA+G1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE2NTUwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACADgPhtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE2NTUwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 15:55:02.079
+    [xcd] => 44cc079c25ab922c1b2b411887453b2b429e283d48a2839c5af377a821732de4
+)
+  
+[2021-08-27 16:55:02] production.DEBUG: .transferapp.api  
+[2021-08-27 16:55:02] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 16:55:02] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 16:55:02] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827165501.zip  
+[2021-08-27 16:55:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827165501.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827165501.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 16:55:04] production.DEBUG: MobapassInput start  
+[2021-08-27 16:55:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 16:55:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 15:55:04.856
+    [xcd] => f4331fd626f72a87a5bc91a0d4e32985c168611da08bfa8eca8cd35f910c8c25
+)
+  
+[2021-08-27 16:55:04] production.DEBUG: .entering.api  
+[2021-08-27 16:55:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 16:55:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 16:55:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 16:55:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 16:55:04] production.INFO: SeatingHK start  
+[2021-08-27 16:55:05] production.INFO: SeatingHK complete  
+[2021-08-27 16:56:01] production.INFO: SeatingHK start  
+[2021-08-27 16:56:01] production.INFO: SeatingHK complete  
+[2021-08-27 16:56:02] production.DEBUG: api=cancelOrder result=stdClass Object
+(
+    [statusCode] => -1
+    [msn] => 予約取消失敗
+    [info] => 予約取消失敗
+    [http_code] => 201
+)
+  
+[2021-08-27 16:56:14] production.DEBUG: api=cancelOrder result=stdClass Object
+(
+    [statusCode] => -1
+    [msn] => 予約取消失敗
+    [info] => 予約取消失敗
+    [http_code] => 201
+)
+  
+[2021-08-27 16:57:01] production.INFO: SeatingHK start  
+[2021-08-27 16:57:01] production.INFO: SeatingHK complete  
+[2021-08-27 16:57:06] production.DEBUG: api=cancelOrder result=stdClass Object
+(
+    [statusCode] => -1
+    [msn] => 予約取消失敗
+    [info] => 予約取消失敗
+    [http_code] => 201
+)
+  
+[2021-08-27 16:57:14] production.DEBUG: api=cancelOrder result=stdClass Object
+(
+    [statusCode] => -1
+    [msn] => 予約取消失敗
+    [info] => 予約取消失敗
+    [http_code] => 201
+)
+  
+[2021-08-27 16:58:02] production.INFO: SeatingHK start  
+[2021-08-27 16:58:02] production.INFO: SeatingHK complete  
+[2021-08-27 16:59:01] production.INFO: SeatingHK start  
+[2021-08-27 16:59:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:00:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 17:00:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 17:00:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 17:00:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 17:00:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 17:00:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 17:00:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 17:00:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 17:00:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 17:00:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAABAG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MDAwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACAAAQBtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MDAwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 16:00:01.906
+    [xcd] => 1b1f213494d80037f683f03367caa84aff2e8c6cfe86128e936602682428e226
+)
+  
+[2021-08-27 17:00:01] production.DEBUG: .transferapp.api  
+[2021-08-27 17:00:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 17:00:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 17:00:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827170001.zip  
+[2021-08-27 17:00:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827170001.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827170001.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 17:00:04] production.DEBUG: MobapassInput start  
+[2021-08-27 17:00:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 17:00:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 16:00:04.590
+    [xcd] => 797a28c17069a17ccc94ee0dec934b08a326a0b1136b63a1773a453102085284
+)
+  
+[2021-08-27 17:00:04] production.DEBUG: .entering.api  
+[2021-08-27 17:00:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 17:00:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 17:00:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 17:00:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 17:00:04] production.INFO: SeatingHK start  
+[2021-08-27 17:00:04] production.INFO: SeatingHK complete  
+[2021-08-27 17:01:02] production.INFO: SeatingHK start  
+[2021-08-27 17:01:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:02:01] production.INFO: SeatingHK start  
+[2021-08-27 17:02:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:03:01] production.INFO: SeatingHK start  
+[2021-08-27 17:03:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:04:02] production.INFO: SeatingHK start  
+[2021-08-27 17:04:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:05:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 17:05:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 17:05:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 17:05:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 17:05:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 17:05:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 17:05:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 17:05:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 17:05:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 17:05:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAKBAG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MDUwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACACgQBtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MDUwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 16:05:01.677
+    [xcd] => 65061e9e5600766d2d7209fafaf5afe86b0abfead2ac29a0a004cdf7f99afd3b
+)
+  
+[2021-08-27 17:05:01] production.DEBUG: .transferapp.api  
+[2021-08-27 17:05:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 17:05:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 17:05:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827170501.zip  
+[2021-08-27 17:05:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827170501.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827170501.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 17:05:04] production.DEBUG: MobapassInput start  
+[2021-08-27 17:05:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 17:05:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 16:05:04.364
+    [xcd] => fa2fb970861580395856768eefc9c4b99b0992344e91862cc2a14b3e5371244b
+)
+  
+[2021-08-27 17:05:04] production.DEBUG: .entering.api  
+[2021-08-27 17:05:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 17:05:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 17:05:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 17:05:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 17:05:04] production.INFO: SeatingHK start  
+[2021-08-27 17:05:04] production.INFO: SeatingHK complete  
+[2021-08-27 17:06:01] production.INFO: SeatingHK start  
+[2021-08-27 17:06:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:07:02] production.INFO: SeatingHK start  
+[2021-08-27 17:07:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:08:01] production.INFO: SeatingHK start  
+[2021-08-27 17:08:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:09:01] production.INFO: SeatingHK start  
+[2021-08-27 17:09:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:10:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 17:10:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 17:10:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 17:10:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 17:10:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 17:10:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 17:10:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 17:10:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 17:10:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 17:10:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAEBBG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MTAwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACABAQRtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MTAwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 16:10:01.459
+    [xcd] => 991c13aaba553033d87982b2b750176ba2f3952a7e4d1444a52eee99f01badfb
+)
+  
+[2021-08-27 17:10:01] production.DEBUG: .transferapp.api  
+[2021-08-27 17:10:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 17:10:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 17:10:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827171001.zip  
+[2021-08-27 17:10:03] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827171001.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827171001.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 17:10:04] production.DEBUG: MobapassInput start  
+[2021-08-27 17:10:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 17:10:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 16:10:04.181
+    [xcd] => e5baa003ce0c571090b216bb536750b46113164341580aa49a334f8e9d360d9e
+)
+  
+[2021-08-27 17:10:04] production.DEBUG: .entering.api  
+[2021-08-27 17:10:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 17:10:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 17:10:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 17:10:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 17:10:04] production.INFO: SeatingHK start  
+[2021-08-27 17:10:04] production.INFO: SeatingHK complete  
+[2021-08-27 17:11:01] production.INFO: SeatingHK start  
+[2021-08-27 17:11:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:12:02] production.INFO: SeatingHK start  
+[2021-08-27 17:12:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:13:01] production.INFO: SeatingHK start  
+[2021-08-27 17:13:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:14:01] production.INFO: SeatingHK start  
+[2021-08-27 17:14:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:15:02] production.DEBUG: MobapassOutput start  
+[2021-08-27 17:15:02] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 17:15:02] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 17:15:02] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 17:15:02] production.DEBUG: 取消情報出力 start  
+[2021-08-27 17:15:02] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 17:15:02] production.DEBUG: 取消情報出力 end  
+[2021-08-27 17:15:02] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 17:15:02] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 17:15:02] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAOBBG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MTUwMi5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACADgQRtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MTUwMi5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 16:15:02.163
+    [xcd] => 8a25fa57f1f37c84447f836985411a8f05d62d1e6716f647b94daddede8930dc
+)
+  
+[2021-08-27 17:15:02] production.DEBUG: .transferapp.api  
+[2021-08-27 17:15:02] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 17:15:02] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 17:15:02] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827171502.zip  
+[2021-08-27 17:15:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827171502.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827171502.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 17:15:04] production.DEBUG: MobapassInput start  
+[2021-08-27 17:15:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 17:15:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 16:15:04.845
+    [xcd] => 783e38392284f3daa205bebe40b0148aba6b63e6ec448754c5eca1cc3d51d65d
+)
+  
+[2021-08-27 17:15:04] production.DEBUG: .entering.api  
+[2021-08-27 17:15:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 17:15:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 17:15:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 17:15:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 17:15:04] production.INFO: SeatingHK start  
+[2021-08-27 17:15:05] production.INFO: SeatingHK complete  
+[2021-08-27 17:16:01] production.INFO: SeatingHK start  
+[2021-08-27 17:16:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:17:01] production.INFO: SeatingHK start  
+[2021-08-27 17:17:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:18:02] production.INFO: SeatingHK start  
+[2021-08-27 17:18:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:19:01] production.INFO: SeatingHK start  
+[2021-08-27 17:19:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:20:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 17:20:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 17:20:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 17:20:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 17:20:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 17:20:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 17:20:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 17:20:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 17:20:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 17:20:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAIBCG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MjAwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACACAQhtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MjAwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 16:20:01.862
+    [xcd] => 14db07fced923a37c084eef5f9bafe824ee743f67c4e69c2e0f73061ed3062f7
+)
+  
+[2021-08-27 17:20:01] production.DEBUG: .transferapp.api  
+[2021-08-27 17:20:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 17:20:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 17:20:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827172001.zip  
+[2021-08-27 17:20:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827172001.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827172001.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 17:20:04] production.DEBUG: MobapassInput start  
+[2021-08-27 17:20:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 17:20:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 16:20:04.528
+    [xcd] => 7c9d3d564cef52dc625287aa53cbe51602f9ec1f181ae93435f248a755af2992
+)
+  
+[2021-08-27 17:20:04] production.DEBUG: .entering.api  
+[2021-08-27 17:20:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 17:20:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 17:20:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 17:20:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 17:20:04] production.INFO: SeatingHK start  
+[2021-08-27 17:20:04] production.INFO: SeatingHK complete  
+[2021-08-27 17:21:02] production.INFO: SeatingHK start  
+[2021-08-27 17:21:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:22:01] production.INFO: SeatingHK start  
+[2021-08-27 17:22:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:23:01] production.INFO: SeatingHK start  
+[2021-08-27 17:23:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:24:02] production.INFO: SeatingHK start  
+[2021-08-27 17:24:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:25:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 17:25:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 17:25:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 17:25:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 17:25:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 17:25:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 17:25:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 17:25:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 17:25:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 17:25:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIACBDG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MjUwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACAAgQxtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MjUwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 16:25:01.498
+    [xcd] => 9b6d64c4807391f2414212b3c8bc5ff48de4b1e4e817c5cef50cb8b07c5f93f4
+)
+  
+[2021-08-27 17:25:01] production.DEBUG: .transferapp.api  
+[2021-08-27 17:25:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 17:25:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 17:25:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827172501.zip  
+[2021-08-27 17:25:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827172501.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827172501.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 17:25:04] production.DEBUG: MobapassInput start  
+[2021-08-27 17:25:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 17:25:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 16:25:04.190
+    [xcd] => 4df8255e19fc78a0d3606de9369ba9dcab57a1d468b2de5b0da885b5be5c50a2
+)
+  
+[2021-08-27 17:25:04] production.DEBUG: .entering.api  
+[2021-08-27 17:25:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 17:25:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 17:25:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 17:25:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 17:25:04] production.INFO: SeatingHK start  
+[2021-08-27 17:25:04] production.INFO: SeatingHK complete  
+[2021-08-27 17:26:01] production.INFO: SeatingHK start  
+[2021-08-27 17:26:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:27:02] production.INFO: SeatingHK start  
+[2021-08-27 17:27:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:28:01] production.INFO: SeatingHK start  
+[2021-08-27 17:28:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:29:01] production.INFO: SeatingHK start  
+[2021-08-27 17:29:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:30:02] production.DEBUG: MobapassOutput start  
+[2021-08-27 17:30:02] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 17:30:02] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 17:30:02] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 17:30:02] production.DEBUG: 取消情報出力 start  
+[2021-08-27 17:30:02] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 17:30:02] production.DEBUG: 取消情報出力 end  
+[2021-08-27 17:30:02] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 17:30:02] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 17:30:02] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAMBDG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MzAwMi5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACADAQxtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MzAwMi5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 16:30:02.197
+    [xcd] => 109ea82c74c2a338d0dcd8fff9fd74b5a939e2539dd8273fae825c3a58e5bd5d
+)
+  
+[2021-08-27 17:30:02] production.DEBUG: .transferapp.api  
+[2021-08-27 17:30:02] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 17:30:02] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 17:30:02] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827173002.zip  
+[2021-08-27 17:30:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827173002.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827173002.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 17:30:04] production.DEBUG: MobapassInput start  
+[2021-08-27 17:30:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 17:30:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 16:30:04.864
+    [xcd] => 4d9d1320dd6ce747c60670fb5f998719da18d1269374cc299596f7c8742aac18
+)
+  
+[2021-08-27 17:30:04] production.DEBUG: .entering.api  
+[2021-08-27 17:30:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 17:30:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 17:30:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 17:30:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 17:30:05] production.INFO: SeatingHK start  
+[2021-08-27 17:30:05] production.INFO: SeatingHK complete  
+[2021-08-27 17:31:01] production.INFO: SeatingHK start  
+[2021-08-27 17:31:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:32:01] production.INFO: SeatingHK start  
+[2021-08-27 17:32:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:33:02] production.INFO: SeatingHK start  
+[2021-08-27 17:33:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:34:01] production.INFO: SeatingHK start  
+[2021-08-27 17:34:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:35:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 17:35:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 17:35:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 17:35:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 17:35:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 17:35:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 17:35:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 17:35:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 17:35:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 17:35:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAGBEG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MzUwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACABgRBtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3MzUwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 16:35:01.937
+    [xcd] => b915a985214994bc0da3b319cdaaec35e53086c5147f3e9eda0f7528df3187f7
+)
+  
+[2021-08-27 17:35:01] production.DEBUG: .transferapp.api  
+[2021-08-27 17:35:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 17:35:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 17:35:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827173501.zip  
+[2021-08-27 17:35:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827173501.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827173501.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 17:35:04] production.DEBUG: MobapassInput start  
+[2021-08-27 17:35:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 17:35:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 16:35:04.595
+    [xcd] => 79906b339765bea7593542ea34e24d84e558de6aa247591c64e3a82fda808846
+)
+  
+[2021-08-27 17:35:04] production.DEBUG: .entering.api  
+[2021-08-27 17:35:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 17:35:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 17:35:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 17:35:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 17:35:04] production.INFO: SeatingHK start  
+[2021-08-27 17:35:04] production.INFO: SeatingHK complete  
+[2021-08-27 17:36:02] production.INFO: SeatingHK start  
+[2021-08-27 17:36:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:37:01] production.INFO: SeatingHK start  
+[2021-08-27 17:37:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:38:01] production.INFO: SeatingHK start  
+[2021-08-27 17:38:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:39:02] production.INFO: SeatingHK start  
+[2021-08-27 17:39:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:40:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 17:40:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 17:40:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 17:40:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 17:40:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 17:40:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 17:40:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 17:40:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 17:40:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 17:40:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAABFG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3NDAwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACAAARRtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3NDAwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 16:40:01.594
+    [xcd] => b035b167deb8996776566fc655d92bf94a273cb7104b426c36fb1d6027b8e77a
+)
+  
+[2021-08-27 17:40:01] production.DEBUG: .transferapp.api  
+[2021-08-27 17:40:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 17:40:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 17:40:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827174001.zip  
+[2021-08-27 17:40:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827174001.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827174001.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 17:40:04] production.DEBUG: MobapassInput start  
+[2021-08-27 17:40:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 17:40:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 16:40:04.222
+    [xcd] => cd47d5a0e1a2513760af7ebae6b904c518d3300a62d1b2d1346d2d90f91d5ba1
+)
+  
+[2021-08-27 17:40:04] production.DEBUG: .entering.api  
+[2021-08-27 17:40:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 17:40:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 17:40:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 17:40:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 17:40:04] production.INFO: SeatingHK start  
+[2021-08-27 17:40:04] production.INFO: SeatingHK complete  
+[2021-08-27 17:41:01] production.INFO: SeatingHK start  
+[2021-08-27 17:41:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:42:02] production.INFO: SeatingHK start  
+[2021-08-27 17:42:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:43:01] production.INFO: SeatingHK start  
+[2021-08-27 17:43:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:44:01] production.INFO: SeatingHK start  
+[2021-08-27 17:44:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:45:02] production.DEBUG: MobapassOutput start  
+[2021-08-27 17:45:02] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 17:45:02] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 17:45:02] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 17:45:02] production.DEBUG: 取消情報出力 start  
+[2021-08-27 17:45:02] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 17:45:02] production.DEBUG: 取消情報出力 end  
+[2021-08-27 17:45:02] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 17:45:02] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 17:45:02] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAKBFG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3NDUwMi5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACACgRRtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3NDUwMi5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 16:45:02.204
+    [xcd] => 7369d7380a3f97da2732f6256231f34eb22a0ab5126c3b9cd2d4a8a5a8038681
+)
+  
+[2021-08-27 17:45:02] production.DEBUG: .transferapp.api  
+[2021-08-27 17:45:02] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 17:45:02] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 17:45:02] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827174502.zip  
+[2021-08-27 17:45:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827174502.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827174502.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 17:45:04] production.DEBUG: MobapassInput start  
+[2021-08-27 17:45:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 17:45:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 16:45:04.851
+    [xcd] => 8534f6fa6cfd0d0904fdd3fa3b1b4d1b2a18bf4bdd559aba1a1fa7e0307ea005
+)
+  
+[2021-08-27 17:45:04] production.DEBUG: .entering.api  
+[2021-08-27 17:45:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 17:45:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 17:45:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 17:45:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 17:45:04] production.INFO: SeatingHK start  
+[2021-08-27 17:45:05] production.INFO: SeatingHK complete  
+[2021-08-27 17:46:01] production.INFO: SeatingHK start  
+[2021-08-27 17:46:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:47:01] production.INFO: SeatingHK start  
+[2021-08-27 17:47:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:48:02] production.INFO: SeatingHK start  
+[2021-08-27 17:48:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:49:01] production.INFO: SeatingHK start  
+[2021-08-27 17:49:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:50:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 17:50:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 17:50:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 17:50:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 17:50:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 17:50:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 17:50:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 17:50:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 17:50:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 17:50:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAEBGG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3NTAwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACABARhtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3NTAwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 16:50:01.992
+    [xcd] => 75415444f90bd79d7d9ffd20b6f67749f1d324bf2eb25ec403ea082bb1288292
+)
+  
+[2021-08-27 17:50:01] production.DEBUG: .transferapp.api  
+[2021-08-27 17:50:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 17:50:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 17:50:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827175001.zip  
+[2021-08-27 17:50:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827175001.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827175001.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 17:50:04] production.DEBUG: MobapassInput start  
+[2021-08-27 17:50:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 17:50:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 16:50:04.658
+    [xcd] => 9703087aec12858760fd8c62012742c161d687299c8786e6cb5600b248658674
+)
+  
+[2021-08-27 17:50:04] production.DEBUG: .entering.api  
+[2021-08-27 17:50:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 17:50:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 17:50:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 17:50:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 17:50:04] production.INFO: SeatingHK start  
+[2021-08-27 17:50:04] production.INFO: SeatingHK complete  
+[2021-08-27 17:51:02] production.INFO: SeatingHK start  
+[2021-08-27 17:51:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:52:01] production.INFO: SeatingHK start  
+[2021-08-27 17:52:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:53:01] production.INFO: SeatingHK start  
+[2021-08-27 17:53:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:54:02] production.INFO: SeatingHK start  
+[2021-08-27 17:54:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:55:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 17:55:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 17:55:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 17:55:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 17:55:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 17:55:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 17:55:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 17:55:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 17:55:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 17:55:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAOBGG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3NTUwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACADgRhtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE3NTUwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 16:55:01.673
+    [xcd] => 28efaeea1a15d7e5ed4cd1ad29b05bf2b03d7cca929c347cf5e4768b63abc4a9
+)
+  
+[2021-08-27 17:55:01] production.DEBUG: .transferapp.api  
+[2021-08-27 17:55:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 17:55:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 17:55:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827175501.zip  
+[2021-08-27 17:55:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827175501.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827175501.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 17:55:04] production.DEBUG: MobapassInput start  
+[2021-08-27 17:55:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 17:55:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 16:55:04.351
+    [xcd] => 856674fad98598841b13c5cf19b01587c08ac995f6855ebb5b143464cd67185e
+)
+  
+[2021-08-27 17:55:04] production.DEBUG: .entering.api  
+[2021-08-27 17:55:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 17:55:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 17:55:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 17:55:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 17:55:04] production.INFO: SeatingHK start  
+[2021-08-27 17:55:04] production.INFO: SeatingHK complete  
+[2021-08-27 17:56:01] production.INFO: SeatingHK start  
+[2021-08-27 17:56:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:57:02] production.INFO: SeatingHK start  
+[2021-08-27 17:57:02] production.INFO: SeatingHK complete  
+[2021-08-27 17:58:01] production.INFO: SeatingHK start  
+[2021-08-27 17:58:01] production.INFO: SeatingHK complete  
+[2021-08-27 17:59:01] production.INFO: SeatingHK start  
+[2021-08-27 17:59:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:00:02] production.DEBUG: MobapassOutput start  
+[2021-08-27 18:00:02] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 18:00:02] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 18:00:02] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 18:00:02] production.DEBUG: 取消情報出力 start  
+[2021-08-27 18:00:02] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 18:00:02] production.DEBUG: 取消情報出力 end  
+[2021-08-27 18:00:02] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 18:00:02] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 18:00:02] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAABIG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MDAwMi5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACAAASBtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MDAwMi5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 17:00:02.400
+    [xcd] => d0f8024593bc0c6fde06cb52e8b7e360f3225bb1059d59064142e0baf9464c26
+)
+  
+[2021-08-27 18:00:02] production.DEBUG: .transferapp.api  
+[2021-08-27 18:00:02] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 18:00:02] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 18:00:02] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827180002.zip  
+[2021-08-27 18:00:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827180002.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827180002.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 18:00:05] production.DEBUG: MobapassInput start  
+[2021-08-27 18:00:05] production.DEBUG: 入場情報取込 start  
+[2021-08-27 18:00:05] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 17:00:05.065
+    [xcd] => 76ddd68d620ae14eafaa0f6a9ce63e11dc721398bc909c615d850ecc0ac56892
+)
+  
+[2021-08-27 18:00:05] production.DEBUG: .entering.api  
+[2021-08-27 18:00:05] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 18:00:05] production.DEBUG: api=entering.api result=0  
+[2021-08-27 18:00:05] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 18:00:05] production.DEBUG: 入場情報取込 end  
+[2021-08-27 18:00:05] production.INFO: SeatingHK start  
+[2021-08-27 18:00:05] production.INFO: SeatingHK complete  
+[2021-08-27 18:01:01] production.INFO: SeatingHK start  
+[2021-08-27 18:01:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:02:01] production.INFO: SeatingHK start  
+[2021-08-27 18:02:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:03:02] production.INFO: SeatingHK start  
+[2021-08-27 18:03:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:04:01] production.INFO: SeatingHK start  
+[2021-08-27 18:04:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:05:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 18:05:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 18:05:02] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 18:05:02] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 18:05:02] production.DEBUG: 取消情報出力 start  
+[2021-08-27 18:05:02] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 18:05:02] production.DEBUG: 取消情報出力 end  
+[2021-08-27 18:05:02] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 18:05:02] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 18:05:02] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAKBIG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MDUwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACACgSBtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MDUwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 17:05:02.077
+    [xcd] => 51be6fa852a30c244fe6a77d233176ac523d53a0569d6fc29d304f5ca5871b9d
+)
+  
+[2021-08-27 18:05:02] production.DEBUG: .transferapp.api  
+[2021-08-27 18:05:02] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 18:05:02] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 18:05:02] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827180501.zip  
+[2021-08-27 18:05:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827180501.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827180501.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 18:05:04] production.DEBUG: MobapassInput start  
+[2021-08-27 18:05:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 18:05:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 17:05:04.761
+    [xcd] => 7157ee3404c9d3930f8f93eabc4abe07fede2f026b6cd24c3c1b788056df4e59
+)
+  
+[2021-08-27 18:05:04] production.DEBUG: .entering.api  
+[2021-08-27 18:05:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 18:05:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 18:05:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 18:05:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 18:05:04] production.INFO: SeatingHK start  
+[2021-08-27 18:05:04] production.INFO: SeatingHK complete  
+[2021-08-27 18:06:02] production.INFO: SeatingHK start  
+[2021-08-27 18:06:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:07:01] production.INFO: SeatingHK start  
+[2021-08-27 18:07:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:08:01] production.INFO: SeatingHK start  
+[2021-08-27 18:08:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:09:02] production.INFO: SeatingHK start  
+[2021-08-27 18:09:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:10:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 18:10:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 18:10:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 18:10:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 18:10:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 18:10:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 18:10:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 18:10:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 18:10:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 18:10:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAEBJG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MTAwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACABASRtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MTAwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 17:10:01.769
+    [xcd] => 179134e2b7d0e2768fb6241d500a52aa82f29047ddbc990d3c36be8a0583a668
+)
+  
+[2021-08-27 18:10:01] production.DEBUG: .transferapp.api  
+[2021-08-27 18:10:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 18:10:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 18:10:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827181001.zip  
+[2021-08-27 18:10:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827181001.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827181001.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 18:10:04] production.DEBUG: MobapassInput start  
+[2021-08-27 18:10:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 18:10:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 17:10:04.475
+    [xcd] => a149b3872d53ccc106fe0ba7e7c47caab24ed48d7f042ccdb6b66b1173a1814f
+)
+  
+[2021-08-27 18:10:04] production.DEBUG: .entering.api  
+[2021-08-27 18:10:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 18:10:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 18:10:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 18:10:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 18:10:04] production.INFO: SeatingHK start  
+[2021-08-27 18:10:04] production.INFO: SeatingHK complete  
+[2021-08-27 18:11:01] production.INFO: SeatingHK start  
+[2021-08-27 18:11:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:12:01] production.INFO: SeatingHK start  
+[2021-08-27 18:12:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:13:01] production.INFO: SeatingHK start  
+[2021-08-27 18:13:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:14:02] production.INFO: SeatingHK start  
+[2021-08-27 18:14:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:15:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 18:15:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 18:15:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 18:15:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 18:15:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 18:15:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 18:15:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 18:15:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 18:15:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 18:15:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAOBJG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MTUwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACADgSRtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MTUwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 17:15:01.484
+    [xcd] => 918c1dec8293d1cbb4b10c07904515a8add515d23dcf07ae7cbceafa2cd403eb
+)
+  
+[2021-08-27 18:15:01] production.DEBUG: .transferapp.api  
+[2021-08-27 18:15:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 18:15:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 18:15:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827181501.zip  
+[2021-08-27 18:15:03] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827181501.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827181501.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 18:15:04] production.DEBUG: MobapassInput start  
+[2021-08-27 18:15:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 18:15:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 17:15:04.144
+    [xcd] => 8f74dbd495cd34a6080e094defbf7af4beda9a5f8110228bace50940015ecc2a
+)
+  
+[2021-08-27 18:15:04] production.DEBUG: .entering.api  
+[2021-08-27 18:15:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 18:15:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 18:15:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 18:15:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 18:15:04] production.INFO: SeatingHK start  
+[2021-08-27 18:15:04] production.INFO: SeatingHK complete  
+[2021-08-27 18:16:01] production.INFO: SeatingHK start  
+[2021-08-27 18:16:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:17:01] production.INFO: SeatingHK start  
+[2021-08-27 18:17:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:18:01] production.INFO: SeatingHK start  
+[2021-08-27 18:18:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:19:01] production.INFO: SeatingHK start  
+[2021-08-27 18:19:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:20:02] production.DEBUG: MobapassOutput start  
+[2021-08-27 18:20:02] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 18:20:02] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 18:20:02] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 18:20:02] production.DEBUG: 取消情報出力 start  
+[2021-08-27 18:20:02] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 18:20:02] production.DEBUG: 取消情報出力 end  
+[2021-08-27 18:20:02] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 18:20:02] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 18:20:02] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAIBKG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MjAwMi5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACACAShtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MjAwMi5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 17:20:02.151
+    [xcd] => b32500489a1a4c54a14dcc71ca09df7fd620bcf307f6b0dc8fa19356310dd98e
+)
+  
+[2021-08-27 18:20:02] production.DEBUG: .transferapp.api  
+[2021-08-27 18:20:02] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 18:20:02] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 18:20:02] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827182002.zip  
+[2021-08-27 18:20:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827182002.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827182002.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 18:20:04] production.DEBUG: MobapassInput start  
+[2021-08-27 18:20:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 18:20:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 17:20:04.844
+    [xcd] => f1d3f72ff07b7d8a25884c8d21fb923e8b879249bcc421aefe4e05e74b2636ba
+)
+  
+[2021-08-27 18:20:04] production.DEBUG: .entering.api  
+[2021-08-27 18:20:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 18:20:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 18:20:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 18:20:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 18:20:04] production.INFO: SeatingHK start  
+[2021-08-27 18:20:05] production.INFO: SeatingHK complete  
+[2021-08-27 18:21:01] production.INFO: SeatingHK start  
+[2021-08-27 18:21:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:22:01] production.INFO: SeatingHK start  
+[2021-08-27 18:22:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:23:02] production.INFO: SeatingHK start  
+[2021-08-27 18:23:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:24:01] production.INFO: SeatingHK start  
+[2021-08-27 18:24:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:25:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 18:25:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 18:25:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 18:25:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 18:25:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 18:25:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 18:25:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 18:25:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 18:25:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 18:25:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIACBLG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MjUwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACAAgSxtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MjUwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 17:25:01.911
+    [xcd] => 52c997f436068c31ca7dd34d28f8c3ce9e02af6b7e006ea185f3bbac10d4fc25
+)
+  
+[2021-08-27 18:25:01] production.DEBUG: .transferapp.api  
+[2021-08-27 18:25:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 18:25:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 18:25:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827182501.zip  
+[2021-08-27 18:25:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827182501.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827182501.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 18:25:04] production.DEBUG: MobapassInput start  
+[2021-08-27 18:25:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 18:25:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 17:25:04.554
+    [xcd] => 9f88a99a795307af7bb40a8296ab7199c529147c9caf7e39569bdc669a5670b2
+)
+  
+[2021-08-27 18:25:04] production.DEBUG: .entering.api  
+[2021-08-27 18:25:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 18:25:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 18:25:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 18:25:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 18:25:04] production.INFO: SeatingHK start  
+[2021-08-27 18:25:04] production.INFO: SeatingHK complete  
+[2021-08-27 18:26:02] production.INFO: SeatingHK start  
+[2021-08-27 18:26:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:27:01] production.INFO: SeatingHK start  
+[2021-08-27 18:27:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:28:01] production.INFO: SeatingHK start  
+[2021-08-27 18:28:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:29:02] production.INFO: SeatingHK start  
+[2021-08-27 18:29:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:30:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 18:30:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 18:30:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 18:30:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 18:30:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 18:30:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 18:30:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 18:30:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 18:30:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 18:30:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAMBLG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MzAwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACADASxtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MzAwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 17:30:01.525
+    [xcd] => 9c2345491b2d3dde1d75c0944c93d84232dec178ed8b7c13142393b3b1cb1037
+)
+  
+[2021-08-27 18:30:01] production.DEBUG: .transferapp.api  
+[2021-08-27 18:30:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 18:30:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 18:30:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827183001.zip  
+[2021-08-27 18:30:03] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827183001.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827183001.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 18:30:04] production.DEBUG: MobapassInput start  
+[2021-08-27 18:30:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 18:30:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 17:30:04.173
+    [xcd] => 59149c80e541a40cf5ac1a9fee087a95be8876e4bc8d8df440bc00c624e50ac8
+)
+  
+[2021-08-27 18:30:04] production.DEBUG: .entering.api  
+[2021-08-27 18:30:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 18:30:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 18:30:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 18:30:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 18:30:04] production.INFO: SeatingHK start  
+[2021-08-27 18:30:04] production.INFO: SeatingHK complete  
+[2021-08-27 18:31:01] production.INFO: SeatingHK start  
+[2021-08-27 18:31:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:32:02] production.INFO: SeatingHK start  
+[2021-08-27 18:32:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:33:01] production.INFO: SeatingHK start  
+[2021-08-27 18:33:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:34:01] production.INFO: SeatingHK start  
+[2021-08-27 18:34:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:35:02] production.DEBUG: MobapassOutput start  
+[2021-08-27 18:35:02] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 18:35:02] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 18:35:02] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 18:35:02] production.DEBUG: 取消情報出力 start  
+[2021-08-27 18:35:02] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 18:35:02] production.DEBUG: 取消情報出力 end  
+[2021-08-27 18:35:02] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 18:35:02] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 18:35:02] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAGBMG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MzUwMi5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACABgTBtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4MzUwMi5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 17:35:02.207
+    [xcd] => 163631cde065641a37fea7ae8247a5736c39fdd628528c5e0cce36d3d940e51f
+)
+  
+[2021-08-27 18:35:02] production.DEBUG: .transferapp.api  
+[2021-08-27 18:35:02] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 18:35:02] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 18:35:02] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827183502.zip  
+[2021-08-27 18:35:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827183502.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827183502.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 18:35:04] production.DEBUG: MobapassInput start  
+[2021-08-27 18:35:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 18:35:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 17:35:04.896
+    [xcd] => 1d3c7115581b9554421937e69029d7134886842b3edfa9d27dbf56f3333850ea
+)
+  
+[2021-08-27 18:35:04] production.DEBUG: .entering.api  
+[2021-08-27 18:35:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 18:35:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 18:35:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 18:35:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 18:35:05] production.INFO: SeatingHK start  
+[2021-08-27 18:35:05] production.INFO: SeatingHK complete  
+[2021-08-27 18:36:01] production.INFO: SeatingHK start  
+[2021-08-27 18:36:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:37:01] production.INFO: SeatingHK start  
+[2021-08-27 18:37:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:38:02] production.INFO: SeatingHK start  
+[2021-08-27 18:38:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:39:01] production.INFO: SeatingHK start  
+[2021-08-27 18:39:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:40:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 18:40:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 18:40:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 18:40:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 18:40:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 18:40:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 18:40:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 18:40:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 18:40:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 18:40:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAABNG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4NDAwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACAAATRtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4NDAwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 17:40:01.972
+    [xcd] => 05bd0b260bbc635d2bc5da9cf15e57d6c7e4a2427f36d9fb81433c34c3d1b583
+)
+  
+[2021-08-27 18:40:01] production.DEBUG: .transferapp.api  
+[2021-08-27 18:40:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 18:40:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 18:40:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827184001.zip  
+[2021-08-27 18:40:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827184001.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827184001.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 18:40:04] production.DEBUG: MobapassInput start  
+[2021-08-27 18:40:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 18:40:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 17:40:04.652
+    [xcd] => 2b286b09bd3bc0e4425c0019931b2f65c7bfd4d138db731399d6c70b8b34d56d
+)
+  
+[2021-08-27 18:40:04] production.DEBUG: .entering.api  
+[2021-08-27 18:40:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 18:40:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 18:40:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 18:40:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 18:40:04] production.INFO: SeatingHK start  
+[2021-08-27 18:40:04] production.INFO: SeatingHK complete  
+[2021-08-27 18:41:02] production.INFO: SeatingHK start  
+[2021-08-27 18:41:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:42:01] production.INFO: SeatingHK start  
+[2021-08-27 18:42:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:43:01] production.INFO: SeatingHK start  
+[2021-08-27 18:43:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:44:02] production.INFO: SeatingHK start  
+[2021-08-27 18:44:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:45:01] production.DEBUG: MobapassOutput start  
+[2021-08-27 18:45:01] production.DEBUG: 予約情報/アプリ番号（購入） start  
+[2021-08-27 18:45:01] production.DEBUG: 予約情報/アプリ番号（購入） 連携対象 none  
+[2021-08-27 18:45:01] production.DEBUG: 予約情報/アプリ番号（購入）  
+[2021-08-27 18:45:01] production.DEBUG: 取消情報出力 start  
+[2021-08-27 18:45:01] production.DEBUG: 取消情報出力 target none  
+[2021-08-27 18:45:01] production.DEBUG: 取消情報出力 end  
+[2021-08-27 18:45:01] production.DEBUG: アプリ番号（譲渡） start  
+[2021-08-27 18:45:01] production.DEBUG: アプリ番号（譲渡）:144件  
+[2021-08-27 18:45:01] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"UEsDBBQAAgAIAKBNG1NYxNTRRgUAADUtAAAgAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4NDUwMS5jc3a9mt+LGzcQx9\/7VxjTxxo0o5G02rejhHtqoZCUS972qGmci++O2KGkf31HWtvnhZ3dlTw0GHLcwYcZzeg7P+T1vUMwzrg7oAdsYP3LGg2ajQkbDCuDrW1a6\/m36S\/9JzYNGP5H\/PPf2+Nxtzv8fOj2r1+365\/W76DxYB39CvTJOnvBNRtjV2iZ1YKbxT13377vdwtxzSjOj+FkZy0kZ5FaGHfWjTk7h6OmdW457l2MgZ2174F+pwBXzgKujGXTWqJZZ5+2u5en7vE2oBWAcjiaFWIL1GZb\/LJwzOJca3B5dCdwLiULmjY7tjD3PkQwiOAfwH4CAtHZaes+d8\/\/dv90EH1c4DGbKFyPigNkj53k8ThuJl\/SAaJOvgCsoCkN8D35gN4192AfjPc9Dji6G3TpvkFonZnFnf43BmZdJr6\/pS7PnKFrWmyUgLQyhmktOaWg5KSx7LJTSRrKBYRxoOYw20d8iF4TaEWZLgdyHsJEWlcB+5BoAcMKYkuiztQAEfjetYCqQDELq4AsDixejSrQ6Z1hk4LioLWoepM5KFajmkBcsfanahI0hAEhuQtiOY6l7jKQldBwQIyGuz0uVbuoiHNKwehxHNsF3ccSHE33RqW4c6sFoIjjs6Pb23zG+dx2sADOS8FbX25jQHL0AeAjZZXLODBpCOEKZyR1zqPJGXfcHo7WTTgbNwZS9Ui4ksga55BMuGPrXDRXuD6yqRiNpjFcX7PXvhua85R4RCrwdNI00zrWvLDUNEFN+NQw1QsrilOheDKQUhhcWRtU3ZsOfF3Um7KFWY+Le1NpomFgrmgUWsLZeXU40Uwwm9RAI8c4ajL5\/qbojDKxEZn1swNJ8akPua0LOeQSXBTyahsRRBtrRWKAfBMJ0eU0MLEcag2dGZjaLKOyVci4PK8r4mzqzItw8ulRctYusu769GrLyeDunTQbKYJ39B78R7QDX0MKrZWajkE5+fGj23f7l+PLEuKiUjwgVtcoKqhR3I+bfgQpS2XZ3SyErtzdSWKsIcpOx3MdVZkMz8C0uAx6QMxpSHrAqDf\/ZyCYCqCsMvE0\/2u0+xmXypKapF5watbZiaJZiEOTJi\/QUmge5NLKl1Wr0UkWzAXJGrXsQ5sH9cBMPQvtRAW+wcKyHWN1lYMC1e9bLNRTA+y3geb\/agK93ATKB+jz05ITNHVstFvAcoosr8QSZapofE3PrK6iyx0Hpi48P1xYRWBu68mpAp020FdUSXmSceeFZ8liZwYnhqQYFyZb+wocTsRXwPGMDvy5S8Hw4RrX5GUsp+CoAITry7E7do\/d4fPu6+756XD88qoGPnbH7V\/b\/cvLs3yReySfZNlFFs2LSRTEZWAIonlTyNS\/WMG8G5CSxw1VR6cHkzAuDWwdAQs7W0if077bxlnw3PdQEg5Ttlun0WJecKTSACecTTij8C5+wXHDEPu9HvqCLY8otuDOrzcJZ5ert5Q5aSkfcwUszvJxG1NrM7mYL60wZyAoAn3OapLemOqBABo1EDbgJzPbQ0mVgdznNPK9G8fdWwgmov+NM5t8vHSuPrdg0JJvcf5J8nj4zmKz78BP5CFmoZlY0sxKo3CpMd+YIG+7yjQi41i\/SWWqveB0tqJvOKflrE9nJ2UhAFXhBOsqcc5o4ULucNQSZRJXa527PRR8g7NgqS1n2DrMcqWWxth\/H68wjcfUr3c2nDeNdnmPXa1+QzEdqJ9oIYbJba0g92Niyjg8FXXpos2K6b0jZ9CZPyD8iflpoQfT+StWws4W8qbqYuc3fHz8MpGFmDdS8sZxiDvH+T9QSwECPwMUAAIACACgTRtTWMTU0UYFAAA1LQAAIAAAAAAAAAAAAAAA\/4EAAAAAL3RyYW5zZmVyaW5mb18yMDIxMDgyNzE4NDUwMS5jc3ZQSwUGAAAAAAEAAQBOAAAAhAUAAAAA"}
+    [xtime] => 2021/08/27 17:45:01.674
+    [xcd] => 362840e174302df0986a258482d25bfb1c85d7939c01ae01b80ee10eaf6e425b
+)
+  
+[2021-08-27 18:45:01] production.DEBUG: .transferapp.api  
+[2021-08-27 18:45:01] production.DEBUG: 00api=transferapp.api result=  
+[2021-08-27 18:45:01] production.DEBUG: api=transferapp.api result=0  
+[2021-08-27 18:45:01] production.DEBUG: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827184501.zip  
+[2021-08-27 18:45:04] production.ERROR: ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827184501.zip {"exception":"[object] (Exception(code: 0): ****アプリ番号（譲渡）情報連携失敗****:mbps_transferdata_20210827184501.zip at /home/vagrant/code/gettiilite/app/Console/Commands/MobapassOutput.php:429)
+[stacktrace]
+#0 [internal function]: App\\Console\\Commands\\MobapassOutput->handle()
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(549): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#6 /home/vagrant/code/gettiilite/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#7 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(992): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Console\\Commands\\MobapassOutput), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 {main}
+"} 
+[2021-08-27 18:45:04] production.DEBUG: MobapassInput start  
+[2021-08-27 18:45:04] production.DEBUG: 入場情報取込 start  
+[2021-08-27 18:45:04] production.DEBUG: .Array
+(
+    [aid] => 
+    [reqdata] => {"csv":"2021\/08\/27"}
+    [xtime] => 2021/08/27 17:45:04.361
+    [xcd] => e74c053d573a477ac3d6ecc6997df644e99c053284e58d94d890d78c31925a95
+)
+  
+[2021-08-27 18:45:04] production.DEBUG: .entering.api  
+[2021-08-27 18:45:04] production.DEBUG: 00api=entering.api result=  
+[2021-08-27 18:45:04] production.DEBUG: api=entering.api result=0  
+[2021-08-27 18:45:04] production.DEBUG: 入場情報取込 該当ファイル無し  
+[2021-08-27 18:45:04] production.DEBUG: 入場情報取込 end  
+[2021-08-27 18:45:04] production.INFO: SeatingHK start  
+[2021-08-27 18:45:04] production.INFO: SeatingHK complete  
+[2021-08-27 18:46:01] production.INFO: SeatingHK start  
+[2021-08-27 18:46:01] production.INFO: SeatingHK complete  
+[2021-08-27 18:47:02] production.INFO: SeatingHK start  
+[2021-08-27 18:47:02] production.INFO: SeatingHK complete  
+[2021-08-27 18:48:01] production.INFO: SeatingHK start  
+[2021-08-27 18:48:01] production.INFO: SeatingHK complete  

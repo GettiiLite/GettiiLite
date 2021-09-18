@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1785 -24 67 67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #d3d3d3;
+        stroke: #d3d5d6;
+        stroke-miterlimit: 10;
+        stroke-width: 0.999px;
+      }
+
+      .cls-3 {
+        filter: url(#楕円形_5);
+      }
+    </style>
+    <filter id="楕円形_5" x="1785" y="-24" width="67" height="67" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="favorite" transform="translate(1489 -401)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -1489, 401)">
+      <circle id="楕円形_5-2" data-name="楕円形 5" class="cls-1" cx="27.5" cy="27.5" r="27.5" transform="translate(1791 -20)"/>
+    </g>
+    <path id="パス_125" data-name="パス 125" class="cls-2" d="M14.646,1.6l3.1,9.549H27.792l-8.123,5.9,3.1,9.549-8.123-5.9L6.523,26.6l3.1-9.549L1.5,11.149H11.545Z" transform="translate(315 394.9)"/>
+  </g>
+</svg>

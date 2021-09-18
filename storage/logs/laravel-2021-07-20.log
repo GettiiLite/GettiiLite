@@ -1,0 +1,6 @@
+[2021-07-20 15:36:57] production.NOTICE: mail success  
+[2021-07-20 15:36:57] production.DEBUG: UserManagerService.transportUserInfo@20210720153657  
+[2021-07-20 15:36:57] production.DEBUG: UserManagerRepositories.portalMstOutputInsert  
+[2021-07-20 17:45:03] production.NOTICE: mail success  
+[2021-07-20 17:45:03] production.DEBUG: UserManagerService.transportUserInfo@20210720174503  
+[2021-07-20 17:45:04] production.DEBUG: UserManagerRepositories.portalMstOutputInsert  

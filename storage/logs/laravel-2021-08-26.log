@@ -1,0 +1,505 @@
+[2021-08-26 09:53:15] production.INFO: error code : 21   
+[2021-08-26 09:53:40] production.INFO: error code : 21   
+[2021-08-26 09:55:59] production.DEBUG: [edit]The data from DB  
+[2021-08-26 09:56:05] production.DEBUG: has  
+[2021-08-26 09:57:05] production.DEBUG: [EventController] update  
+[2021-08-26 09:57:05] production.DEBUG: ***全席自由***  
+[2021-08-26 09:57:05] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 09:57:05] production.DEBUG: true  
+[2021-08-26 09:57:05] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 09:57:05] production.DEBUG: 1  
+[2021-08-26 09:57:05] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 09:57:05] production.DEBUG: 3  
+[2021-08-26 09:57:05] production.DEBUG: [EventManageService]updateJson  
+[2021-08-26 09:57:05] production.DEBUG: _createHallInfo : [青森県][八戸市] -> ID => 3001302  
+[2021-08-26 09:57:06] production.DEBUG: [edit]It is old data  
+[2021-08-26 09:57:06] production.DEBUG: [edit]Reading data form draft.  
+[2021-08-26 09:57:43] production.DEBUG: [EventManageService] republish  
+[2021-08-26 09:57:43] production.DEBUG: has  
+[2021-08-26 09:57:43] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-26 09:57:43] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2410","performance_date":"2021\/08\/28","start_time":"12:00","disp_performance_date":"yuu","sch_kbn":"0","stcd":2631,"update_account_cd":1}  
+[2021-08-26 09:57:43] production.DEBUG: specDateScheduleCreateorUpdate:2410-2021/08/28-2631-12:00  
+[2021-08-26 09:57:43] production.DEBUG: specDateScheduleCreateorUpdate: id =15072  
+[2021-08-26 09:57:44] production.DEBUG: export event mst_data satart  
+[2021-08-26 09:57:44] production.DEBUG: export event mst_data finished  
+[2021-08-26 09:58:57] production.ERROR: Command "getMasterData" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"getMasterData\" is not defined. at /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php:651)
+[stacktrace]
+#0 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find('getMasterData')
+#1 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-08-26 09:59:33] production.ERROR: Command "getMasterData" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"getMasterData\" is not defined. at /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php:651)
+[stacktrace]
+#0 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find('getMasterData')
+#1 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-08-26 10:51:52] production.INFO: error code : 21   
+[2021-08-26 11:06:12] production.INFO: error code : 21   
+[2021-08-26 11:07:06] production.DEBUG: [Create]The data form DB  
+[2021-08-26 11:10:14] production.DEBUG: ler.addData()  
+[2021-08-26 11:10:14] production.DEBUG: ***全席自由***  
+[2021-08-26 11:10:14] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 11:10:14] production.DEBUG: true  
+[2021-08-26 11:10:14] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 11:10:14] production.DEBUG: 1  
+[2021-08-26 11:10:14] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 11:10:14] production.DEBUG: 3  
+[2021-08-26 11:10:14] production.DEBUG: EvenManageServices.addData()  
+[2021-08-26 11:10:14] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-26 11:13:11] production.DEBUG: [EventManageService] republish  
+[2021-08-26 11:13:11] production.DEBUG: has  
+[2021-08-26 11:13:11] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-26 11:13:11] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2299","performance_date":"2021\/09\/30","start_time":"12:00","disp_performance_date":"\u516c\u6f14\u65e5\u6642 12:00","sch_kbn":"0","stcd":2602,"update_account_cd":270}  
+[2021-08-26 11:13:11] production.DEBUG: specDateScheduleCreateorUpdate:2299-2021/09/30-2602-12:00  
+[2021-08-26 11:13:11] production.DEBUG: specDateScheduleCreateorUpdate: id =15017  
+[2021-08-26 11:13:12] production.DEBUG: export event mst_data satart  
+[2021-08-26 11:13:12] production.DEBUG: export event mst_data finished  
+[2021-08-26 11:15:12] production.DEBUG: [edit]The data from DB  
+[2021-08-26 11:15:38] production.DEBUG: [EventController] update  
+[2021-08-26 11:15:38] production.DEBUG: ***全席自由***  
+[2021-08-26 11:15:38] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 11:15:38] production.DEBUG: true  
+[2021-08-26 11:15:38] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 11:15:38] production.DEBUG: 1  
+[2021-08-26 11:15:38] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 11:15:38] production.DEBUG: 3  
+[2021-08-26 11:15:38] production.DEBUG: [EventManageService]updateJson  
+[2021-08-26 11:15:38] production.DEBUG: _createHallInfo : [新潟県][上越市] -> ID => 3001324  
+[2021-08-26 11:15:38] production.DEBUG: [edit]It is old data  
+[2021-08-26 11:15:38] production.DEBUG: [edit]Reading data form draft.  
+[2021-08-26 11:16:12] production.DEBUG: [EventManageService] republish  
+[2021-08-26 11:16:12] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-26 11:16:12] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2299","performance_date":"2021\/09\/30","start_time":"12:00","disp_performance_date":"\u516c\u6f14\u65e5\u6642 12:00","sch_kbn":"0","stcd":2602,"update_account_cd":270}  
+[2021-08-26 11:16:12] production.DEBUG: specDateScheduleCreateorUpdate:2299-2021/09/30-2602-12:00  
+[2021-08-26 11:16:12] production.DEBUG: specDateScheduleCreateorUpdate: id =15017  
+[2021-08-26 11:16:13] production.DEBUG: export event mst_data satart  
+[2021-08-26 11:16:13] production.DEBUG: export event mst_data finished  
+[2021-08-26 11:16:14] production.DEBUG: [Create]The data form DB  
+[2021-08-26 11:17:38] production.DEBUG: ler.addData()  
+[2021-08-26 11:17:38] production.DEBUG: ***全席自由***  
+[2021-08-26 11:17:38] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 11:17:38] production.DEBUG: true  
+[2021-08-26 11:17:38] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 11:17:38] production.DEBUG: 1  
+[2021-08-26 11:17:38] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 11:17:38] production.DEBUG: 3  
+[2021-08-26 11:17:38] production.DEBUG: EvenManageServices.addData()  
+[2021-08-26 11:17:38] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-26 11:17:43] production.DEBUG: [EventManageService] republish  
+[2021-08-26 11:17:43] production.DEBUG: has  
+[2021-08-26 11:17:43] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-26 11:17:43] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2300","performance_date":"2021\/08\/28","start_time":"12:00","disp_performance_date":"u","sch_kbn":"0","stcd":2603,"update_account_cd":270}  
+[2021-08-26 11:17:43] production.DEBUG: specDateScheduleCreateorUpdate:2300-2021/08/28-2603-12:00  
+[2021-08-26 11:17:43] production.DEBUG: specDateScheduleCreateorUpdate: id =15018  
+[2021-08-26 11:17:44] production.DEBUG: export event mst_data satart  
+[2021-08-26 11:17:44] production.DEBUG: export event mst_data finished  
+[2021-08-26 11:38:55] production.DEBUG: [Create]The data form DB  
+[2021-08-26 11:41:15] production.DEBUG: Call uploadImage.  
+[2021-08-26 11:41:25] production.DEBUG: ler.addData()  
+[2021-08-26 11:41:25] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 11:41:25] production.DEBUG: true  
+[2021-08-26 11:41:25] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 11:41:25] production.DEBUG: 1  
+[2021-08-26 11:41:25] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 11:41:25] production.DEBUG: 3  
+[2021-08-26 11:41:25] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-26 11:41:25] production.DEBUG: [create] It is old data  
+[2021-08-26 11:41:58] production.DEBUG: ler.addData()  
+[2021-08-26 11:41:58] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 11:41:58] production.DEBUG: true  
+[2021-08-26 11:41:58] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 11:41:58] production.DEBUG: 1  
+[2021-08-26 11:41:58] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 11:41:58] production.DEBUG: 3  
+[2021-08-26 11:41:58] production.DEBUG: EvenManageServices.addData()  
+[2021-08-26 11:41:58] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-26 11:42:03] production.DEBUG: [EventManageService] republish  
+[2021-08-26 11:42:03] production.DEBUG: has  
+[2021-08-26 11:42:03] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2301","performance_date":"2021\/8\/26","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2604,"update_account_cd":270}  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate:2301-2021/8/26-2604-12:00  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate: id =15019  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2301","performance_date":"2021\/8\/30","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2604,"update_account_cd":270}  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate:2301-2021/8/30-2604-12:00  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate: id =15020  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2301","performance_date":"2021\/8\/31","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2604,"update_account_cd":270}  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate:2301-2021/8/31-2604-12:00  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate: id =15021  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2301","performance_date":"2021\/9\/1","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2604,"update_account_cd":270}  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate:2301-2021/9/1-2604-12:00  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate: id =15022  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2301","performance_date":"2021\/9\/2","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2604,"update_account_cd":270}  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate:2301-2021/9/2-2604-12:00  
+[2021-08-26 11:42:04] production.DEBUG: specDateScheduleCreateorUpdate: id =15023  
+[2021-08-26 11:42:06] production.DEBUG: export event mst_data satart  
+[2021-08-26 11:42:06] production.DEBUG: export event mst_data finished  
+[2021-08-26 11:48:11] production.INFO: get performance list  
+[2021-08-26 11:48:15] production.INFO: get order CsvExport  detail csv.  
+[2021-08-26 11:48:15] production.INFO: oders search  
+[2021-08-26 11:49:18] production.INFO: get scheduleId 15014 detail csv.  
+[2021-08-26 11:54:17] production.DEBUG: [Create]The data form DB  
+[2021-08-26 11:57:59] production.DEBUG: Call uploadImage.  
+[2021-08-26 11:58:06] production.DEBUG: ler.addData()  
+[2021-08-26 11:58:06] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 11:58:06] production.DEBUG: true  
+[2021-08-26 11:58:06] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 11:58:06] production.DEBUG: 1  
+[2021-08-26 11:58:06] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 11:58:06] production.DEBUG: 3  
+[2021-08-26 11:58:06] production.DEBUG: EvenManageServices.addData()  
+[2021-08-26 11:58:06] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-26 11:58:12] production.DEBUG: [EventManageService] republish  
+[2021-08-26 11:58:12] production.DEBUG: has  
+[2021-08-26 11:58:12] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/8\/26","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/8/26-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15024  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/8\/27","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/8/27-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15025  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/8\/28","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/8/28-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15026  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/8\/29","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/8/29-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15027  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/8\/30","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/8/30-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15028  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/8\/31","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/8/31-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15029  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/1","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/1-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15030  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/2","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/2-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15031  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/3","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/3-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15032  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/4","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/4-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15033  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/5","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/5-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15034  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/6","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/6-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15035  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/7","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/7-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15036  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/8","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/8-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15037  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/9","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/9-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15038  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/10","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/10-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15039  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/11","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/11-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15040  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/12","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/12-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15041  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/13","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/13-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15042  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/14","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/14-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15043  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/15","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/15-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15044  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/16","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/16-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15045  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/17","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/17-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15046  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/18","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/18-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15047  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/19","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/19-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15048  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/20","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/20-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15049  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/21","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/21-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15050  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/22","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/22-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15051  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/23","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/23-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15052  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/24","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/24-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15053  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/25","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/25-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15054  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/26","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/26-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15055  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/27","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/27-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15056  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/28","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/28-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15057  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/29","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/29-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15058  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2302","performance_date":"2021\/9\/30","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2605,"update_account_cd":270}  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate:2302-2021/9/30-2605-12:00  
+[2021-08-26 11:58:13] production.DEBUG: specDateScheduleCreateorUpdate: id =15059  
+[2021-08-26 11:58:15] production.DEBUG: export event mst_data satart  
+[2021-08-26 11:58:15] production.DEBUG: export event mst_data finished  
+[2021-08-26 12:05:14] production.ERROR: Command "getMembers" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"getMembers\" is not defined. at /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php:651)
+[stacktrace]
+#0 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find('getMembers')
+#1 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-08-26 12:05:31] production.DEBUG: Start the process of getting data from Gettiis, type: 2 ; system kbn: 1  
+[2021-08-26 12:05:37] production.DEBUG: complete update GL_Members  
+[2021-08-26 12:17:44] production.DEBUG: Start the process of getting data from Gettiis, type: 2 ; system kbn: 1  
+[2021-08-26 12:17:44] production.DEBUG: complete update GL_Members  
+[2021-08-26 13:05:50] production.INFO: error code : 21   
+[2021-08-26 13:06:01] production.INFO: error code : 21   
+[2021-08-26 13:07:03] production.INFO: function getMemberData| SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gettiilite_huy.gl_member' doesn't exist (SQL: select `GL_MEMBER`.`tel_num`, `GL_MEMBER`.`mail_address`, `GL_MEMBER`.`allow_email`, `GL_MEMBER`.`status`, `GL_MEMBER`.`system_kbn` from `GL_MEMBER` where `member_id` = thangqc)  
+[2021-08-26 13:07:58] production.INFO: function getMemberData| SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gettiilite_huy.gl_member' doesn't exist (SQL: select `GL_MEMBER`.`tel_num`, `GL_MEMBER`.`mail_address`, `GL_MEMBER`.`allow_email`, `GL_MEMBER`.`status`, `GL_MEMBER`.`system_kbn` from `GL_MEMBER` where `member_id` = stsbmt)  
+[2021-08-26 13:08:13] production.INFO: function getMemberData| SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gettiilite_huy.gl_member' doesn't exist (SQL: select `GL_MEMBER`.`tel_num`, `GL_MEMBER`.`mail_address`, `GL_MEMBER`.`allow_email`, `GL_MEMBER`.`status`, `GL_MEMBER`.`system_kbn` from `GL_MEMBER` where `member_id` = stsbmt)  
+[2021-08-26 13:09:27] production.INFO: function getMemberData| SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gettiilite_huy.gl_member' doesn't exist (SQL: select `GL_MEMBER`.`tel_num`, `GL_MEMBER`.`mail_address`, `GL_MEMBER`.`allow_email`, `GL_MEMBER`.`status`, `GL_MEMBER`.`system_kbn` from `GL_MEMBER` where `member_id` = thanhnguyen)  
+[2021-08-26 13:12:46] production.NOTICE: mail success  
+[2021-08-26 13:12:46] production.DEBUG: UserManagerService.transportUserInfo@20210826131246  
+[2021-08-26 13:12:46] production.DEBUG: UserManagerRepositories.portalMstOutputInsert  
+[2021-08-26 13:17:01] production.NOTICE: mail success  
+[2021-08-26 13:17:01] production.DEBUG: UserManagerService.transportUserInfo@20210826131701  
+[2021-08-26 13:17:01] production.DEBUG: UserManagerRepositories.portalMstOutputInsert  
+[2021-08-26 13:21:33] production.INFO: error code : 21   
+[2021-08-26 13:22:34] production.INFO: error code : 21   
+[2021-08-26 13:23:22] production.DEBUG: [Create]The data form DB  
+[2021-08-26 13:23:39] production.INFO: get scheduleId 14956 detail csv.  
+[2021-08-26 13:25:44] production.DEBUG: ler.addData()  
+[2021-08-26 13:25:44] production.DEBUG: ***全席自由***  
+[2021-08-26 13:25:44] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 13:25:44] production.DEBUG: true  
+[2021-08-26 13:25:44] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 13:25:44] production.DEBUG: 1  
+[2021-08-26 13:25:44] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 13:25:44] production.DEBUG: 3  
+[2021-08-26 13:25:44] production.DEBUG: EvenManageServices.addData()  
+[2021-08-26 13:25:44] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-26 13:27:49] production.DEBUG: [Create]The data form DB  
+[2021-08-26 13:30:12] production.DEBUG: ler.addData()  
+[2021-08-26 13:30:12] production.DEBUG: ***全席自由***  
+[2021-08-26 13:30:12] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 13:30:12] production.DEBUG: true  
+[2021-08-26 13:30:12] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 13:30:12] production.DEBUG: 1  
+[2021-08-26 13:30:12] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 13:30:12] production.DEBUG: 3  
+[2021-08-26 13:30:12] production.DEBUG: EvenManageServices.addData()  
+[2021-08-26 13:30:12] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-26 13:30:15] production.DEBUG: [Create]The data form DB  
+[2021-08-26 13:33:27] production.DEBUG: Call uploadImage.  
+[2021-08-26 13:33:31] production.DEBUG: ler.addData()  
+[2021-08-26 13:33:31] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 13:33:31] production.DEBUG: true  
+[2021-08-26 13:33:31] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 13:33:31] production.DEBUG: 1  
+[2021-08-26 13:33:31] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 13:33:31] production.DEBUG: 3  
+[2021-08-26 13:33:31] production.DEBUG: EvenManageServices.addData()  
+[2021-08-26 13:33:31] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-26 13:33:41] production.DEBUG: [EventManageService] republish  
+[2021-08-26 13:33:41] production.DEBUG: has  
+[2021-08-26 13:33:41] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-26 13:33:41] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2303","performance_date":"2021\/08\/31","start_time":"12:00","disp_performance_date":"\u516c\u6f14\u65e5\u6642 12:00","sch_kbn":"0","stcd":2606,"update_account_cd":872}  
+[2021-08-26 13:33:41] production.DEBUG: specDateScheduleCreateorUpdate:2303-2021/08/31-2606-12:00  
+[2021-08-26 13:33:41] production.DEBUG: specDateScheduleCreateorUpdate: id =15060  
+[2021-08-26 13:33:42] production.DEBUG: export event mst_data satart  
+[2021-08-26 13:33:42] production.DEBUG: export event mst_data finished  
+[2021-08-26 13:33:46] production.DEBUG: [EventManageService] republish  
+[2021-08-26 13:33:46] production.DEBUG: has  
+[2021-08-26 13:33:46] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2304","performance_date":"2021\/8\/26","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2607,"update_account_cd":872}  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate:2304-2021/8/26-2607-12:00  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate: id =15061  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2304","performance_date":"2021\/8\/27","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2607,"update_account_cd":872}  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate:2304-2021/8/27-2607-12:00  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate: id =15062  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2304","performance_date":"2021\/8\/28","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2607,"update_account_cd":872}  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate:2304-2021/8/28-2607-12:00  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate: id =15063  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2304","performance_date":"2021\/8\/29","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2607,"update_account_cd":872}  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate:2304-2021/8/29-2607-12:00  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate: id =15064  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2304","performance_date":"2021\/8\/30","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2607,"update_account_cd":872}  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate:2304-2021/8/30-2607-12:00  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate: id =15065  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2304","performance_date":"2021\/8\/31","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2607,"update_account_cd":872}  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate:2304-2021/8/31-2607-12:00  
+[2021-08-26 13:33:46] production.DEBUG: specDateScheduleCreateorUpdate: id =15066  
+[2021-08-26 13:33:48] production.DEBUG: export event mst_data satart  
+[2021-08-26 13:33:48] production.DEBUG: export event mst_data finished  
+[2021-08-26 13:33:52] production.DEBUG: [EventManageService] republish  
+[2021-08-26 13:33:52] production.DEBUG: has  
+[2021-08-26 13:33:52] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2305","performance_date":"2021\/8\/26","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2608,"update_account_cd":872}  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate:2305-2021/8/26-2608-12:00  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate: id =15067  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2305","performance_date":"2021\/8\/27","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2608,"update_account_cd":872}  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate:2305-2021/8/27-2608-12:00  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate: id =15068  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2305","performance_date":"2021\/8\/28","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2608,"update_account_cd":872}  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate:2305-2021/8/28-2608-12:00  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate: id =15069  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2305","performance_date":"2021\/8\/29","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2608,"update_account_cd":872}  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate:2305-2021/8/29-2608-12:00  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate: id =15070  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2305","performance_date":"2021\/8\/30","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2608,"update_account_cd":872}  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate:2305-2021/8/30-2608-12:00  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate: id =15071  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2305","performance_date":"2021\/8\/31","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2608,"update_account_cd":872}  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate:2305-2021/8/31-2608-12:00  
+[2021-08-26 13:33:52] production.DEBUG: specDateScheduleCreateorUpdate: id =15072  
+[2021-08-26 13:33:54] production.DEBUG: export event mst_data satart  
+[2021-08-26 13:33:54] production.DEBUG: export event mst_data finished  
+[2021-08-26 13:34:46] production.DEBUG: [Create]The data form DB  
+[2021-08-26 13:36:40] production.DEBUG: ler.addData()  
+[2021-08-26 13:36:40] production.DEBUG: ***全席自由***  
+[2021-08-26 13:36:40] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 13:36:40] production.DEBUG: true  
+[2021-08-26 13:36:40] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 13:36:40] production.DEBUG: 1  
+[2021-08-26 13:36:40] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 13:36:40] production.DEBUG: 3  
+[2021-08-26 13:36:40] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-26 13:36:40] production.DEBUG: [create] It is old data  
+[2021-08-26 13:36:51] production.DEBUG: ler.addData()  
+[2021-08-26 13:36:51] production.DEBUG: ***全席自由***  
+[2021-08-26 13:36:51] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 13:36:51] production.DEBUG: true  
+[2021-08-26 13:36:51] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 13:36:51] production.DEBUG: 1  
+[2021-08-26 13:36:51] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 13:36:51] production.DEBUG: 3  
+[2021-08-26 13:36:51] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-26 13:36:51] production.DEBUG: [create] It is old data  
+[2021-08-26 13:37:00] production.DEBUG: ler.addData()  
+[2021-08-26 13:37:00] production.DEBUG: ***全席自由***  
+[2021-08-26 13:37:00] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 13:37:00] production.DEBUG: true  
+[2021-08-26 13:37:00] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 13:37:00] production.DEBUG: 1  
+[2021-08-26 13:37:00] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 13:37:00] production.DEBUG: 3  
+[2021-08-26 13:37:00] production.DEBUG: EvenManageServices.addData()  
+[2021-08-26 13:37:00] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-26 13:37:15] production.DEBUG: [Create]The data form DB  
+[2021-08-26 13:39:06] production.DEBUG: Start the process of getting data from Gettiis, type: 2 ; system kbn: 1  
+[2021-08-26 13:39:07] production.DEBUG: ler.addData()  
+[2021-08-26 13:39:07] production.DEBUG: ***全席自由***  
+[2021-08-26 13:39:07] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 13:39:07] production.DEBUG: true  
+[2021-08-26 13:39:07] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 13:39:07] production.DEBUG: 1  
+[2021-08-26 13:39:07] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 13:39:07] production.DEBUG: 3  
+[2021-08-26 13:39:07] production.DEBUG: EvenManageServices.addData()  
+[2021-08-26 13:39:07] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-26 13:39:11] production.DEBUG: [Create]The data form DB  
+[2021-08-26 13:39:11] production.DEBUG: complete update GL_Members  
+[2021-08-26 13:42:32] production.DEBUG: Call uploadImage.  
+[2021-08-26 13:42:34] production.DEBUG: ler.addData()  
+[2021-08-26 13:42:34] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 13:42:34] production.DEBUG: true  
+[2021-08-26 13:42:34] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 13:42:34] production.DEBUG: 1  
+[2021-08-26 13:42:34] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 13:42:34] production.DEBUG: 3  
+[2021-08-26 13:42:34] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-26 13:42:34] production.DEBUG: [create] It is old data  
+[2021-08-26 13:42:53] production.DEBUG: ler.addData()  
+[2021-08-26 13:42:53] production.DEBUG: *** sales_term_status  ***  
+[2021-08-26 13:42:53] production.DEBUG: true  
+[2021-08-26 13:42:53] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-26 13:42:53] production.DEBUG: 1  
+[2021-08-26 13:42:53] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-26 13:42:53] production.DEBUG: 3  
+[2021-08-26 13:42:53] production.DEBUG: EvenManageServices.addData()  
+[2021-08-26 13:42:53] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-26 13:43:00] production.DEBUG: [EventManageService] republish  
+[2021-08-26 13:43:00] production.DEBUG: has  
+[2021-08-26 13:43:00] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2308","performance_date":"2021\/8\/26","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2609,"update_account_cd":873}  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate:2308-2021/8/26-2609-12:00  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate: id =15073  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2308","performance_date":"2021\/8\/27","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2609,"update_account_cd":873}  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate:2308-2021/8/27-2609-12:00  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate: id =15074  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2308","performance_date":"2021\/8\/28","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2609,"update_account_cd":873}  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate:2308-2021/8/28-2609-12:00  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate: id =15075  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2308","performance_date":"2021\/8\/29","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2609,"update_account_cd":873}  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate:2308-2021/8/29-2609-12:00  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate: id =15076  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2308","performance_date":"2021\/8\/30","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2609,"update_account_cd":873}  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate:2308-2021/8/30-2609-12:00  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate: id =15077  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2308","performance_date":"2021\/8\/31","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2609,"update_account_cd":873}  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate:2308-2021/8/31-2609-12:00  
+[2021-08-26 13:43:01] production.DEBUG: specDateScheduleCreateorUpdate: id =15078  
+[2021-08-26 13:43:03] production.DEBUG: export event mst_data satart  
+[2021-08-26 13:43:03] production.DEBUG: export event mst_data finished  
+[2021-08-26 13:43:07] production.DEBUG: [EventManageService] republish  
+[2021-08-26 13:43:07] production.DEBUG: has  
+[2021-08-26 13:43:07] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2307","performance_date":"2021\/8\/26","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2610,"update_account_cd":873}  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate:2307-2021/8/26-2610-12:00  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate: id =15079  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2307","performance_date":"2021\/8\/27","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2610,"update_account_cd":873}  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate:2307-2021/8/27-2610-12:00  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate: id =15080  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2307","performance_date":"2021\/8\/28","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2610,"update_account_cd":873}  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate:2307-2021/8/28-2610-12:00  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate: id =15081  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2307","performance_date":"2021\/8\/29","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2610,"update_account_cd":873}  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate:2307-2021/8/29-2610-12:00  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate: id =15082  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2307","performance_date":"2021\/8\/30","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2610,"update_account_cd":873}  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate:2307-2021/8/30-2610-12:00  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate: id =15083  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2307","performance_date":"2021\/8\/31","start_time":"12:00","disp_performance_date":"","sch_kbn":"1","stcd":2610,"update_account_cd":873}  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate:2307-2021/8/31-2610-12:00  
+[2021-08-26 13:43:07] production.DEBUG: specDateScheduleCreateorUpdate: id =15084  
+[2021-08-26 13:43:08] production.DEBUG: export event mst_data satart  
+[2021-08-26 13:43:08] production.DEBUG: export event mst_data finished  
+[2021-08-26 13:43:14] production.DEBUG: [EventManageService] republish  
+[2021-08-26 13:43:14] production.DEBUG: has  
+[2021-08-26 13:43:14] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-08-26 13:43:14] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/08\/31","start_time":"12:00","disp_performance_date":"\u516c\u6f14\u65e5\u6642 12:00","sch_kbn":"0","stcd":2611,"update_account_cd":873}  
+[2021-08-26 13:43:14] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/08/31-2611-12:00  
+[2021-08-26 13:43:14] production.DEBUG: specDateScheduleCreateorUpdate: id =15085  
+[2021-08-26 13:43:16] production.DEBUG: export event mst_data satart  
+[2021-08-26 13:43:16] production.DEBUG: export event mst_data finished  
+[2021-08-26 15:08:22] production.INFO: get bank inf  
+[2021-08-26 15:08:22] production.INFO: get bank inf  

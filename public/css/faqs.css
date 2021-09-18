@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,700|Raleway|Ubuntu|Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit
+}
+
+* {
+    font: inherit
+}
+
+img {
+    max-width: 100%;
+    border: 0;
+}
+html {
+    box-sizing: border-box
+}
+html,body {
+     font-family: 'Baloo Paaji 2', 'Noto Sans TC', cursive,Helvetica !important;
+}
+
+:lang(ja) {
+    font-family: "Baloo Paaji 2","Noto Sans JP" !important
+}
+
+.fa:lang(ja) {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+.fas:lang(ja) {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+.far:lang(ja) {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+.fal:lang(ja) {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+.fab:lang(ja) {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+
+
+
+.flex {
+    display: -ms-flexbox;
+    display: flex
+}
+
+.inline-flex {
+    display: -ms-inline-flexbox;
+    display: inline-flex
+}
+
+.flex-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.flex-column {
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.flex-row {
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.flex-center {
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+/* ================================================
+[ faqs ]*/
+
+.faqs-section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.faqs-container {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    background: #33bbeb;
+    background: -webkit-linear-gradient(-45deg, #33bbeb, #0dd1fd, #269ad5, #c2de51);
+    background: -o-linear-gradient(-45deg, #33bbeb, #0dd1fd, #269ad5, #c2de51);
+    background: -moz-linear-gradient(-45deg, #33bbeb, #0dd1fd, #269ad5, #c2de51);
+    background: linear-gradient(-45deg, #33bbeb, #0dd1fd, #269ad5, #c2de51);
+    background-size: 200% 200%;
+}
+
+.faqs-container .logo-wrap {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px
+}
+
+.faqs-container .logo-wrap-fix {
+    padding: 10px;
+}
+
+.faqs-wrap {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.faqs-wrap .box-faqs h3 {
+    color: #333333;
+    padding: 6px
+}
+
+.tab-content {
+    margin-top: 5px
+}
+.faqs-wrap p {
+    margin-left: 15px;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.faqs-wrap .tab-content h3 b {
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    margin-right: 10px;
+    background: linear-gradient(-45deg, #3c8dbc, #33bbeb, #c2de51);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.faqs-wrap .tab-content b {
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    margin-right: 10px;
+}
+
+.faqs-wrap .tab-content ul {
+    margin: 30px;
+}
+.faqs-wrap .tab-content ul.non {
+    margin-left: 15px;
+}
+.faqs-wrap .tab-content ul.non li{
+    list-style: none;
+    
+}
+.faqs-wrap .tab-content ol {
+    margin-left: 25px;
+}
+
+.faqs-wrap .tab-content ol li {
+    padding: 2px 5px;
+    font-size: 1.6rem;
+}
+.faqs-wrap .tab-content ol li ul{
+    margin-left: 20px;
+    margin: 0;
+}
+.faqs-wrap .tab-content ol li ul li
+{
+    list-style: inside;
+}
+.faqs-wrap ul li, .faqs-wrap ol li {
+    line-height: 1.5;
+}
+.faqs-container small {
+    color: #777777;
+    padding-left: 10px;
+}
+.faqs-container small svg, .faqs-container small i {
+    margin-right: 5px;
+}
+
+
+/* ================================================
+[ faqs-nav ]*/
+.faq-nav {
+    display: inline-grid;
+    width: 100%;
+    margin-right: 50px
+}
+
+.faq-nav-link {
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    color: #3c8dbc;
+    margin-bottom: 10px;
+}
+
+.faq-nav-link svg {
+    margin-right: 15px;
+}
+
+.faq-nav-link a,
+.faq-nav-link.active,
+.faq-nav-link:hover,
+.faq-nav-link:focus {
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    border-radius: 19px;
+    background: #3c8dbc;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.box-header.box-border-only {
+    border-bottom: 1px solid #5bc0de !important;
+    background: #fff;
+    border-radius: 0;
+}
+
+.box-faqs-bg {
+    border-top: none !important;
+    box-shadow: none !important;
+    background: #f1f1f173 !important;
+    padding: 10px 15px;
+}
+
+.box-faqs-bg .box-header.with-border {
+    border-bottom: none !important;
+}
+
+.callout-faqs-warning {
+    background-color: #ffe4e9 !important;
+    border-left: none;
+    border-radius: 6px;
+    border: 1px solid #f89eaf !important;
+    color: #333333 !important;
+}
+
+.callout-faqs-warning .i-warning {
+    float: left;
+    height: 60px;
+    width: 60px;
+    padding: 5px 0
+}
+
+.callout-faqs {
+    width: 100%;
+    border-radius: 6px;
+    margin: 0 0 20px 0;
+    padding: 15px 30px 15px 15px;
+    margin-bottom: 30px !important;
+    background: #dedede12;
+    border-left: none !important;
+    border: 1px solid #eeeeee !important;
+}
+
+.callout-faqs .i-check {
+    float: left;
+    height: 60px;
+    width: 60px;
+    padding: 6px 0
+}
+
+/* ================================================
+[ logo區塊＋文字說明 ]*/
+
+.logo-wrap-image {
+    display: block;
+    width: 210px;
+    margin: auto;
+    height: 70px;
+}
+
+.logo-wrap-image img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.faqs-title {
+    font-size: 1.8rem;
+    line-height: 3.5;
+    color: #999999;
+}
+
+.sub-txt {
+    font-size: 1.6rem;
+
+}
+
+.faqs-intro p {
+    min-height: 225px;
+    color: #666666
+}
+
+.radio-row {
+    display: inline-flex;
+    padding-left: 10px;
+}
+
+.box-body h5 {
+    position: relative
+}
+
+.box-body h5 span {
+    position: absolute;
+    width: 85%;
+    right: 0;
+    top: 0;
+    margin: 5px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+/* ================================================
+[ faqs-intro ]*/
+
+.faqs-intro {
+    width: 50%;
+    padding-right: 90px;
+    border-right: 3px double #fafafa;
+}
+
+.faqs-intro img {
+    max-width: 100%;
+}
+
+
+/* ================================================
+[ faqs-qrcode ]*/
+
+ul.qrcode {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+ul.qrcode li { 
+    padding-right: 40px;
+    list-style: none;
+ }
+.qrimg {
+    width: 120px;
+    height: 120px;
+    display: block;
+    text-align: center
+}
+.qr-txt{
+    font-size: 1em;
+    font-weight: 500
+}
+
+
+
+/* 手機版直式 */
+
+@media screen and (max-device-width: 480px) {
+.faqs-container {
+    padding: 10px;
+}
+.faqs-container .logo-wrap {
+    margin-bottom: 0;
+}
+.faqs-wrap {
+    padding: 15px;
+}
+}

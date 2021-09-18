@@ -1,0 +1,153 @@
+[2021-09-01 10:02:52] production.INFO: function checkScheduleId| MiddlewareServices | error code :  | error messeger : GLID not equal  
+[2021-09-01 10:04:58] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8947 HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  vi-VN,vi;q=0.9,en;q=0.8,fr-FR;q=0.7,fr;q=0.6,en-US;q=0.5
+Cache-Control:    max-age=0
+Connection:       keep-alive
+Content-Length:   14
+Content-Type:     application/json
+Cookie:           _ga=GA1.1.1621501956.1629188785; _ga_20XHNEV65G=GS1.1.1630404381.9.1.1630406405.55; XSRF-TOKEN=eyJpdiI6InNTVW1vS2VubXdvdjNLeVd6Y0owb0E9PSIsInZhbHVlIjoiNnR1TXJyRGJpbnpjd2NyamxJU0pYUXlOWVdWYkp0Wkh3N2tZZ0dKUjEzcHRWQkppeVZqYzNIck8yRFJNR01VeCIsIm1hYyI6IjA0YmMxODhmYTI4MGZhN2JjMjQzYTdhMjU1MjM4OTczM2IxNzk4ZTE3YjIyNTRlY2QyYzYxZDI3ZDBkN2IzYmIifQ%3D%3D; gettiilite_session=eyJpdiI6IlRjamFBTEt0VjByXC9LKzl4NHNqVGZRPT0iLCJ2YWx1ZSI6InliNlwvcmFlWFVUcUM5UlV1MjRaanFZendIYnNsaFVyQW1zeE85WERTXC9NVEtEd3hIekRBZ2lZTDRMbW4waE1xWVNZWnM2K1Z2N3VnUEl3RHk4Y2EyajB1ZFc1TkRxWTlESnVWMWVuaXBjWXZyQ2k3dm1kZWlHMDRGemlkSGVqQUUiLCJtYWMiOiI3YzI3NTYxNzM0ZDUyODBkZmJhMTBlZjQxNmJiNGQ5YzM3NzkxZTM4Mzk5NjE0ZWUwOTRmN2Q3NTYzZjUyZDIwIn0%3D
+Host:             www.gettiilite.test
+Origin:           https://www.gettiilite.test
+Referer:          https://www.gettiilite.test/sell/detail/15140
+Sec-Ch-Ua:        \"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Fetch-Dest:   empty
+Sec-Fetch-Mode:   cors
+Sec-Fetch-Site:   same-origin
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+Cookie: _ga=GA1.1.1621501956.1629188785; _ga_20XHNEV65G=GS1.1.1630404381.9.1.1630406405.55; XSRF-TOKEN=eyJpdiI6InNTVW1vS2VubXdvdjNLeVd6Y0owb0E9PSIsInZhbHVlIjoiNnR1TXJyRGJpbnpjd2NyamxJU0pYUXlOWVdWYkp0Wkh3N2tZZ0dKUjEzcHRWQkppeVZqYzNIck8yRFJNR01VeCIsIm1hYyI6IjA0YmMxODhmYTI4MGZhN2JjMjQzYTdhMjU1MjM4OTczM2IxNzk4ZTE3YjIyNTRlY2QyYzYxZDI3ZDBkN2IzYmIifQ==; gettiilite_session=eyJpdiI6IlRjamFBTEt0VjByXC9LKzl4NHNqVGZRPT0iLCJ2YWx1ZSI6InliNlwvcmFlWFVUcUM5UlV1MjRaanFZendIYnNsaFVyQW1zeE85WERTXC9NVEtEd3hIekRBZ2lZTDRMbW4waE1xWVNZWnM2K1Z2N3VnUEl3RHk4Y2EyajB1ZFc1TkRxWTlESnVWMWVuaXBjWXZyQ2k3dm1kZWlHMDRGemlkSGVqQUUiLCJtYWMiOiI3YzI3NTYxNzM0ZDUyODBkZmJhMTBlZjQxNmJiNGQ5YzM3NzkxZTM4Mzk5NjE0ZWUwOTRmN2Q3NTYzZjUyZDIwIn0=
+
+{\"visit_flg\":})"} 
+[2021-09-01 10:04:58] production.ERROR: function services updateVisitStatus :Undefined index: visit_flg  
+[2021-09-01 10:04:58] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => false,
+    'message' => '入場状態を変更に失敗しました。',
+    'data' => '',
+  ),
+)  
+[2021-09-01 10:08:17] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8947 HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  vi-VN,vi;q=0.9,en;q=0.8,fr-FR;q=0.7,fr;q=0.6,en-US;q=0.5
+Cache-Control:    max-age=0
+Connection:       keep-alive
+Content-Length:   14
+Content-Type:     application/json
+Cookie:           _ga=GA1.1.1621501956.1629188785; _ga_20XHNEV65G=GS1.1.1630404381.9.1.1630406405.55; XSRF-TOKEN=eyJpdiI6ImlEMmQ3NnFVcXQ1dzR1MHcyWW9oNXc9PSIsInZhbHVlIjoiK2FlbkVrM3ppNGZubWlXeGtabjdKVmJoZjBOZ0VIa2dzNGVnaUkwbFRhWW5PV3VSSDJ1aTJSaTJybUZvMGx0NSIsIm1hYyI6ImE0NTFkYTM3OTlmZTc1N2RhODBhYTJmNzE5MTA4OWYxYmRkMmY4MWIyMmMwNTYxMzg5MTIwMmZhZTUyMjY4MGMifQ%3D%3D; gettiilite_session=eyJpdiI6IllaUXBmU3YyTWtkMzQzaklSR29cL3pBPT0iLCJ2YWx1ZSI6IjVXYkF2bXhQUjRNM25yMFVIWDdTMlZmVVJrQTg0OUZpWlVXU1c4dXZMcWNhNk50SFVKWnl4Zk5hY0RDaHZIc3RMMUpkb2dsNXczS0pvd1VjOUpGSTJMcGhvYkVId0NDNVduUFRJQ1hJYjJydlNyQllqRERuY1N4cmYrdjY5dmNtIiwibWFjIjoiNTBjNjU2YTdhNDI2OWE5NWQ2ZWJiMzJiYmJkYWE3NzQ5NmE3ZjY1YjkzN2NlNGU1YzYzZjM0MzRlOTgxNzNkMSJ9
+Host:             www.gettiilite.test
+Origin:           https://www.gettiilite.test
+Referer:          https://www.gettiilite.test/sell/detail/15140
+Sec-Ch-Ua:        \"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Fetch-Dest:   empty
+Sec-Fetch-Mode:   cors
+Sec-Fetch-Site:   same-origin
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+Cookie: _ga=GA1.1.1621501956.1629188785; _ga_20XHNEV65G=GS1.1.1630404381.9.1.1630406405.55; XSRF-TOKEN=eyJpdiI6ImlEMmQ3NnFVcXQ1dzR1MHcyWW9oNXc9PSIsInZhbHVlIjoiK2FlbkVrM3ppNGZubWlXeGtabjdKVmJoZjBOZ0VIa2dzNGVnaUkwbFRhWW5PV3VSSDJ1aTJSaTJybUZvMGx0NSIsIm1hYyI6ImE0NTFkYTM3OTlmZTc1N2RhODBhYTJmNzE5MTA4OWYxYmRkMmY4MWIyMmMwNTYxMzg5MTIwMmZhZTUyMjY4MGMifQ==; gettiilite_session=eyJpdiI6IllaUXBmU3YyTWtkMzQzaklSR29cL3pBPT0iLCJ2YWx1ZSI6IjVXYkF2bXhQUjRNM25yMFVIWDdTMlZmVVJrQTg0OUZpWlVXU1c4dXZMcWNhNk50SFVKWnl4Zk5hY0RDaHZIc3RMMUpkb2dsNXczS0pvd1VjOUpGSTJMcGhvYkVId0NDNVduUFRJQ1hJYjJydlNyQllqRERuY1N4cmYrdjY5dmNtIiwibWFjIjoiNTBjNjU2YTdhNDI2OWE5NWQ2ZWJiMzJiYmJkYWE3NzQ5NmE3ZjY1YjkzN2NlNGU1YzYzZjM0MzRlOTgxNzNkMSJ9
+
+{\"visit_flg\":})"} 
+[2021-09-01 10:08:17] production.ERROR: function services updateVisitStatus :Undefined index: visit_flg  
+[2021-09-01 10:08:17] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => false,
+    'message' => '入場状態を変更に失敗しました。',
+    'data' => '',
+  ),
+)  
+[2021-09-01 10:11:05] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8947 HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  vi-VN,vi;q=0.9,en;q=0.8,fr-FR;q=0.7,fr;q=0.6,en-US;q=0.5
+Cache-Control:    max-age=0
+Connection:       keep-alive
+Content-Length:   14
+Content-Type:     application/json
+Cookie:           _ga=GA1.1.1621501956.1629188785; _ga_20XHNEV65G=GS1.1.1630404381.9.1.1630406405.55; XSRF-TOKEN=eyJpdiI6IlJxaGdCQkIweDB5UU9ndkdmK1MrQWc9PSIsInZhbHVlIjoiUHA0YXNnMmQyMHZRcjdEeE9SajZDb1ZSbFJrc0FMb1g3Y3dVS1FQSFpDQU1cL1lBQXNSb2l2YTZPUjZXSjNERVIiLCJtYWMiOiI5MWEyMWYyYjE4ZDZjYmEyNTcwNjEyYjIyYzJkZWRjODk2ZTc2M2VkMDhiMmVlNWViODRiODdkOWY5NDY1YzU2In0%3D; gettiilite_session=eyJpdiI6ImVJOGZBdGw4Y3NiSGZ4cFd1WEhYUmc9PSIsInZhbHVlIjoib0d5Zm05dmpNUGY3QmpCRWpaTCsrNEwxcXNDbVd0eWJjRVM5dmM3VndjYVV4azB1cStCOTd5S1wvQyswUUgxN2Y4YVZ4YTdiSm5oaURrXC8xdXgrcWVaOW1mbTZKNG1DdnRBdkhpOWgydjRsblJTMUJXNzhqZHZDaDZDd1ZNZncrTiIsIm1hYyI6IjdlZDBiNTUwNTJhZGVmNDhlMWVhYWEyZTYwZmUxOWFhMmZjZTk2ZWI5ZjBhYzdiMDk4ZDEzODJmMjViZTdiZDcifQ%3D%3D
+Host:             www.gettiilite.test
+Origin:           https://www.gettiilite.test
+Referer:          https://www.gettiilite.test/sell/detail/15140
+Sec-Ch-Ua:        \"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Fetch-Dest:   empty
+Sec-Fetch-Mode:   cors
+Sec-Fetch-Site:   same-origin
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+Cookie: _ga=GA1.1.1621501956.1629188785; _ga_20XHNEV65G=GS1.1.1630404381.9.1.1630406405.55; XSRF-TOKEN=eyJpdiI6IlJxaGdCQkIweDB5UU9ndkdmK1MrQWc9PSIsInZhbHVlIjoiUHA0YXNnMmQyMHZRcjdEeE9SajZDb1ZSbFJrc0FMb1g3Y3dVS1FQSFpDQU1cL1lBQXNSb2l2YTZPUjZXSjNERVIiLCJtYWMiOiI5MWEyMWYyYjE4ZDZjYmEyNTcwNjEyYjIyYzJkZWRjODk2ZTc2M2VkMDhiMmVlNWViODRiODdkOWY5NDY1YzU2In0=; gettiilite_session=eyJpdiI6ImVJOGZBdGw4Y3NiSGZ4cFd1WEhYUmc9PSIsInZhbHVlIjoib0d5Zm05dmpNUGY3QmpCRWpaTCsrNEwxcXNDbVd0eWJjRVM5dmM3VndjYVV4azB1cStCOTd5S1wvQyswUUgxN2Y4YVZ4YTdiSm5oaURrXC8xdXgrcWVaOW1mbTZKNG1DdnRBdkhpOWgydjRsblJTMUJXNzhqZHZDaDZDd1ZNZncrTiIsIm1hYyI6IjdlZDBiNTUwNTJhZGVmNDhlMWVhYWEyZTYwZmUxOWFhMmZjZTk2ZWI5ZjBhYzdiMDk4ZDEzODJmMjViZTdiZDcifQ==
+
+{\"visit_flg\":})"} 
+[2021-09-01 10:11:05] production.ERROR: function services updateVisitStatus :Undefined index: visit_flg  
+[2021-09-01 10:11:05] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => false,
+    'message' => '入場状態を変更に失敗しました。',
+    'data' => '',
+  ),
+)  
+[2021-09-01 10:18:15] production.INFO: get performance list  
+[2021-09-01 10:18:21] production.INFO: get performance list  
+[2021-09-01 10:18:21] production.INFO: oders search  
+[2021-09-01 10:18:30] production.INFO: get performance list  
+[2021-09-01 10:18:30] production.INFO: oders search  
+[2021-09-01 10:20:33] production.INFO: get performance list  
+[2021-09-01 10:20:36] production.INFO: get performance list  
+[2021-09-01 10:20:36] production.INFO: oders search  
+[2021-09-01 10:21:57] production.INFO: get performance list  
+[2021-09-01 10:22:00] production.INFO: get performance list  
+[2021-09-01 10:22:00] production.INFO: oders search  
+[2021-09-01 10:22:10] production.INFO: get performance list  
+[2021-09-01 10:22:10] production.INFO: oders search  
+[2021-09-01 10:22:15] production.INFO: get performance list  
+[2021-09-01 10:22:15] production.INFO: oders search  
+[2021-09-01 10:22:23] production.INFO: get performance list  
+[2021-09-01 10:22:23] production.INFO: oders search  
+[2021-09-01 10:22:53] production.INFO: get performance list  
+[2021-09-01 10:22:53] production.INFO: oders search  
+[2021-09-01 10:23:18] production.INFO: get performance list  
+[2021-09-01 10:23:18] production.INFO: oders search  
+[2021-09-01 10:23:49] production.INFO: get performance list  
+[2021-09-01 10:24:02] production.INFO: get performance list  
+[2021-09-01 10:24:02] production.INFO: oders search  
+[2021-09-01 10:26:43] production.INFO: get performance list  
+[2021-09-01 10:26:43] production.INFO: oders search  
+[2021-09-01 10:47:06] production.INFO: get performance list  
+[2021-09-01 10:47:09] production.INFO: get performance list  
+[2021-09-01 10:47:09] production.INFO: oders search  
+[2021-09-01 10:47:55] production.INFO: get performance list  
+[2021-09-01 10:47:57] production.INFO: get performance list  
+[2021-09-01 10:47:57] production.INFO: oders search  
+[2021-09-01 12:01:40] production.ERROR: Class event_info_authority_no_access does not exist {"exception":"[object] (ReflectionException(code: -1): Class event_info_authority_no_access does not exist at /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php:752)
+[stacktrace]
+#0 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('event_info_auth...')
+#1 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\\Container\\Container->build('event_info_auth...')
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\\Container\\Container->resolve('event_info_auth...', Array)
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\\Container\\Container->make('event_info_auth...', Array)
+#4 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Application->make('event_info_auth...')
+#5 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\RedirectResponse))
+#6 /home/vagrant/code/gettiilite/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\RedirectResponse))
+#7 {main}
+"} 
+[2021-09-01 12:02:44] production.INFO: get scheduleId 15014 detail csv.  
+[2021-09-01 12:17:29] production.INFO: error code : 21   
+[2021-09-01 12:17:40] production.INFO: error code : 21   
+[2021-09-01 12:18:04] production.INFO: error code : 21   
+[2021-09-01 12:20:00] production.INFO: get scheduleId 15014 detail csv.  
+[2021-09-01 12:38:41] production.DEBUG: [edit]The data from DB  
+[2021-09-01 12:39:00] production.DEBUG: has  
+[2021-09-01 12:45:16] production.INFO: error code : 21   
+[2021-09-01 12:45:30] production.INFO: error code : 21   
+[2021-09-01 13:10:55] production.INFO: error code : 21   
+[2021-09-01 13:11:59] production.INFO: get performance list  
+[2021-09-01 13:12:11] production.INFO: get performance list  
+[2021-09-01 13:12:11] production.INFO: oders search  
+[2021-09-01 15:41:58] production.INFO: error code : 21   
+[2021-09-01 15:42:17] production.INFO: error code : 21   
+[2021-09-01 16:55:20] production.INFO: error code : 21   

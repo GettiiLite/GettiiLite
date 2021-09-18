@@ -1,0 +1,999 @@
+[2021-09-07 10:28:05] production.INFO: error code : 21   
+[2021-09-07 10:33:39] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8971 HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: vi,en-US;q=0.9,en;q=0.8,ko;q=0.7,zh-CN;q=0.6,zh;q=0.5
+Cache-Control:   max-age=0
+Connection:      keep-alive
+Content-Length:  19
+Content-Type:    application/json
+Cookie:          XSRF-TOKEN=eyJpdiI6IjVUV1FYaWlVdVhUYVJ4R3hxaHd4dXc9PSIsInZhbHVlIjoialUyRmgrNURBZnhHVU5jZlhNMVhoNnl6emFJdVdcL2JaZ201bEVtXC9OVkIxMWIrUjViWWtlZk5XMWlFN3AraVlVIiwibWFjIjoiOTZlNzViMjliOGVmYTg0MGZkOTc1NTE5MTY2MmQ1ZjA1NGE2OGRiZGMzYWNlMDM5ZGYyNDFiYjZhYmI0NjY0MiJ9; gettiilite_session=eyJpdiI6InFcLzVXYmhIbW5TTm9abVRWRGpPQjJ3PT0iLCJ2YWx1ZSI6IndvZHpxRnNXTXRqQWFoclFZQnY2ZWxPRm1aSHlPdVFkdXBOK01WQW42XC94YWhEb05YbFZoUWZnOHhGUnVFSmkwTjJ3VkxnTnI1cCtsdG9qTTduXC9GYm9zK2lOQTVXMmpIUW51d0FKR3Jyd0g0dXlXMUJQcXZnTkxwdFR6VU5LRjUiLCJtYWMiOiJlOTgwOTBkMzljMDNmMzZiNzc1YTZlNGMzMjUxNGNjMjc3MWQzOThlZjVjYWMzMDQ3ZjViODNkZTQ3Zjg4OGE0In0%3D
+Host:            192.168.1.3:8002
+Origin:          http://192.168.1.3:8002
+Referer:         http://192.168.1.3:8002/sell/detail/15179
+User-Agent:      Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Cookie: XSRF-TOKEN=eyJpdiI6IjVUV1FYaWlVdVhUYVJ4R3hxaHd4dXc9PSIsInZhbHVlIjoialUyRmgrNURBZnhHVU5jZlhNMVhoNnl6emFJdVdcL2JaZ201bEVtXC9OVkIxMWIrUjViWWtlZk5XMWlFN3AraVlVIiwibWFjIjoiOTZlNzViMjliOGVmYTg0MGZkOTc1NTE5MTY2MmQ1ZjA1NGE2OGRiZGMzYWNlMDM5ZGYyNDFiYjZhYmI0NjY0MiJ9; gettiilite_session=eyJpdiI6InFcLzVXYmhIbW5TTm9abVRWRGpPQjJ3PT0iLCJ2YWx1ZSI6IndvZHpxRnNXTXRqQWFoclFZQnY2ZWxPRm1aSHlPdVFkdXBOK01WQW42XC94YWhEb05YbFZoUWZnOHhGUnVFSmkwTjJ3VkxnTnI1cCtsdG9qTTduXC9GYm9zK2lOQTVXMmpIUW51d0FKR3Jyd0g0dXlXMUJQcXZnTkxwdFR6VU5LRjUiLCJtYWMiOiJlOTgwOTBkMzljMDNmMzZiNzc1YTZlNGMzMjUxNGNjMjc3MWQzOThlZjVjYWMzMDQ3ZjViODNkZTQ3Zjg4OGE0In0=
+
+{\"visit_flg\":false})"} 
+[2021-09-07 10:33:40] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => true,
+    'message' => '入場状態を変更しました。',
+    'data' => 
+    array (
+      'seat_sale_id' => 8971,
+      'alloc_seat_id' => NULL,
+      'schedule_id' => 15179,
+      'sale_type' => 0,
+      'seat_class_id' => 2463,
+      'reserve_code' => NULL,
+      'ticket_class_id' => 4637,
+      'order_id' => 3866,
+      'reserve_seq' => 1,
+      'seat_seq' => 3,
+      'seat_class_name' => 'yuu',
+      'seat_class_name_short' => NULL,
+      'ticket_class_name' => 'yuu',
+      'ticket_class_name_short' => NULL,
+      'temp_reserve_sn' => '2108-100373-6',
+      'temp_reserve_date' => '2021-08-31 16:21:03',
+      'temp_receive_account_cd' => 1,
+      'seat_status' => 3,
+      'member_kbn' => 0,
+      'member_id' => 'gettiis$yuuki001',
+      'sale_price' => '1000.00',
+      'issue_flg' => 0,
+      'issue_date' => NULL,
+      'issue_account_cd' => NULL,
+      'payment_flg' => 1,
+      'payment_date' => '2021-08-31 00:00:00',
+      'payment_account_cd' => 1,
+      'ticket_barcode_no' => NULL,
+      'pattern_code' => 1,
+      'visit_flg' => 0,
+      'visit_gate' => NULL,
+      'visit_date' => '2021-08-31 19:02:39',
+      'reserve_period_code' => 1,
+      'commission_sv' => '0.00',
+      'commission_payment' => '0.00',
+      'commission_ticket' => '0.00',
+      'commission_delivery' => '0.00',
+      'commission_sub' => '0.00',
+      'commission_uc' => '0.00',
+      'update_account_cd' => 1,
+      'created_at' => '2021-08-31 16:21:03',
+      'updated_at' => '2021-09-07 10:33:40',
+      'SID' => 1,
+      'delToken' => '0',
+    ),
+  ),
+)  
+[2021-09-07 10:34:38] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8971 HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: vi,en-US;q=0.9,en;q=0.8,ko;q=0.7,zh-CN;q=0.6,zh;q=0.5
+Cache-Control:   max-age=0
+Connection:      keep-alive
+Content-Length:  18
+Content-Type:    application/json
+Cookie:          XSRF-TOKEN=eyJpdiI6IlVqU0ZhWjRGdlI3Q01XOXlBVk5pTmc9PSIsInZhbHVlIjoieHI0bndlMkdwYkpsZ2pUS1wvdDFLOUFzVjBXc21RXC8xc0dZRUVmXC9mSStnN1JpZkhVME5FMUF2WVhGRThTQVpEMiIsIm1hYyI6IjUyMTMwMTQwYTgwNTdlYjBkODYzMjNhMDA4ZDM3MzZkMGExNzU3Mjg4NzZjODQ2MmYxOGYzN2JmOWNmYWFjYjkifQ%3D%3D; gettiilite_session=eyJpdiI6IjVWZ3gxaThHNVBTdkpINWE5b1VtWGc9PSIsInZhbHVlIjoiRmRRbHhMWFhVQVZNdnpGNDlaR2dHUTlHREdoRjhWSUoxUUFjZVBES0NRRlVHRWVMOVlPV2pFUmpSNjU1YkJQVWVINUI4dERBREkxUEZNeDRPUUthNmwzTlwvemIyYTVueUthZUhVbFhDaVwvVEVQRlZUWG43U1FcL0ZwdGtjSnZ0eHkiLCJtYWMiOiI4YzE2YTVjZGQ1NTRmMjg5MDgxOGViNWU1OGYyOGM2NWQxNDkwZjk5MWE4YTYyNTMyZTViMzljODZjZmZiODY1In0%3D
+Host:            192.168.1.3:8002
+Origin:          http://192.168.1.3:8002
+Referer:         http://192.168.1.3:8002/sell/detail/15179
+User-Agent:      Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Cookie: XSRF-TOKEN=eyJpdiI6IlVqU0ZhWjRGdlI3Q01XOXlBVk5pTmc9PSIsInZhbHVlIjoieHI0bndlMkdwYkpsZ2pUS1wvdDFLOUFzVjBXc21RXC8xc0dZRUVmXC9mSStnN1JpZkhVME5FMUF2WVhGRThTQVpEMiIsIm1hYyI6IjUyMTMwMTQwYTgwNTdlYjBkODYzMjNhMDA4ZDM3MzZkMGExNzU3Mjg4NzZjODQ2MmYxOGYzN2JmOWNmYWFjYjkifQ==; gettiilite_session=eyJpdiI6IjVWZ3gxaThHNVBTdkpINWE5b1VtWGc9PSIsInZhbHVlIjoiRmRRbHhMWFhVQVZNdnpGNDlaR2dHUTlHREdoRjhWSUoxUUFjZVBES0NRRlVHRWVMOVlPV2pFUmpSNjU1YkJQVWVINUI4dERBREkxUEZNeDRPUUthNmwzTlwvemIyYTVueUthZUhVbFhDaVwvVEVQRlZUWG43U1FcL0ZwdGtjSnZ0eHkiLCJtYWMiOiI4YzE2YTVjZGQ1NTRmMjg5MDgxOGViNWU1OGYyOGM2NWQxNDkwZjk5MWE4YTYyNTMyZTViMzljODZjZmZiODY1In0=
+
+{\"visit_flg\":true})"} 
+[2021-09-07 10:34:38] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => true,
+    'message' => '入場状態を変更しました。',
+    'data' => 
+    array (
+      'seat_sale_id' => 8971,
+      'alloc_seat_id' => NULL,
+      'schedule_id' => 15179,
+      'sale_type' => 0,
+      'seat_class_id' => 2463,
+      'reserve_code' => NULL,
+      'ticket_class_id' => 4637,
+      'order_id' => 3866,
+      'reserve_seq' => 1,
+      'seat_seq' => 3,
+      'seat_class_name' => 'yuu',
+      'seat_class_name_short' => NULL,
+      'ticket_class_name' => 'yuu',
+      'ticket_class_name_short' => NULL,
+      'temp_reserve_sn' => '2108-100373-6',
+      'temp_reserve_date' => '2021-08-31 16:21:03',
+      'temp_receive_account_cd' => 1,
+      'seat_status' => 3,
+      'member_kbn' => 0,
+      'member_id' => 'gettiis$yuuki001',
+      'sale_price' => '1000.00',
+      'issue_flg' => 0,
+      'issue_date' => NULL,
+      'issue_account_cd' => NULL,
+      'payment_flg' => 1,
+      'payment_date' => '2021-08-31 00:00:00',
+      'payment_account_cd' => 1,
+      'ticket_barcode_no' => NULL,
+      'pattern_code' => 1,
+      'visit_flg' => 1,
+      'visit_gate' => NULL,
+      'visit_date' => '2021-09-07 10:34:38',
+      'reserve_period_code' => 1,
+      'commission_sv' => '0.00',
+      'commission_payment' => '0.00',
+      'commission_ticket' => '0.00',
+      'commission_delivery' => '0.00',
+      'commission_sub' => '0.00',
+      'commission_uc' => '0.00',
+      'update_account_cd' => 1,
+      'created_at' => '2021-08-31 16:21:03',
+      'updated_at' => '2021-09-07 10:34:38',
+      'SID' => 1,
+      'delToken' => '0',
+    ),
+  ),
+)  
+[2021-09-07 10:35:28] production.INFO: function checkScheduleId| MiddlewareServices | error code :  | error messeger : GLID not equal  
+[2021-09-07 10:37:27] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8947 HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: vi
+Cache-Control:   max-age=0
+Connection:      keep-alive
+Content-Length:  18
+Content-Type:    application/json
+Cookie:          XSRF-TOKEN=eyJpdiI6Ikt5NkxpcnU3dDV5T25qZ1p5TldoSFE9PSIsInZhbHVlIjoiZGdyRmFrQmFGUVpRblwvWUh3UWZiNFVGY3pwbmhXSHZ4aVF6ODF2dzJjSW9sTm5MRnMrRkRTbmZjdGVjU0tDQjciLCJtYWMiOiI1YjUxYjBhOTgxNmNhNDMyMTMyYWIzZWU1YTQyMzM5ZWQ4MTYwOWMyZGYyMThiYTQwOTkxNThhNGQ2YzlkYjdiIn0%3D; gettiilite_session=eyJpdiI6IkVRK3pWY3p5UjhBdUoyNW5XdTNtUXc9PSIsInZhbHVlIjoiSXUzNkc1UHpMRHJIa250ckhMYUNcL1JBUlBIbDNEc213U0xhVDloSnczRDRyUEE4UExSRThSODZMNHQwMmdiUEtcL3FoUE5qSlAzRDB5bHQ3Wlk0dTNpS0hcL1dlVmdIdWxhTW5NclkwaFB6bmxGdjI1NUQ4NlZaR3NNSDg5ajlmZkQiLCJtYWMiOiJiN2UwZmZmY2IxZjUwNDg3ZGFlZmIzNTEwM2VmZGQ3MDdmMzUxOGE3Njc2YjBiZGRkMzIxNjg4ZDY5MDQyNzRmIn0%3D
+Host:            192.168.1.3:8002
+Origin:          http://192.168.1.3:8002
+Referer:         http://192.168.1.3:8002/sell/detail/15140
+User-Agent:      Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Cookie: XSRF-TOKEN=eyJpdiI6Ikt5NkxpcnU3dDV5T25qZ1p5TldoSFE9PSIsInZhbHVlIjoiZGdyRmFrQmFGUVpRblwvWUh3UWZiNFVGY3pwbmhXSHZ4aVF6ODF2dzJjSW9sTm5MRnMrRkRTbmZjdGVjU0tDQjciLCJtYWMiOiI1YjUxYjBhOTgxNmNhNDMyMTMyYWIzZWU1YTQyMzM5ZWQ4MTYwOWMyZGYyMThiYTQwOTkxNThhNGQ2YzlkYjdiIn0=; gettiilite_session=eyJpdiI6IkVRK3pWY3p5UjhBdUoyNW5XdTNtUXc9PSIsInZhbHVlIjoiSXUzNkc1UHpMRHJIa250ckhMYUNcL1JBUlBIbDNEc213U0xhVDloSnczRDRyUEE4UExSRThSODZMNHQwMmdiUEtcL3FoUE5qSlAzRDB5bHQ3Wlk0dTNpS0hcL1dlVmdIdWxhTW5NclkwaFB6bmxGdjI1NUQ4NlZaR3NNSDg5ajlmZkQiLCJtYWMiOiJiN2UwZmZmY2IxZjUwNDg3ZGFlZmIzNTEwM2VmZGQ3MDdmMzUxOGE3Njc2YjBiZGRkMzIxNjg4ZDY5MDQyNzRmIn0=
+
+{\"visit_flg\":true})"} 
+[2021-09-07 10:37:27] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => true,
+    'message' => '入場状態を変更しました。',
+    'data' => 
+    array (
+      'seat_sale_id' => 8947,
+      'alloc_seat_id' => NULL,
+      'schedule_id' => 15140,
+      'sale_type' => 0,
+      'seat_class_id' => 2455,
+      'reserve_code' => NULL,
+      'ticket_class_id' => 4618,
+      'order_id' => 3854,
+      'reserve_seq' => 1,
+      'seat_seq' => 2,
+      'seat_class_name' => 'seat',
+      'seat_class_name_short' => NULL,
+      'ticket_class_name' => 'ticket 1',
+      'ticket_class_name_short' => NULL,
+      'temp_reserve_sn' => '2108-100148-60',
+      'temp_reserve_date' => '2021-08-30 17:21:00',
+      'temp_receive_account_cd' => 1,
+      'seat_status' => 3,
+      'member_kbn' => 0,
+      'member_id' => 'gettiis$yuuki0098',
+      'sale_price' => '1000.00',
+      'issue_flg' => 0,
+      'issue_date' => NULL,
+      'issue_account_cd' => NULL,
+      'payment_flg' => 1,
+      'payment_date' => '2021-08-30 00:00:00',
+      'payment_account_cd' => 1,
+      'ticket_barcode_no' => NULL,
+      'pattern_code' => 1,
+      'visit_flg' => 1,
+      'visit_gate' => NULL,
+      'visit_date' => '2021-09-07 10:37:27',
+      'reserve_period_code' => 1,
+      'commission_sv' => '0.00',
+      'commission_payment' => '0.00',
+      'commission_ticket' => '0.00',
+      'commission_delivery' => '0.00',
+      'commission_sub' => '0.00',
+      'commission_uc' => '0.00',
+      'update_account_cd' => 1,
+      'created_at' => '2021-08-30 17:21:00',
+      'updated_at' => '2021-09-07 10:37:27',
+      'SID' => 1,
+      'delToken' => '0',
+    ),
+  ),
+)  
+[2021-09-07 10:37:40] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8947 HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: vi
+Cache-Control:   max-age=0
+Connection:      keep-alive
+Content-Length:  19
+Content-Type:    application/json
+Cookie:          XSRF-TOKEN=eyJpdiI6IkRPMHlPZHQ4Vk1LWm41UmVWYitcL0xnPT0iLCJ2YWx1ZSI6IkZRcW9SNWVJczNZRnREdkU0R1FabnBzQXRYalZjaU5ETWZwTDdjQXZ2c3NNS1o1SVJBMTd3MDVWa2lmZlM2bWgiLCJtYWMiOiI2M2E0YzZmZmE1MTFmNjI2YWFiNTZhN2M5Nzk1NGUyMDJjZWY1ZDdiYzJlMmEwYWQxMmFmMDk4MGI4ZjJhMmYyIn0%3D; gettiilite_session=eyJpdiI6IkVHWmNwczlGQ05YVFJhQVJQQjdmR2c9PSIsInZhbHVlIjoiY0p2bU9qbDR5OHR6eUx4dUdVb0t0V1k3WkF5RGF2Zk5nXC92N05Jd2NadFg5dW9QRHpFMW5lYjF4c0lIdkFaVHpDNERldlZvRUtVT2tOSVRRcFp5cm4xeG8rdjhYeVJBOENaQXgzNnNKYk5TTW1NSkVYU0oxaFQrTEU3XC9odUJVaSIsIm1hYyI6Ijc5YTg1Y2EzNWNhMjhkMTQ2MjRlYzEzNjA1ZjcxMTg5N2RiMTM0MDhhYzA3MTM3ZmQzNGNjM2M2NGUyYWUzZjIifQ%3D%3D
+Host:            192.168.1.3:8002
+Origin:          http://192.168.1.3:8002
+Referer:         http://192.168.1.3:8002/sell/detail/15140
+User-Agent:      Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Cookie: XSRF-TOKEN=eyJpdiI6IkRPMHlPZHQ4Vk1LWm41UmVWYitcL0xnPT0iLCJ2YWx1ZSI6IkZRcW9SNWVJczNZRnREdkU0R1FabnBzQXRYalZjaU5ETWZwTDdjQXZ2c3NNS1o1SVJBMTd3MDVWa2lmZlM2bWgiLCJtYWMiOiI2M2E0YzZmZmE1MTFmNjI2YWFiNTZhN2M5Nzk1NGUyMDJjZWY1ZDdiYzJlMmEwYWQxMmFmMDk4MGI4ZjJhMmYyIn0=; gettiilite_session=eyJpdiI6IkVHWmNwczlGQ05YVFJhQVJQQjdmR2c9PSIsInZhbHVlIjoiY0p2bU9qbDR5OHR6eUx4dUdVb0t0V1k3WkF5RGF2Zk5nXC92N05Jd2NadFg5dW9QRHpFMW5lYjF4c0lIdkFaVHpDNERldlZvRUtVT2tOSVRRcFp5cm4xeG8rdjhYeVJBOENaQXgzNnNKYk5TTW1NSkVYU0oxaFQrTEU3XC9odUJVaSIsIm1hYyI6Ijc5YTg1Y2EzNWNhMjhkMTQ2MjRlYzEzNjA1ZjcxMTg5N2RiMTM0MDhhYzA3MTM3ZmQzNGNjM2M2NGUyYWUzZjIifQ==
+
+{\"visit_flg\":false})"} 
+[2021-09-07 10:37:40] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => true,
+    'message' => '入場状態を変更しました。',
+    'data' => 
+    array (
+      'seat_sale_id' => 8947,
+      'alloc_seat_id' => NULL,
+      'schedule_id' => 15140,
+      'sale_type' => 0,
+      'seat_class_id' => 2455,
+      'reserve_code' => NULL,
+      'ticket_class_id' => 4618,
+      'order_id' => 3854,
+      'reserve_seq' => 1,
+      'seat_seq' => 2,
+      'seat_class_name' => 'seat',
+      'seat_class_name_short' => NULL,
+      'ticket_class_name' => 'ticket 1',
+      'ticket_class_name_short' => NULL,
+      'temp_reserve_sn' => '2108-100148-60',
+      'temp_reserve_date' => '2021-08-30 17:21:00',
+      'temp_receive_account_cd' => 1,
+      'seat_status' => 3,
+      'member_kbn' => 0,
+      'member_id' => 'gettiis$yuuki0098',
+      'sale_price' => '1000.00',
+      'issue_flg' => 0,
+      'issue_date' => NULL,
+      'issue_account_cd' => NULL,
+      'payment_flg' => 1,
+      'payment_date' => '2021-08-30 00:00:00',
+      'payment_account_cd' => 1,
+      'ticket_barcode_no' => NULL,
+      'pattern_code' => 1,
+      'visit_flg' => 0,
+      'visit_gate' => NULL,
+      'visit_date' => '2021-09-07 10:37:27',
+      'reserve_period_code' => 1,
+      'commission_sv' => '0.00',
+      'commission_payment' => '0.00',
+      'commission_ticket' => '0.00',
+      'commission_delivery' => '0.00',
+      'commission_sub' => '0.00',
+      'commission_uc' => '0.00',
+      'update_account_cd' => 1,
+      'created_at' => '2021-08-30 17:21:00',
+      'updated_at' => '2021-09-07 10:37:40',
+      'SID' => 1,
+      'delToken' => '0',
+    ),
+  ),
+)  
+[2021-09-07 10:39:41] production.INFO: function checkPerformanceId| MiddlewareServices | error code :  | error messeger : GLID is null  
+[2021-09-07 10:40:17] production.INFO: function checkPerformanceId| MiddlewareServices | error code :  | error messeger : GLID is null  
+[2021-09-07 10:43:04] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8947 HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: vi
+Cache-Control:   max-age=0
+Connection:      keep-alive
+Content-Length:  18
+Content-Type:    application/json
+Cookie:          XSRF-TOKEN=eyJpdiI6IjFwVlgwamNzUmNCOTVGNkgzWURCMlE9PSIsInZhbHVlIjoiRlwvd3lGRmo3UUJSaHFKSSszZllRbHh4dVFmZzg5MGhcL2YxaXIrejZGR2EwOTBwRVdkY0JYRmVrMXNnVTFNNGFjIiwibWFjIjoiYmU4M2JlNmEzMjg4M2E5YjU1ZTAyZjRjMTNhZjkwM2Q4ODEwZmViNmNhMDg2YzMyM2NhNDkyODdhYzE4ZWU2NyJ9; gettiilite_session=eyJpdiI6Ijh2allubEJ3dW15SkhzUHJra2dmZVE9PSIsInZhbHVlIjoia1ZNZkVHYkszc2RjekE4TmhwSVwvelhNYXNYOEZUVU9aXC9rOHRNXC9XWFE5SFcwWHVqNTEwMTh1dXRMeUJTNkVmYU1XODU4dGN3VU1cL0RoZ01lREhwZzVxU0pXREdyNGl2d0dBTDV5cVhFbDRiSWVGdG4yN2sycGpQRmJjU21MNzJxIiwibWFjIjoiMDcwMDA4YWE4NjQ1M2ZhMjJiZDdhMmYzY2M3NzY4Y2E4MDIxZjRjMGEzYTIwZGNmMWE4NTE0NzZkZmE2MWFlNiJ9
+Host:            192.168.1.3:8002
+Origin:          http://192.168.1.3:8002
+Referer:         http://192.168.1.3:8002/sell/detail/15140
+User-Agent:      Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Cookie: XSRF-TOKEN=eyJpdiI6IjFwVlgwamNzUmNCOTVGNkgzWURCMlE9PSIsInZhbHVlIjoiRlwvd3lGRmo3UUJSaHFKSSszZllRbHh4dVFmZzg5MGhcL2YxaXIrejZGR2EwOTBwRVdkY0JYRmVrMXNnVTFNNGFjIiwibWFjIjoiYmU4M2JlNmEzMjg4M2E5YjU1ZTAyZjRjMTNhZjkwM2Q4ODEwZmViNmNhMDg2YzMyM2NhNDkyODdhYzE4ZWU2NyJ9; gettiilite_session=eyJpdiI6Ijh2allubEJ3dW15SkhzUHJra2dmZVE9PSIsInZhbHVlIjoia1ZNZkVHYkszc2RjekE4TmhwSVwvelhNYXNYOEZUVU9aXC9rOHRNXC9XWFE5SFcwWHVqNTEwMTh1dXRMeUJTNkVmYU1XODU4dGN3VU1cL0RoZ01lREhwZzVxU0pXREdyNGl2d0dBTDV5cVhFbDRiSWVGdG4yN2sycGpQRmJjU21MNzJxIiwibWFjIjoiMDcwMDA4YWE4NjQ1M2ZhMjJiZDdhMmYzY2M3NzY4Y2E4MDIxZjRjMGEzYTIwZGNmMWE4NTE0NzZkZmE2MWFlNiJ9
+
+{\"visit_flg\":true})"} 
+[2021-09-07 10:43:04] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => true,
+    'message' => '入場状態を変更しました。',
+    'data' => 
+    array (
+      'seat_sale_id' => 8947,
+      'alloc_seat_id' => NULL,
+      'schedule_id' => 15140,
+      'sale_type' => 0,
+      'seat_class_id' => 2455,
+      'reserve_code' => NULL,
+      'ticket_class_id' => 4618,
+      'order_id' => 3854,
+      'reserve_seq' => 1,
+      'seat_seq' => 2,
+      'seat_class_name' => 'seat',
+      'seat_class_name_short' => NULL,
+      'ticket_class_name' => 'ticket 1',
+      'ticket_class_name_short' => NULL,
+      'temp_reserve_sn' => '2108-100148-60',
+      'temp_reserve_date' => '2021-08-30 17:21:00',
+      'temp_receive_account_cd' => 1,
+      'seat_status' => 3,
+      'member_kbn' => 0,
+      'member_id' => 'gettiis$yuuki0098',
+      'sale_price' => '1000.00',
+      'issue_flg' => 0,
+      'issue_date' => NULL,
+      'issue_account_cd' => NULL,
+      'payment_flg' => 1,
+      'payment_date' => '2021-08-30 00:00:00',
+      'payment_account_cd' => 1,
+      'ticket_barcode_no' => NULL,
+      'pattern_code' => 1,
+      'visit_flg' => 1,
+      'visit_gate' => NULL,
+      'visit_date' => '2021-09-07 10:43:04',
+      'reserve_period_code' => 1,
+      'commission_sv' => '0.00',
+      'commission_payment' => '0.00',
+      'commission_ticket' => '0.00',
+      'commission_delivery' => '0.00',
+      'commission_sub' => '0.00',
+      'commission_uc' => '0.00',
+      'update_account_cd' => 1,
+      'created_at' => '2021-08-30 17:21:00',
+      'updated_at' => '2021-09-07 10:43:04',
+      'SID' => 1,
+      'delToken' => '0',
+    ),
+  ),
+)  
+[2021-09-07 10:43:17] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8947 HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: vi
+Cache-Control:   max-age=0
+Connection:      keep-alive
+Content-Length:  19
+Content-Type:    application/json
+Cookie:          XSRF-TOKEN=eyJpdiI6IlRjRkRuVEYrM3NJN1JZd0lmRjVRVlE9PSIsInZhbHVlIjoiYzBSbjY5RVBFYWtWMDJLTWdRZFdkN0pDNFJvSkc1TVE2Vk44MHZjaldOMituYUpxNmEzTDNMcytMN3FjTFNrZSIsIm1hYyI6IjNmMmFmYWEwYzFjYWU3NWY4NDBjZDRiMDc1Y2UyYzZjNmY0NWI2MWEwOGQ2ZjIyMWRhNzdiZjE2MTgzMGJlYTEifQ%3D%3D; gettiilite_session=eyJpdiI6ImVtb3BJVnRwdlBHTzRQVTNvWjNCT2c9PSIsInZhbHVlIjoiY3hUZUZ5SkIzUm9tUVpNSDV5clUzU2t0Q1Z2dDdZSEMyVm5zZ3YzUkZFRGdicEJUOFc4Q1JTZ0lKSXV0NE04ek53a3h0Yms1cXpFXC8yUGp3M0p5VHpSZlZ2SG1zVzJUMlBGVnFBYlVyR1ZhMDAwdVZqdm9EV24ySGdcL1VCdU80SSIsIm1hYyI6IjI3OWM5MWQwMmFmNmM1MjUyOWI5YjU0MjU3YThkNTg2ZDlkZDAwODk2NzZlOTJiODJmNGY1YWZjYWE1NTlhZTMifQ%3D%3D
+Host:            192.168.1.3:8002
+Origin:          http://192.168.1.3:8002
+Referer:         http://192.168.1.3:8002/sell/detail/15140
+User-Agent:      Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Cookie: XSRF-TOKEN=eyJpdiI6IlRjRkRuVEYrM3NJN1JZd0lmRjVRVlE9PSIsInZhbHVlIjoiYzBSbjY5RVBFYWtWMDJLTWdRZFdkN0pDNFJvSkc1TVE2Vk44MHZjaldOMituYUpxNmEzTDNMcytMN3FjTFNrZSIsIm1hYyI6IjNmMmFmYWEwYzFjYWU3NWY4NDBjZDRiMDc1Y2UyYzZjNmY0NWI2MWEwOGQ2ZjIyMWRhNzdiZjE2MTgzMGJlYTEifQ==; gettiilite_session=eyJpdiI6ImVtb3BJVnRwdlBHTzRQVTNvWjNCT2c9PSIsInZhbHVlIjoiY3hUZUZ5SkIzUm9tUVpNSDV5clUzU2t0Q1Z2dDdZSEMyVm5zZ3YzUkZFRGdicEJUOFc4Q1JTZ0lKSXV0NE04ek53a3h0Yms1cXpFXC8yUGp3M0p5VHpSZlZ2SG1zVzJUMlBGVnFBYlVyR1ZhMDAwdVZqdm9EV24ySGdcL1VCdU80SSIsIm1hYyI6IjI3OWM5MWQwMmFmNmM1MjUyOWI5YjU0MjU3YThkNTg2ZDlkZDAwODk2NzZlOTJiODJmNGY1YWZjYWE1NTlhZTMifQ==
+
+{\"visit_flg\":false})"} 
+[2021-09-07 10:43:17] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => true,
+    'message' => '入場状態を変更しました。',
+    'data' => 
+    array (
+      'seat_sale_id' => 8947,
+      'alloc_seat_id' => NULL,
+      'schedule_id' => 15140,
+      'sale_type' => 0,
+      'seat_class_id' => 2455,
+      'reserve_code' => NULL,
+      'ticket_class_id' => 4618,
+      'order_id' => 3854,
+      'reserve_seq' => 1,
+      'seat_seq' => 2,
+      'seat_class_name' => 'seat',
+      'seat_class_name_short' => NULL,
+      'ticket_class_name' => 'ticket 1',
+      'ticket_class_name_short' => NULL,
+      'temp_reserve_sn' => '2108-100148-60',
+      'temp_reserve_date' => '2021-08-30 17:21:00',
+      'temp_receive_account_cd' => 1,
+      'seat_status' => 3,
+      'member_kbn' => 0,
+      'member_id' => 'gettiis$yuuki0098',
+      'sale_price' => '1000.00',
+      'issue_flg' => 0,
+      'issue_date' => NULL,
+      'issue_account_cd' => NULL,
+      'payment_flg' => 1,
+      'payment_date' => '2021-08-30 00:00:00',
+      'payment_account_cd' => 1,
+      'ticket_barcode_no' => NULL,
+      'pattern_code' => 1,
+      'visit_flg' => 0,
+      'visit_gate' => NULL,
+      'visit_date' => '2021-09-07 10:43:04',
+      'reserve_period_code' => 1,
+      'commission_sv' => '0.00',
+      'commission_payment' => '0.00',
+      'commission_ticket' => '0.00',
+      'commission_delivery' => '0.00',
+      'commission_sub' => '0.00',
+      'commission_uc' => '0.00',
+      'update_account_cd' => 1,
+      'created_at' => '2021-08-30 17:21:00',
+      'updated_at' => '2021-09-07 10:43:17',
+      'SID' => 1,
+      'delToken' => '0',
+    ),
+  ),
+)  
+[2021-09-07 10:44:43] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8971 HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: vi,en-US;q=0.9,en;q=0.8,ko;q=0.7,zh-CN;q=0.6,zh;q=0.5
+Cache-Control:   max-age=0
+Connection:      keep-alive
+Content-Length:  19
+Content-Type:    application/json
+Cookie:          XSRF-TOKEN=eyJpdiI6Imk1R2hvM0dqaHNoRjhoMlBiR1MwRHc9PSIsInZhbHVlIjoidHJaUmNpckl5VEpLM1paYW4zd3pCeFhraHBLVEdzTE9weVR3RXhReFZkU2szWW1mNk1xZ2pURE1aakxSQXVZNSIsIm1hYyI6IjI2NjdhM2NkYzRhNGUwYzJiM2E3NmI3ZDNhZWUwYWUyMzRjYjRjMTI3MWY3NDBjOTRiNGNlNzg5NzBiNDJlYjEifQ%3D%3D; gettiilite_session=eyJpdiI6Inh5V3FqcGRNS1VhbDRcLytFeXZkTUVBPT0iLCJ2YWx1ZSI6Im4rb0lvXC9yVzZpRThYejI2NnFGaG5ucWxEdU5Rd214ZFF4RDNrNlJZczJJSEVicDl4U1YzcVB0TW1zQ0diQ0I4enJIVFpoNmRSUVcxSTIxTEhTSnI0bkhDWXlCbHdNbmVFRUxXQkJkSXh5RGd0SFFqVXIyeHBPQVRRUzdvNkZUYyIsIm1hYyI6IjdhNWZhMjQ3MTFjZTYyMDJkYWNmMzI5NWRiODJjZGI4MDU2MWRkZjRhZmUzOWU4MWM4YzVmODhiOTgxNDg2YTUifQ%3D%3D
+Host:            192.168.1.3:8002
+Origin:          http://192.168.1.3:8002
+Referer:         http://192.168.1.3:8002/sell/detail/15179
+User-Agent:      Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Cookie: XSRF-TOKEN=eyJpdiI6Imk1R2hvM0dqaHNoRjhoMlBiR1MwRHc9PSIsInZhbHVlIjoidHJaUmNpckl5VEpLM1paYW4zd3pCeFhraHBLVEdzTE9weVR3RXhReFZkU2szWW1mNk1xZ2pURE1aakxSQXVZNSIsIm1hYyI6IjI2NjdhM2NkYzRhNGUwYzJiM2E3NmI3ZDNhZWUwYWUyMzRjYjRjMTI3MWY3NDBjOTRiNGNlNzg5NzBiNDJlYjEifQ==; gettiilite_session=eyJpdiI6Inh5V3FqcGRNS1VhbDRcLytFeXZkTUVBPT0iLCJ2YWx1ZSI6Im4rb0lvXC9yVzZpRThYejI2NnFGaG5ucWxEdU5Rd214ZFF4RDNrNlJZczJJSEVicDl4U1YzcVB0TW1zQ0diQ0I4enJIVFpoNmRSUVcxSTIxTEhTSnI0bkhDWXlCbHdNbmVFRUxXQkJkSXh5RGd0SFFqVXIyeHBPQVRRUzdvNkZUYyIsIm1hYyI6IjdhNWZhMjQ3MTFjZTYyMDJkYWNmMzI5NWRiODJjZGI4MDU2MWRkZjRhZmUzOWU4MWM4YzVmODhiOTgxNDg2YTUifQ==
+
+{\"visit_flg\":false})"} 
+[2021-09-07 10:44:43] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => true,
+    'message' => '入場状態を変更しました。',
+    'data' => 
+    array (
+      'seat_sale_id' => 8971,
+      'alloc_seat_id' => NULL,
+      'schedule_id' => 15179,
+      'sale_type' => 0,
+      'seat_class_id' => 2463,
+      'reserve_code' => NULL,
+      'ticket_class_id' => 4637,
+      'order_id' => 3866,
+      'reserve_seq' => 1,
+      'seat_seq' => 3,
+      'seat_class_name' => 'yuu',
+      'seat_class_name_short' => NULL,
+      'ticket_class_name' => 'yuu',
+      'ticket_class_name_short' => NULL,
+      'temp_reserve_sn' => '2108-100373-6',
+      'temp_reserve_date' => '2021-08-31 16:21:03',
+      'temp_receive_account_cd' => 1,
+      'seat_status' => 3,
+      'member_kbn' => 0,
+      'member_id' => 'gettiis$yuuki001',
+      'sale_price' => '1000.00',
+      'issue_flg' => 0,
+      'issue_date' => NULL,
+      'issue_account_cd' => NULL,
+      'payment_flg' => 1,
+      'payment_date' => '2021-08-31 00:00:00',
+      'payment_account_cd' => 1,
+      'ticket_barcode_no' => NULL,
+      'pattern_code' => 1,
+      'visit_flg' => 0,
+      'visit_gate' => NULL,
+      'visit_date' => '2021-09-07 10:34:38',
+      'reserve_period_code' => 1,
+      'commission_sv' => '0.00',
+      'commission_payment' => '0.00',
+      'commission_ticket' => '0.00',
+      'commission_delivery' => '0.00',
+      'commission_sub' => '0.00',
+      'commission_uc' => '0.00',
+      'update_account_cd' => 1,
+      'created_at' => '2021-08-31 16:21:03',
+      'updated_at' => '2021-09-07 10:44:43',
+      'SID' => 1,
+      'delToken' => '0',
+    ),
+  ),
+)  
+[2021-09-07 10:44:56] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8971 HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: vi,en-US;q=0.9,en;q=0.8,ko;q=0.7,zh-CN;q=0.6,zh;q=0.5
+Cache-Control:   max-age=0
+Connection:      keep-alive
+Content-Length:  18
+Content-Type:    application/json
+Cookie:          XSRF-TOKEN=eyJpdiI6Im5wcVhkaFwveGNRZkpaN2I2eExuVkVBPT0iLCJ2YWx1ZSI6Ik5IKzZvWnF2cjJBSWRZMktrUXMxdHNQRnRrUUk1aFhydkhnYXhOajlJbjNFYUZoZ0tCcFErZXVXaU9rSmZTRnMiLCJtYWMiOiJhNTU4NzYzMjVjMjdkM2U5NDU0MmQ5NDI5ZWRmNWM3Mzc4MmQwYjg5MDljYjBjODgxMjY4NTU2YzgwYzBlZTVlIn0%3D; gettiilite_session=eyJpdiI6IjRUQ0hvQkpOMTdSc0RqQktKT3VobkE9PSIsInZhbHVlIjoiVWkwODFEUlQrQldzbGNZY1wvcHFGZndMRWpqcWxjcHg1aHd1dlpxNmdST283bWFlOENCeUUzdDVxaDhGMEhZb0Q3WnhHZnM3Q0hCdzRhS2hzdnpMekx4NWdcL1MyWW1iQzNBYzAyYTlIMG5rUEY2TTVubE0xa2NQU3hJWktvNmFqcCIsIm1hYyI6ImZkY2QxZmEzNjllYWQ5ZjE4OTNlOGM0ZjQ2NjA1ZjZhZTE2MGI0MDg1NjBkYmFhNzM0MTE2NzkzNzFmNTUxZDgifQ%3D%3D
+Host:            192.168.1.3:8002
+Origin:          http://192.168.1.3:8002
+Referer:         http://192.168.1.3:8002/sell/detail/15179
+User-Agent:      Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Cookie: XSRF-TOKEN=eyJpdiI6Im5wcVhkaFwveGNRZkpaN2I2eExuVkVBPT0iLCJ2YWx1ZSI6Ik5IKzZvWnF2cjJBSWRZMktrUXMxdHNQRnRrUUk1aFhydkhnYXhOajlJbjNFYUZoZ0tCcFErZXVXaU9rSmZTRnMiLCJtYWMiOiJhNTU4NzYzMjVjMjdkM2U5NDU0MmQ5NDI5ZWRmNWM3Mzc4MmQwYjg5MDljYjBjODgxMjY4NTU2YzgwYzBlZTVlIn0=; gettiilite_session=eyJpdiI6IjRUQ0hvQkpOMTdSc0RqQktKT3VobkE9PSIsInZhbHVlIjoiVWkwODFEUlQrQldzbGNZY1wvcHFGZndMRWpqcWxjcHg1aHd1dlpxNmdST283bWFlOENCeUUzdDVxaDhGMEhZb0Q3WnhHZnM3Q0hCdzRhS2hzdnpMekx4NWdcL1MyWW1iQzNBYzAyYTlIMG5rUEY2TTVubE0xa2NQU3hJWktvNmFqcCIsIm1hYyI6ImZkY2QxZmEzNjllYWQ5ZjE4OTNlOGM0ZjQ2NjA1ZjZhZTE2MGI0MDg1NjBkYmFhNzM0MTE2NzkzNzFmNTUxZDgifQ==
+
+{\"visit_flg\":true})"} 
+[2021-09-07 10:44:56] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => true,
+    'message' => '入場状態を変更しました。',
+    'data' => 
+    array (
+      'seat_sale_id' => 8971,
+      'alloc_seat_id' => NULL,
+      'schedule_id' => 15179,
+      'sale_type' => 0,
+      'seat_class_id' => 2463,
+      'reserve_code' => NULL,
+      'ticket_class_id' => 4637,
+      'order_id' => 3866,
+      'reserve_seq' => 1,
+      'seat_seq' => 3,
+      'seat_class_name' => 'yuu',
+      'seat_class_name_short' => NULL,
+      'ticket_class_name' => 'yuu',
+      'ticket_class_name_short' => NULL,
+      'temp_reserve_sn' => '2108-100373-6',
+      'temp_reserve_date' => '2021-08-31 16:21:03',
+      'temp_receive_account_cd' => 1,
+      'seat_status' => 3,
+      'member_kbn' => 0,
+      'member_id' => 'gettiis$yuuki001',
+      'sale_price' => '1000.00',
+      'issue_flg' => 0,
+      'issue_date' => NULL,
+      'issue_account_cd' => NULL,
+      'payment_flg' => 1,
+      'payment_date' => '2021-08-31 00:00:00',
+      'payment_account_cd' => 1,
+      'ticket_barcode_no' => NULL,
+      'pattern_code' => 1,
+      'visit_flg' => 1,
+      'visit_gate' => NULL,
+      'visit_date' => '2021-09-07 10:44:56',
+      'reserve_period_code' => 1,
+      'commission_sv' => '0.00',
+      'commission_payment' => '0.00',
+      'commission_ticket' => '0.00',
+      'commission_delivery' => '0.00',
+      'commission_sub' => '0.00',
+      'commission_uc' => '0.00',
+      'update_account_cd' => 1,
+      'created_at' => '2021-08-31 16:21:03',
+      'updated_at' => '2021-09-07 10:44:56',
+      'SID' => 1,
+      'delToken' => '0',
+    ),
+  ),
+)  
+[2021-09-07 10:45:42] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8971 HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: vi,en-US;q=0.9,en;q=0.8,ko;q=0.7,zh-CN;q=0.6,zh;q=0.5
+Cache-Control:   max-age=0
+Connection:      keep-alive
+Content-Length:  19
+Content-Type:    application/json
+Cookie:          XSRF-TOKEN=eyJpdiI6IlA5TWdGVVlQSk1XUHVcL3hkdjlhdjJnPT0iLCJ2YWx1ZSI6IjMrYXZyck1mOW1jdTVwZFFIZEVZcnN4NHhnV0tTWmFuN25MSUwxRm1qTFQ2OXdGUjRvNWdETDFPb3cwTXErc08iLCJtYWMiOiIyYTBmZDhiZDU0YjMwOTVjODNhZjYxMjZmODRiOTBiMDc3MTUyODE4YTQyMTNiNjM5OGY3NzA4NzU5MGM1ZTAxIn0%3D; gettiilite_session=eyJpdiI6IlQ4c3NBcDBObVpsZkdNVlpwQXE4RGc9PSIsInZhbHVlIjoiT0FLNm4rS1BUVVZMZnNTdW4zdDNIck4zd3hOXC9wV0tjYVRzRU5DaVF4bnA5V0xlWlUyOVNSVVRxSjJFazhrRFhGOTYwdWF3Q0MxOHR0c3UrZldadE8zZ0paN1g0STkyWWtjdXhKTytHeE10SW1GWjhCTkIzZElHb1NHbmdcL3VvVyIsIm1hYyI6IjQ4M2VjYTc2YWI1YjI4Y2RjMWUzZTg0ZDg0Nzk0NDc3Y2Y3MjRhZjI0ZDA1ZTM3ZGVhNTk2Njc1NmVkMGQ0MDQifQ%3D%3D
+Host:            192.168.1.3:8002
+Origin:          http://192.168.1.3:8002
+Referer:         http://192.168.1.3:8002/sell/detail/15179
+User-Agent:      Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Cookie: XSRF-TOKEN=eyJpdiI6IlA5TWdGVVlQSk1XUHVcL3hkdjlhdjJnPT0iLCJ2YWx1ZSI6IjMrYXZyck1mOW1jdTVwZFFIZEVZcnN4NHhnV0tTWmFuN25MSUwxRm1qTFQ2OXdGUjRvNWdETDFPb3cwTXErc08iLCJtYWMiOiIyYTBmZDhiZDU0YjMwOTVjODNhZjYxMjZmODRiOTBiMDc3MTUyODE4YTQyMTNiNjM5OGY3NzA4NzU5MGM1ZTAxIn0=; gettiilite_session=eyJpdiI6IlQ4c3NBcDBObVpsZkdNVlpwQXE4RGc9PSIsInZhbHVlIjoiT0FLNm4rS1BUVVZMZnNTdW4zdDNIck4zd3hOXC9wV0tjYVRzRU5DaVF4bnA5V0xlWlUyOVNSVVRxSjJFazhrRFhGOTYwdWF3Q0MxOHR0c3UrZldadE8zZ0paN1g0STkyWWtjdXhKTytHeE10SW1GWjhCTkIzZElHb1NHbmdcL3VvVyIsIm1hYyI6IjQ4M2VjYTc2YWI1YjI4Y2RjMWUzZTg0ZDg0Nzk0NDc3Y2Y3MjRhZjI0ZDA1ZTM3ZGVhNTk2Njc1NmVkMGQ0MDQifQ==
+
+{\"visit_flg\":false})"} 
+[2021-09-07 10:45:43] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => true,
+    'message' => '入場状態を変更しました。',
+    'data' => 
+    array (
+      'seat_sale_id' => 8971,
+      'alloc_seat_id' => NULL,
+      'schedule_id' => 15179,
+      'sale_type' => 0,
+      'seat_class_id' => 2463,
+      'reserve_code' => NULL,
+      'ticket_class_id' => 4637,
+      'order_id' => 3866,
+      'reserve_seq' => 1,
+      'seat_seq' => 3,
+      'seat_class_name' => 'yuu',
+      'seat_class_name_short' => NULL,
+      'ticket_class_name' => 'yuu',
+      'ticket_class_name_short' => NULL,
+      'temp_reserve_sn' => '2108-100373-6',
+      'temp_reserve_date' => '2021-08-31 16:21:03',
+      'temp_receive_account_cd' => 1,
+      'seat_status' => 3,
+      'member_kbn' => 0,
+      'member_id' => 'gettiis$yuuki001',
+      'sale_price' => '1000.00',
+      'issue_flg' => 0,
+      'issue_date' => NULL,
+      'issue_account_cd' => NULL,
+      'payment_flg' => 1,
+      'payment_date' => '2021-08-31 00:00:00',
+      'payment_account_cd' => 1,
+      'ticket_barcode_no' => NULL,
+      'pattern_code' => 1,
+      'visit_flg' => 0,
+      'visit_gate' => NULL,
+      'visit_date' => '2021-09-07 10:44:56',
+      'reserve_period_code' => 1,
+      'commission_sv' => '0.00',
+      'commission_payment' => '0.00',
+      'commission_ticket' => '0.00',
+      'commission_delivery' => '0.00',
+      'commission_sub' => '0.00',
+      'commission_uc' => '0.00',
+      'update_account_cd' => 1,
+      'created_at' => '2021-08-31 16:21:03',
+      'updated_at' => '2021-09-07 10:45:42',
+      'SID' => 1,
+      'delToken' => '0',
+    ),
+  ),
+)  
+[2021-09-07 10:46:06] production.INFO: function checkScheduleId| MiddlewareServices | error code :  | error messeger : GLID not equal  
+[2021-09-07 10:47:02] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8950 HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: vi
+Cache-Control:   max-age=0
+Connection:      keep-alive
+Content-Length:  18
+Content-Type:    application/json
+Cookie:          XSRF-TOKEN=eyJpdiI6Im1PYzZGSUljRnRKaFE5VVc4aVRiNXc9PSIsInZhbHVlIjoibk9aa2ZHZlZSWXUzditUTDBnS1lCOTc2U0NBZ3Q3QlE1TTVmNW9Pcjd6dE5IcnY3R1dYZStQUHR4bnloanltWiIsIm1hYyI6IjEzOGJkYzZkZGRhODIzZWZiYTA3ZDUwYTNmZmRlOGYxYmRiMjU4ODZhMjQ5MDg0NGY2ODY5ZjczNzljNWQwOTYifQ%3D%3D; gettiilite_session=eyJpdiI6IlU1dUducUQrdURaNHc1d3pQY01WTlE9PSIsInZhbHVlIjoiUTVVdjE0R0JCdVN2VXduNnAwVmN1dDR6aGtiSWx2UHo5c290U2ZrdWZqSkxHMWp2N2pubjY0UmZqcVVYeGdIVmV6V1IxVXJab0R5YUhORDV6UzFsK3RPXC9JaXVvZTlxOE9qRW03K0tzNXRuS0dYOGc1dFVvRjhYN2JmYzY5MlFSIiwibWFjIjoiNTExOTRjMmM5NzdhMjI3NjA4ZTZiODdjZDA0NDljMjAwOWFkZjcwZjA3MmU3NTUyMzNkMGVkODgzZWI4MzU1NyJ9
+Host:            192.168.1.3:8002
+Origin:          http://192.168.1.3:8002
+Referer:         http://192.168.1.3:8002/sell/detail/15140
+User-Agent:      Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Cookie: XSRF-TOKEN=eyJpdiI6Im1PYzZGSUljRnRKaFE5VVc4aVRiNXc9PSIsInZhbHVlIjoibk9aa2ZHZlZSWXUzditUTDBnS1lCOTc2U0NBZ3Q3QlE1TTVmNW9Pcjd6dE5IcnY3R1dYZStQUHR4bnloanltWiIsIm1hYyI6IjEzOGJkYzZkZGRhODIzZWZiYTA3ZDUwYTNmZmRlOGYxYmRiMjU4ODZhMjQ5MDg0NGY2ODY5ZjczNzljNWQwOTYifQ==; gettiilite_session=eyJpdiI6IlU1dUducUQrdURaNHc1d3pQY01WTlE9PSIsInZhbHVlIjoiUTVVdjE0R0JCdVN2VXduNnAwVmN1dDR6aGtiSWx2UHo5c290U2ZrdWZqSkxHMWp2N2pubjY0UmZqcVVYeGdIVmV6V1IxVXJab0R5YUhORDV6UzFsK3RPXC9JaXVvZTlxOE9qRW03K0tzNXRuS0dYOGc1dFVvRjhYN2JmYzY5MlFSIiwibWFjIjoiNTExOTRjMmM5NzdhMjI3NjA4ZTZiODdjZDA0NDljMjAwOWFkZjcwZjA3MmU3NTUyMzNkMGVkODgzZWI4MzU1NyJ9
+
+{\"visit_flg\":true})"} 
+[2021-09-07 10:47:02] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => true,
+    'message' => '入場状態を変更しました。',
+    'data' => 
+    array (
+      'seat_sale_id' => 8950,
+      'alloc_seat_id' => NULL,
+      'schedule_id' => 15140,
+      'sale_type' => 0,
+      'seat_class_id' => 2455,
+      'reserve_code' => NULL,
+      'ticket_class_id' => 4618,
+      'order_id' => 3855,
+      'reserve_seq' => 1,
+      'seat_seq' => 5,
+      'seat_class_name' => 'seat',
+      'seat_class_name_short' => NULL,
+      'ticket_class_name' => 'ticket 1',
+      'ticket_class_name_short' => NULL,
+      'temp_reserve_sn' => '2108-100148-62',
+      'temp_reserve_date' => '2021-08-30 17:22:35',
+      'temp_receive_account_cd' => 1,
+      'seat_status' => 3,
+      'member_kbn' => 0,
+      'member_id' => 'gettiis$yuuki0098',
+      'sale_price' => '1000.00',
+      'issue_flg' => 0,
+      'issue_date' => NULL,
+      'issue_account_cd' => NULL,
+      'payment_flg' => 1,
+      'payment_date' => '2021-08-30 00:00:00',
+      'payment_account_cd' => 1,
+      'ticket_barcode_no' => NULL,
+      'pattern_code' => 1,
+      'visit_flg' => 1,
+      'visit_gate' => NULL,
+      'visit_date' => '2021-09-07 10:47:02',
+      'reserve_period_code' => 1,
+      'commission_sv' => '0.00',
+      'commission_payment' => '0.00',
+      'commission_ticket' => '0.00',
+      'commission_delivery' => '0.00',
+      'commission_sub' => '0.00',
+      'commission_uc' => '0.00',
+      'update_account_cd' => 1,
+      'created_at' => '2021-08-30 17:22:35',
+      'updated_at' => '2021-09-07 10:47:02',
+      'SID' => 1,
+      'delToken' => '0',
+    ),
+  ),
+)  
+[2021-09-07 10:47:23] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8950 HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: vi
+Cache-Control:   max-age=0
+Connection:      keep-alive
+Content-Length:  19
+Content-Type:    application/json
+Cookie:          XSRF-TOKEN=eyJpdiI6ImVzQUx1XC9hN1I3eXhjYXg4WGl1Vk9nPT0iLCJ2YWx1ZSI6IjE1SnlZTkxBUnNCV09WV29wdUdkd2wycmZmbkJTWUF5aWpGcHZhTzVmaERlaTdWSnVmcE9DMExoMitYMXIraDUiLCJtYWMiOiI1MDljNzZkNzVlMjBiNzZkOTg2MjAxMzZlOTJhMDk1Y2E5YmU4OGE5MDY0NmVhN2YzNWY4ZTlhYWZkZmI2ZDk3In0%3D; gettiilite_session=eyJpdiI6IklYY3BsNTFrVHZCd2daRHd1eE9hMHc9PSIsInZhbHVlIjoiMFI5dlwvelZvZHNhOEFlb2JMMjZyN0crMFhwQW9NVHBmUmlqRzZKVEU4UmpvWWhlVThvVnJsdE9KUGErd2c3MjVMcG9qbE5UXC92cVgwTWR0Z1ByQmFGZVZMTEtSVEZxeDdjSHpCaUVtWExJMXhMOWJpNG9UXC9wRTFGVHdsc1hzakciLCJtYWMiOiIxNTFmMDlmOTdjNTkzNTI0NjgxMWVmY2E2OWIwOGU1ZTA0MjNlM2M3MjczMDY4MjNlMGFlZTkxYjQ2NzYyOWMyIn0%3D
+Host:            192.168.1.3:8002
+Origin:          http://192.168.1.3:8002
+Referer:         http://192.168.1.3:8002/sell/detail/15140
+User-Agent:      Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Cookie: XSRF-TOKEN=eyJpdiI6ImVzQUx1XC9hN1I3eXhjYXg4WGl1Vk9nPT0iLCJ2YWx1ZSI6IjE1SnlZTkxBUnNCV09WV29wdUdkd2wycmZmbkJTWUF5aWpGcHZhTzVmaERlaTdWSnVmcE9DMExoMitYMXIraDUiLCJtYWMiOiI1MDljNzZkNzVlMjBiNzZkOTg2MjAxMzZlOTJhMDk1Y2E5YmU4OGE5MDY0NmVhN2YzNWY4ZTlhYWZkZmI2ZDk3In0=; gettiilite_session=eyJpdiI6IklYY3BsNTFrVHZCd2daRHd1eE9hMHc9PSIsInZhbHVlIjoiMFI5dlwvelZvZHNhOEFlb2JMMjZyN0crMFhwQW9NVHBmUmlqRzZKVEU4UmpvWWhlVThvVnJsdE9KUGErd2c3MjVMcG9qbE5UXC92cVgwTWR0Z1ByQmFGZVZMTEtSVEZxeDdjSHpCaUVtWExJMXhMOWJpNG9UXC9wRTFGVHdsc1hzakciLCJtYWMiOiIxNTFmMDlmOTdjNTkzNTI0NjgxMWVmY2E2OWIwOGU1ZTA0MjNlM2M3MjczMDY4MjNlMGFlZTkxYjQ2NzYyOWMyIn0=
+
+{\"visit_flg\":false})"} 
+[2021-09-07 10:47:23] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => true,
+    'message' => '入場状態を変更しました。',
+    'data' => 
+    array (
+      'seat_sale_id' => 8950,
+      'alloc_seat_id' => NULL,
+      'schedule_id' => 15140,
+      'sale_type' => 0,
+      'seat_class_id' => 2455,
+      'reserve_code' => NULL,
+      'ticket_class_id' => 4618,
+      'order_id' => 3855,
+      'reserve_seq' => 1,
+      'seat_seq' => 5,
+      'seat_class_name' => 'seat',
+      'seat_class_name_short' => NULL,
+      'ticket_class_name' => 'ticket 1',
+      'ticket_class_name_short' => NULL,
+      'temp_reserve_sn' => '2108-100148-62',
+      'temp_reserve_date' => '2021-08-30 17:22:35',
+      'temp_receive_account_cd' => 1,
+      'seat_status' => 3,
+      'member_kbn' => 0,
+      'member_id' => 'gettiis$yuuki0098',
+      'sale_price' => '1000.00',
+      'issue_flg' => 0,
+      'issue_date' => NULL,
+      'issue_account_cd' => NULL,
+      'payment_flg' => 1,
+      'payment_date' => '2021-08-30 00:00:00',
+      'payment_account_cd' => 1,
+      'ticket_barcode_no' => NULL,
+      'pattern_code' => 1,
+      'visit_flg' => 0,
+      'visit_gate' => NULL,
+      'visit_date' => '2021-09-07 10:47:02',
+      'reserve_period_code' => 1,
+      'commission_sv' => '0.00',
+      'commission_payment' => '0.00',
+      'commission_ticket' => '0.00',
+      'commission_delivery' => '0.00',
+      'commission_sub' => '0.00',
+      'commission_uc' => '0.00',
+      'update_account_cd' => 1,
+      'created_at' => '2021-08-30 17:22:35',
+      'updated_at' => '2021-09-07 10:47:23',
+      'SID' => 1,
+      'delToken' => '0',
+    ),
+  ),
+)  
+[2021-09-07 11:54:53] production.INFO: function checkScheduleId| MiddlewareServices | error code :  | error messeger : GLID not equal  
+[2021-09-07 15:10:19] production.INFO: get bank inf  
+[2021-09-07 15:10:19] production.INFO: get bank inf  
+[2021-09-07 15:11:03] production.INFO: get bank inf  
+[2021-09-07 15:11:03] production.INFO: get bank inf  
+[2021-09-07 15:12:18] production.INFO: get bank inf  
+[2021-09-07 15:12:18] production.INFO: get bank inf  
+[2021-09-07 15:14:15] production.INFO: get bank inf  
+[2021-09-07 15:14:15] production.INFO: get bank inf  
+[2021-09-07 15:21:36] production.ERROR: Undefined variable: eventData (View: C:\Users\Admin\Downloads\GettiiLite_48.2\GettiiLite\resources\views\frontend\event\index.blade.php) {"exception":"[object] (ErrorException(code: 0): Undefined variable: eventData (View: C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\esources\\views\\frontend\\event\\index.blade.php) at C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\storage\\framework\\views\\1aba5f7fd9cbe060064bfd50f6f3d8ce29ce931c.php:119, ErrorException(code: 0): Undefined variable: eventData at C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\storage\\framework\\views\\1aba5f7fd9cbe060064bfd50f6f3d8ce29ce931c.php:119)
+[stacktrace]
+#0 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\Admin\\\\...', Array)
+#2 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(137): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\Admin\\\\...', Array)
+#3 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(120): Illuminate\\View\\View->getContents()
+#4 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(85): Illuminate\\View\\View->renderContents()
+#5 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(42): Illuminate\\View\\View->render()
+#6 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\symfony\\http-foundation\\Response.php(206): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#7 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(724): Symfony\\Component\\HttpFoundation\\Response->__construct(Object(Illuminate\\View\\View))
+#8 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(698): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#9 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(658): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#10 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\app\\Http\\Middleware\\CheckEventInfoAuthority.php(23): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): App\\Http\\Middleware\\CheckEventInfoAuthority->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\app\\Http\\Middleware\\CheckLogin.php(38): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): App\\Http\\Middleware\\CheckLogin->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(63): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(660): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#37 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(635): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(601): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#39 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(590): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#59 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#60 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#61 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\server.php(21): require_once('C:\\\\Users\\\\Admin\\\\...')
+#62 {main}
+"} 
+[2021-09-07 15:22:19] production.ERROR: Array to string conversion (View: C:\Users\Admin\Downloads\GettiiLite_48.2\GettiiLite\resources\views\frontend\event\index.blade.php) {"exception":"[object] (ErrorException(code: 0): Array to string conversion (View: C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\esources\\views\\frontend\\event\\index.blade.php) at C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\storage\\framework\\views\\1aba5f7fd9cbe060064bfd50f6f3d8ce29ce931c.php:119, ErrorException(code: 0): Array to string conversion at C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\storage\\framework\\views\\1aba5f7fd9cbe060064bfd50f6f3d8ce29ce931c.php:119)
+[stacktrace]
+#0 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(45): Illuminate\\View\\Engines\\CompilerEngine->handleViewException(Object(ErrorException), 1)
+#1 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(59): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\Admin\\\\...', Array)
+#2 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(137): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\Admin\\\\...', Array)
+#3 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(120): Illuminate\\View\\View->getContents()
+#4 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(85): Illuminate\\View\\View->renderContents()
+#5 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(42): Illuminate\\View\\View->render()
+#6 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\symfony\\http-foundation\\Response.php(206): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#7 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(724): Symfony\\Component\\HttpFoundation\\Response->__construct(Object(Illuminate\\View\\View))
+#8 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(698): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#9 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(658): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#10 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\app\\Http\\Middleware\\CheckEventInfoAuthority.php(23): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): App\\Http\\Middleware\\CheckEventInfoAuthority->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\app\\Http\\Middleware\\CheckLogin.php(38): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): App\\Http\\Middleware\\CheckLogin->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(63): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(68): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(660): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#37 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(635): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(601): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#39 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(590): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#59 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#60 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#61 C:\\Users\\Admin\\Downloads\\GettiiLite_48.2\\GettiiLite\\server.php(21): require_once('C:\\\\Users\\\\Admin\\\\...')
+#62 {main}
+"} 
+[2021-09-07 15:28:01] production.INFO: function checkPerformanceId| MiddlewareServices | error code :  | error messeger : GLID is null  
+[2021-09-07 16:19:09] production.INFO: change Visit Status : 
+ {"request":"[object] (Illuminate\\Http\\Request: PATCH /api/seatSale/8947 HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Accept-Language: vi,en-US;q=0.9,en;q=0.8,ko;q=0.7,zh-CN;q=0.6,zh;q=0.5
+Cache-Control:   max-age=0
+Connection:      keep-alive
+Content-Length:  18
+Content-Type:    application/json
+Cookie:          XSRF-TOKEN=eyJpdiI6IjVPMFlKNTF5d01EMnVDRlhJSVdwMUE9PSIsInZhbHVlIjoiMkNFWlNCWTJ3eDBieHVXRlcxMEdGTHgrT2xrRmoxZlAzUXFyZXlVVDdIMGlUZk8zSFk2YktTTzFSWkRtQ1VRYSIsIm1hYyI6ImQyODA4Mjc2OGIxOWZiYjcyMDA5YmI4ZDg0MjE3MjU3MTczMWJmM2RhMjRlOTEwYTkwODgzMzE5OGJmMzYxMTcifQ%3D%3D; gettiilite_session=eyJpdiI6Ik00ajdnWEJRa3JnNEttU2xCajRhTmc9PSIsInZhbHVlIjoiZjk2QXY5Y29TMThXTDhoU2VPS0xvVEh6Ymo5R1p3c21FaHoycjJyQ2xsTjZlcmtOZVk4NTRSQU5XQTRXRmlkOWVnbUQ0dDBxbmhTWXlsblwvTzFtZ2NUSGcxQXlVUFZuTHhwUklVcFZobkQ1WlwvV2VMNnhPZXV3eDI5VitQSkc2aCIsIm1hYyI6ImY4YmNhYzYxNzdkNTFlNWRhMDYyMjliNjU4N2I3NTdhMmYzYzkzNDVhMzM1M2YzZTM4ZTFjMzgwOGQwODk0MDYifQ%3D%3D
+Host:            192.168.1.3:8002
+Origin:          http://192.168.1.3:8002
+Referer:         http://192.168.1.3:8002/sell/detail/15140
+User-Agent:      Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Cookie: XSRF-TOKEN=eyJpdiI6IjVPMFlKNTF5d01EMnVDRlhJSVdwMUE9PSIsInZhbHVlIjoiMkNFWlNCWTJ3eDBieHVXRlcxMEdGTHgrT2xrRmoxZlAzUXFyZXlVVDdIMGlUZk8zSFk2YktTTzFSWkRtQ1VRYSIsIm1hYyI6ImQyODA4Mjc2OGIxOWZiYjcyMDA5YmI4ZDg0MjE3MjU3MTczMWJmM2RhMjRlOTEwYTkwODgzMzE5OGJmMzYxMTcifQ==; gettiilite_session=eyJpdiI6Ik00ajdnWEJRa3JnNEttU2xCajRhTmc9PSIsInZhbHVlIjoiZjk2QXY5Y29TMThXTDhoU2VPS0xvVEh6Ymo5R1p3c21FaHoycjJyQ2xsTjZlcmtOZVk4NTRSQU5XQTRXRmlkOWVnbUQ0dDBxbmhTWXlsblwvTzFtZ2NUSGcxQXlVUFZuTHhwUklVcFZobkQ1WlwvV2VMNnhPZXV3eDI5VitQSkc2aCIsIm1hYyI6ImY4YmNhYzYxNzdkNTFlNWRhMDYyMjliNjU4N2I3NTdhMmYzYzkzNDVhMzM1M2YzZTM4ZTFjMzgwOGQwODk0MDYifQ==
+
+{\"visit_flg\":true})"} 
+[2021-09-07 16:19:10] production.NOTICE: array (
+  'result' => 
+  array (
+    'successus' => true,
+    'message' => '入場状態を変更しました。',
+    'data' => 
+    array (
+      'seat_sale_id' => 8947,
+      'alloc_seat_id' => NULL,
+      'schedule_id' => 15140,
+      'sale_type' => 0,
+      'seat_class_id' => 2455,
+      'reserve_code' => NULL,
+      'ticket_class_id' => 4618,
+      'order_id' => 3854,
+      'reserve_seq' => 1,
+      'seat_seq' => 2,
+      'seat_class_name' => 'seat',
+      'seat_class_name_short' => NULL,
+      'ticket_class_name' => 'ticket 1',
+      'ticket_class_name_short' => NULL,
+      'temp_reserve_sn' => '2108-100148-60',
+      'temp_reserve_date' => '2021-08-30 17:21:00',
+      'temp_receive_account_cd' => 1,
+      'seat_status' => 3,
+      'member_kbn' => 0,
+      'member_id' => 'gettiis$yuuki0098',
+      'sale_price' => '1000.00',
+      'issue_flg' => 0,
+      'issue_date' => NULL,
+      'issue_account_cd' => NULL,
+      'payment_flg' => 1,
+      'payment_date' => '2021-08-30 00:00:00',
+      'payment_account_cd' => 1,
+      'ticket_barcode_no' => NULL,
+      'pattern_code' => 1,
+      'visit_flg' => 1,
+      'visit_gate' => NULL,
+      'visit_date' => '2021-09-07 16:19:10',
+      'reserve_period_code' => 1,
+      'commission_sv' => '0.00',
+      'commission_payment' => '0.00',
+      'commission_ticket' => '0.00',
+      'commission_delivery' => '0.00',
+      'commission_sub' => '0.00',
+      'commission_uc' => '0.00',
+      'update_account_cd' => 1,
+      'created_at' => '2021-08-30 17:21:00',
+      'updated_at' => '2021-09-07 16:19:10',
+      'SID' => 1,
+      'delToken' => '0',
+    ),
+  ),
+)  

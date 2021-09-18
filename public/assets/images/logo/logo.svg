@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="311px" height="62px" viewBox="0 0 311 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-2.22044605e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#33BBEB" offset="0%"></stop>
+            <stop stop-color="#C2DE51" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Gettii-Lite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(-4.000000, -39.000000)">
+            <text id="Gettii" fill="url(#linearGradient-1)" font-family="CenturyGothic-Bold, Century Gothic" font-size="80" font-weight="bold" line-spacing="150" letter-spacing="1.435896">
+                <tspan x="0" y="80">Gettii </tspan>
+            </text>
+            <path d="M241.909213,80.7626291 L231.286924,85.0543126 L232.165767,76.3395432 C227.785502,72.6707756 225,67.1606822 225,61 C225,49.954305 233.954305,41 245,41 L295,41 C306.045695,41 315,49.954305 315,61 C315,72.045695 306.045695,81 295,81 L245,81 C243.948825,81 242.916591,80.9189047 241.909213,80.7626291 Z" id="Combined-Shape" fill="#86DE43"></path>
+            <text id="Lite" font-family="BradleyHandITCTT-Bold, Bradley Hand" font-size="32" font-style="expanded" font-weight="bold" line-spacing="150" letter-spacing="0.5743589" fill="#FFFFFF">
+                <tspan x="242.247282" y="73">Lite</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

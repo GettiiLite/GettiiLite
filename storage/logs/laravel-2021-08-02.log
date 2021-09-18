@@ -1,0 +1,223 @@
+[2021-08-02 09:38:08] production.DEBUG: [edit]The data from DB  
+[2021-08-02 09:38:15] production.DEBUG: has  
+[2021-08-02 09:38:44] production.DEBUG: [EventController] update  
+[2021-08-02 09:38:44] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-08-02 09:38:44] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 09:38:44] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 09:38:44] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 09:38:44] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 09:38:44] production.DEBUG: *** 座席図未登録 ***  
+[2021-08-02 09:38:44] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-08-02 09:38:44] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 09:38:44] production.DEBUG: false  
+[2021-08-02 09:38:44] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 09:38:44] production.DEBUG: 0  
+[2021-08-02 09:38:44] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 09:38:44] production.DEBUG: 0  
+[2021-08-02 09:38:53] production.DEBUG: [edit]The data from DB  
+[2021-08-02 09:39:00] production.DEBUG: has  
+[2021-08-02 09:39:20] production.DEBUG: [EventController] update  
+[2021-08-02 09:39:20] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-08-02 09:39:20] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 09:39:20] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 09:39:20] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 09:39:20] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 09:39:20] production.DEBUG: *** 座席図未登録 ***  
+[2021-08-02 09:39:20] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-08-02 09:39:20] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 09:39:20] production.DEBUG: false  
+[2021-08-02 09:39:20] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 09:39:20] production.DEBUG: 0  
+[2021-08-02 09:39:20] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 09:39:20] production.DEBUG: 0  
+[2021-08-02 09:39:25] production.DEBUG: [edit]The data from DB  
+[2021-08-02 09:39:32] production.DEBUG: has  
+[2021-08-02 09:41:14] production.DEBUG: [EventController] update  
+[2021-08-02 09:41:14] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-08-02 09:41:14] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 09:41:14] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 09:41:14] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 09:41:14] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 09:41:14] production.DEBUG: *** 座席図未登録 ***  
+[2021-08-02 09:41:14] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-08-02 09:41:14] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 09:41:14] production.DEBUG: false  
+[2021-08-02 09:41:14] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 09:41:14] production.DEBUG: 0  
+[2021-08-02 09:41:14] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 09:41:14] production.DEBUG: 0  
+[2021-08-02 09:41:20] production.DEBUG: [edit]The data from DB  
+[2021-08-02 09:41:26] production.DEBUG: has  
+[2021-08-02 09:42:10] production.DEBUG: [EventController] update  
+[2021-08-02 09:42:10] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-08-02 09:42:10] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 09:42:10] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 09:42:10] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 09:42:10] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 09:42:10] production.DEBUG: *** 座席図未登録 ***  
+[2021-08-02 09:42:10] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-08-02 09:42:10] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 09:42:10] production.DEBUG: false  
+[2021-08-02 09:42:10] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 09:42:10] production.DEBUG: 0  
+[2021-08-02 09:42:10] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 09:42:10] production.DEBUG: 0  
+[2021-08-02 09:42:15] production.DEBUG: [edit]The data from DB  
+[2021-08-02 09:42:22] production.DEBUG: has  
+[2021-08-02 09:44:44] production.DEBUG: [EventController] update  
+[2021-08-02 09:44:44] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-08-02 09:44:44] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 09:44:44] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 09:44:44] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 09:44:44] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 09:44:44] production.DEBUG: *** 座席図未登録 ***  
+[2021-08-02 09:44:44] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-08-02 09:44:44] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 09:44:44] production.DEBUG: false  
+[2021-08-02 09:44:44] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 09:44:44] production.DEBUG: 0  
+[2021-08-02 09:44:44] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 09:44:44] production.DEBUG: 0  
+[2021-08-02 09:44:53] production.DEBUG: [edit]The data from DB  
+[2021-08-02 09:45:01] production.DEBUG: has  
+[2021-08-02 09:45:02] production.DEBUG: [EventController] update  
+[2021-08-02 09:45:02] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-08-02 09:45:02] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 09:45:02] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 09:45:02] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 09:45:02] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 09:45:02] production.DEBUG: *** 座席図未登録 ***  
+[2021-08-02 09:45:02] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-08-02 09:45:02] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 09:45:02] production.DEBUG: false  
+[2021-08-02 09:45:02] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 09:45:02] production.DEBUG: 0  
+[2021-08-02 09:45:02] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 09:45:02] production.DEBUG: 0  
+[2021-08-02 09:45:04] production.DEBUG: [edit]The data from DB  
+[2021-08-02 09:45:11] production.DEBUG: has  
+[2021-08-02 09:45:14] production.DEBUG: [edit]The data from DB  
+[2021-08-02 09:45:22] production.DEBUG: has  
+[2021-08-02 10:01:03] production.DEBUG: [EventController] update  
+[2021-08-02 10:01:03] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-08-02 10:01:03] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 10:01:03] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 10:01:03] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 10:01:03] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 10:01:03] production.DEBUG: *** 座席図未登録 ***  
+[2021-08-02 10:01:03] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-08-02 10:01:03] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 10:01:03] production.DEBUG: false  
+[2021-08-02 10:01:03] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 10:01:03] production.DEBUG: 0  
+[2021-08-02 10:01:03] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 10:01:03] production.DEBUG: 0  
+[2021-08-02 10:01:03] production.DEBUG: [EventManageService]updateJson  
+[2021-08-02 10:01:04] production.DEBUG: [edit]It is old data  
+[2021-08-02 10:01:04] production.DEBUG: [edit]Reading data form draft.  
+[2021-08-02 10:02:11] production.DEBUG: [EventController] update  
+[2021-08-02 10:02:11] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-08-02 10:02:11] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 10:02:11] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 10:02:11] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 10:02:11] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 10:02:11] production.DEBUG: *** 座席図未登録 ***  
+[2021-08-02 10:02:11] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-08-02 10:02:11] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 10:02:11] production.DEBUG: false  
+[2021-08-02 10:02:11] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 10:02:11] production.DEBUG: 0  
+[2021-08-02 10:02:11] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 10:02:11] production.DEBUG: 0  
+[2021-08-02 10:02:11] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-02 10:02:12] production.DEBUG: [edit]It is old data  
+[2021-08-02 10:02:36] production.DEBUG: [EventController] update  
+[2021-08-02 10:02:36] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-08-02 10:02:36] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 10:02:36] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 10:02:36] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 10:02:36] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 10:02:36] production.DEBUG: *** 座席図未登録 ***  
+[2021-08-02 10:02:36] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-08-02 10:02:36] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 10:02:36] production.DEBUG: false  
+[2021-08-02 10:02:36] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 10:02:36] production.DEBUG: 0  
+[2021-08-02 10:02:36] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 10:02:36] production.DEBUG: 0  
+[2021-08-02 10:02:36] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-02 10:02:37] production.DEBUG: [edit]It is old data  
+[2021-08-02 10:04:15] production.DEBUG: [EventController] update  
+[2021-08-02 10:04:15] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-08-02 10:04:15] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 10:04:15] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 10:04:15] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 10:04:15] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 10:04:15] production.DEBUG: *** 座席図未登録 ***  
+[2021-08-02 10:04:15] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-08-02 10:04:15] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 10:04:15] production.DEBUG: false  
+[2021-08-02 10:04:15] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 10:04:15] production.DEBUG: 0  
+[2021-08-02 10:04:15] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 10:04:15] production.DEBUG: 2  
+[2021-08-02 10:04:15] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-02 10:04:16] production.DEBUG: [edit]It is old data  
+[2021-08-02 10:31:11] production.DEBUG: [EventController] update  
+[2021-08-02 10:31:11] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-08-02 10:31:11] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 10:31:11] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 10:31:11] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 10:31:11] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 10:31:11] production.DEBUG: *** 座席図未登録 ***  
+[2021-08-02 10:31:11] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-08-02 10:31:11] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 10:31:11] production.DEBUG: false  
+[2021-08-02 10:31:11] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 10:31:11] production.DEBUG: 0  
+[2021-08-02 10:31:11] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 10:31:11] production.DEBUG: 2  
+[2021-08-02 10:31:11] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-02 10:31:12] production.DEBUG: [edit]It is old data  
+[2021-08-02 14:57:44] production.DEBUG: [Create]The data form DB  
+[2021-08-02 14:58:02] production.DEBUG: ler.addData()  
+[2021-08-02 14:58:02] production.DEBUG: ***(spec)表示公演日時***  
+[2021-08-02 14:58:02] production.DEBUG: ***販売期間未設定***  
+[2021-08-02 14:58:02] production.DEBUG: ***全席自由***  
+[2021-08-02 14:58:02] production.DEBUG: ***席種名未入力***  
+[2021-08-02 14:58:02] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 14:58:02] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 14:58:02] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 14:58:02] production.DEBUG: false  
+[2021-08-02 14:58:02] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 14:58:02] production.DEBUG: 0  
+[2021-08-02 14:58:02] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 14:58:02] production.DEBUG: 0  
+[2021-08-02 14:58:02] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-02 14:58:03] production.DEBUG: [create] It is old data  
+[2021-08-02 14:58:12] production.DEBUG: ler.addData()  
+[2021-08-02 14:58:12] production.DEBUG: ***(spec)表示公演日時***  
+[2021-08-02 14:58:12] production.DEBUG: ***販売期間未設定***  
+[2021-08-02 14:58:12] production.DEBUG: ***全席自由***  
+[2021-08-02 14:58:12] production.DEBUG: ***席種名未入力***  
+[2021-08-02 14:58:12] production.DEBUG: ***席種・券種未設定***  
+[2021-08-02 14:58:12] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-02 14:58:12] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 14:58:12] production.DEBUG: false  
+[2021-08-02 14:58:12] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 14:58:12] production.DEBUG: 0  
+[2021-08-02 14:58:12] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 14:58:12] production.DEBUG: 0  
+[2021-08-02 14:58:12] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-02 14:58:13] production.DEBUG: [create] It is old data  
+[2021-08-02 15:05:30] production.DEBUG: ler.addData()  
+[2021-08-02 15:05:30] production.DEBUG: ***全席自由***  
+[2021-08-02 15:05:30] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-08-02 15:05:30] production.DEBUG: *** sales_term_status  ***  
+[2021-08-02 15:05:30] production.DEBUG: true  
+[2021-08-02 15:05:30] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-02 15:05:30] production.DEBUG: 0  
+[2021-08-02 15:05:30] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-02 15:05:30] production.DEBUG: 2  
+[2021-08-02 15:05:30] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-08-02 15:05:31] production.DEBUG: [create] It is old data  

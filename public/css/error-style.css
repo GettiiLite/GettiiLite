@@ -1,0 +1,764 @@
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    /*font-family: '微軟正黑體', Poppins-ExtraLight, sans-serif;*/
+    /*STS 2021/09/10 - フォントを修正します。*/
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-user-select: none;
+    /* Safari 3.1+ */
+    -moz-user-select: none;
+    /* Firefox 2+ */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Standard syntax */
+}
+
+/*---------------------------------------------*/
+a {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    color: #33bbeb;
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0dd1fd;
+}
+
+/*---------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+h1 {
+    font-family: Poppins-Black;
+    font-size: 8rem;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+h2 {
+    font-family: Poppins-Black;
+    font-size: 6rem;
+    font-weight: 900;
+
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #666666;
+    margin: 10px 0
+}
+h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #666666;
+    margin: 10px 0
+}
+h5 {
+    font-size:1.3rem;
+    font-weight: 400;
+    margin: 10px 0
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #666666;
+    margin: 0px;
+}
+
+ul,
+li {
+    margin: 0px;
+    list-style-type: none;
+}
+
+.txt-blue {
+    color: #139BCC;
+}
+.txt-black {
+    color: #333333;
+}
+/*==================================================================
+{  error區塊設定  }  */
+.error-section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    /*background-image: url(../img/bg-left.svg);
+    background-repeat: no-repeat;
+    background-size: 45%;*/
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.error-wrap {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 90px 30px;
+}
+
+
+/*==================================================================
+{  共同logo設定  }  */
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px
+}
+
+.logo img {
+    max-width: 140px;
+    height: 100%;
+    padding: 0;
+}
+
+/*==================================================================
+{  error 左方圖片區塊設定  }  */
+
+.error404-img {
+    width: 38%;
+}
+
+.error404-img img {
+    max-width: 100%;
+}
+
+/*==================================================================
+{  error 右方文字區塊設定  }  */
+
+.error404-txt-box {
+    width: 62%;
+    padding: 0 30px
+}
+.update-txt-box {
+    width: 62%;
+    padding: 0px 60px;
+}
+.error404-txt-box-title {
+    font-size: 2.5rem;
+    color: #333333;
+    line-height: 2;
+    width: 100%;
+    display: block;
+    padding-bottom: 54px;
+}
+
+h2 span {
+    font-size: 3rem;
+    font-weight: 500
+}
+
+.update-txt-box h3 {
+    font-size: 2.6rem;
+    font-weight:600;
+}
+.update-txt-box h5 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 25px 0 10px 0;
+}
+
+
+.update-txt-box p {
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+/*==================================================================
+{  共同footer區塊設定  }  */
+
+.footer {
+    position: absolute;
+    z-index: 100;
+    bottom: 15px;
+    right: 20px
+}
+
+.footer p {
+    font-size: .8rem;
+    color: #666
+}
+
+.footer a {
+    font-size: .8rem;
+
+}
+
+/**
+ * animated setting
+ * =================================================================== 
+ */
+
+@-webkit-keyframes bounce {
+
+    0%,
+    20%,
+    53%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        -webkit-transform: translateZ(0);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        transform: translateZ(0)
+    }
+
+    40%,
+    43% {
+        -webkit-animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        -webkit-transform: translate3d(0, -30px, 0);
+        animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        transform: translate3d(0, -30px, 0)
+    }
+
+    70% {
+        -webkit-animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        -webkit-transform: translate3d(0, -15px, 0);
+        animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        transform: translate3d(0, -15px, 0)
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, -4px, 0);
+        transform: translate3d(0, -4px, 0)
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    53%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        -webkit-transform: translateZ(0);
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+        transform: translateZ(0)
+    }
+
+    40%,
+    43% {
+        -webkit-animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        -webkit-transform: translate3d(0, -30px, 0);
+        animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        transform: translate3d(0, -30px, 0)
+    }
+
+    70% {
+        -webkit-animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        -webkit-transform: translate3d(0, -15px, 0);
+        animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+        transform: translate3d(0, -15px, 0)
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, -4px, 0);
+        transform: translate3d(0, -4px, 0)
+    }
+}
+
+.bounce {
+    -webkit-animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    animation-name: bounce;
+    transform-origin: center bottom
+}
+
+
+.animate-reveal {
+    opacity: 0;
+    -webkit-animation: reveal 500ms cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+    -moz-animation: reveal 500ms ease-in 1 normal forwards;
+    -o-animation: reveal 500ms cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+    animation: reveal 500ms cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+}
+
+.animate-first {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay: 0;
+    animation-delay: 0;
+}
+
+.animate-second {
+    -webkit-animation-delay: 200ms;
+    -moz-animation-delay: 200ms;
+    -o-animation-delay: 200ms;
+    animation-delay: 200ms;
+}
+
+.animate-third {
+    -webkit-animation-delay: 500ms;
+    -moz-animation-delay: 500ms;
+    -o-animation-delay: 500ms;
+    animation-delay: 500ms;
+}
+
+@-webkit-keyframes reveal {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -o-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-moz-keyframes reveal {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -o-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-o-keyframes reveal {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -o-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -o-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+
+/*==================================================================
+{  RWD設定  }  */
+
+
+@media (max-width: 992px) {
+    .error-wrap {
+        padding: 50px;
+    }
+
+    .error404-img {
+        width: 100%;
+    }
+
+    .error404-txt-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .error-wrap {
+        padding: 100px 80px 33px 80px;
+    }
+
+    .error404-img {
+        display: none;
+    }
+
+    .error404-txt-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .error-wrap {
+        padding: 100px 15px 33px 15px;
+    }
+}
+
+
+
+/* ==================================================================
+{  500 page  }  
+   ================================================================== */
+
+
+.spin-earth-on-hover {
+
+    transition: ease 200s !important;
+    transform: rotate(-3600deg) !important;
+}
+
+
+.bg-main {
+    background: url(../img/bg.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: left top;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.navbar {
+    padding-top: 15px;
+}
+
+.logo {
+    margin-left: 25px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.main-body {
+    padding: 25% 0% 10% 45%;
+    text-align: center;
+}
+
+
+.error500-txt-box {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 50%;
+    padding: 60px 0
+}
+
+.box-man {
+    z-index: 110 !important;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    will-change: transform;
+    animation: move-astronaut 50s infinite linear both alternate;
+}
+
+.box-screw {
+    top: 55%;
+    right: 50%;
+    position: absolute;
+}
+
+.objects img {
+    z-index: 90;
+    pointer-events: none;
+}
+
+.object-man-left {
+    z-index: 95;
+    position: absolute;
+    transform: translateX(-50px);
+    top: 80%;
+    left: 0;
+    pointer-events: none;
+    animation: rocket-movement 200s linear infinite both running;
+}
+
+
+.object-screw {
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    /*
+    transform: rotate(0deg);
+    transition: transform ease-in 99999999999s;
+*/
+}
+
+.object-man-right {
+    animation: rotate-astronaut 200s infinite linear both alternate;
+}
+
+.main-img {
+    position: relative;
+    z-index: 100;
+    pointer-events: none;
+}
+
+.dot-groups {
+    background: url(../img/overlay-dot.svg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: left top;
+}
+
+.dot-groups .dot {
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fff;
+    width: 3px;
+    height: 3px;
+    opacity: 0.3;
+    will-change: opacity;
+}
+
+.dot-groups .dot:nth-child(1) {
+    top: 80%;
+    left: 25%;
+    animation: glow-dot 2s infinite ease-in-out alternate 1s;
+}
+
+.dot-groups .dot:nth-child(2) {
+    top: 20%;
+    left: 40%;
+    animation: glow-dot 2s infinite ease-in-out alternate 3s;
+}
+
+.dot-groups .dot:nth-child(3) {
+    top: 25%;
+    left: 25%;
+    animation: glow-dot 2s infinite ease-in-out alternate 5s;
+}
+
+.dot-groups .dot:nth-child(4) {
+    top: 75%;
+    left: 80%;
+    animation: glow-dot 2s infinite ease-in-out alternate 7s;
+}
+
+.dot-groups .dot:nth-child(5) {
+    top: 90%;
+    left: 50%;
+    animation: glow-dot 2s infinite ease-in-out alternate 9s;
+}
+
+
+/*==================================================================
+{  RWD設定  }  */
+
+
+@media (max-width: 992px) {
+    .main-body {
+        padding: 35% 0% 10% 45%;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .main-body {
+        padding: 45% 0% 10% 45%;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .brand-logo img {
+        width: 120px;
+    }
+
+
+    .box-man {
+        top: 70%;
+    }
+
+    .central-body {
+        padding-top: 25%;
+    }
+}
+
+
+/**
+ * animated setting
+ * =================================================================== 
+ */
+
+@-moz-keyframes rocket-movement {
+    100% {
+        -moz-transform: translate(1200px, -600px);
+    }
+}
+
+@-webkit-keyframes rocket-movement {
+    100% {
+        -webkit-transform: translate(1200px, -600px);
+    }
+}
+
+@keyframes rocket-movement {
+    100% {
+        transform: translate(1200px, -600px);
+    }
+}
+
+@-moz-keyframes spin-earth {
+    100% {
+        -moz-transform: rotate(-360deg);
+        transition: transform 20s;
+    }
+}
+
+@-webkit-keyframes spin-earth {
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transition: transform 20s;
+    }
+}
+
+@keyframes spin-earth {
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+        transition: transform 20s;
+    }
+}
+
+@-moz-keyframes move-astronaut {
+    100% {
+        -moz-transform: translate(-160px, -160px);
+    }
+}
+
+@-webkit-keyframes move-astronaut {
+    100% {
+        -webkit-transform: translate(-160px, -160px);
+    }
+}
+
+@keyframes move-astronaut {
+    100% {
+        -webkit-transform: translate(-160px, -160px);
+        transform: translate(-160px, -160px);
+    }
+}
+
+@-moz-keyframes rotate-astronaut {
+    100% {
+        -moz-transform: rotate(-720deg);
+    }
+}
+
+@-webkit-keyframes rotate-astronaut {
+    100% {
+        -webkit-transform: rotate(-720deg);
+    }
+}
+
+@keyframes rotate-astronaut {
+    100% {
+        -webkit-transform: rotate(-720deg);
+        transform: rotate(-720deg);
+    }
+}
+
+@-moz-keyframes glow-dot {
+    40% {
+        -moz-opacity: 0.3;
+    }
+
+    90%,
+    100% {
+        -moz-opacity: 1;
+        -moz-transform: scale(1.2);
+    }
+}
+
+@-webkit-keyframes glow-dot {
+    40% {
+        -webkit-opacity: 0.3;
+    }
+
+    90%,
+    100% {
+        -webkit-opacity: 1;
+        -webkit-transform: scale(1.2);
+    }
+}
+
+@keyframes glow-dot {
+    40% {
+        -webkit-opacity: 0.3;
+        opacity: 0.3;
+    }
+
+    90%,
+    100% {
+        -webkit-opacity: 1;
+        opacity: 1;
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        border-radius: 999999px;
+    }
+}

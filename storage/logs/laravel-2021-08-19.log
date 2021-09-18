@@ -1,0 +1,75 @@
+[2021-08-19 12:02:38] production.ERROR: Command "config" is not defined.
+
+Did you mean one of these?
+    config:cache
+    config:clear {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"config\" is not defined.
+
+Did you mean one of these?
+    config:cache
+    config:clear at /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php:651)
+[stacktrace]
+#0 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find('config')
+#1 /home/vagrant/code/gettiilite/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Console/Application.php(88): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(121): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/gettiilite/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-08-19 12:13:07] production.DEBUG: [Create]The data form DB  
+[2021-08-19 12:13:12] production.DEBUG: ler.addData()  
+[2021-08-19 12:13:12] production.DEBUG: ***(spec)表示公演日時***  
+[2021-08-19 12:13:12] production.DEBUG: ***販売期間未設定***  
+[2021-08-19 12:13:12] production.DEBUG: ***全席自由***  
+[2021-08-19 12:13:12] production.DEBUG: ***席種名未入力***  
+[2021-08-19 12:13:12] production.DEBUG: ***席種・券種未設定***  
+[2021-08-19 12:13:12] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-08-19 12:13:12] production.DEBUG: *** sales_term_status  ***  
+[2021-08-19 12:13:12] production.DEBUG: false  
+[2021-08-19 12:13:12] production.DEBUG: *** ticket_seat_status  ***  
+[2021-08-19 12:13:12] production.DEBUG: 0  
+[2021-08-19 12:13:12] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-08-19 12:13:12] production.DEBUG: 0  
+[2021-08-19 12:13:12] production.DEBUG: EvenManageServices.addData()  
+[2021-08-19 12:13:12] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-08-19 12:16:06] production.INFO: get scheduleId 15008 detail csv.  
+[2021-08-19 12:22:58] production.INFO: get scheduleId 15008 detail csv.  
+[2021-08-19 12:27:24] production.DEBUG: Start the process of getting data from Gettiis, type: 1 ; system kbn: 1  
+[2021-08-19 12:27:30] production.DEBUG: complete update GL_Members  
+[2021-08-19 12:29:14] production.DEBUG: Start the process of getting data from Gettiis, type: 1 ; system kbn: 1  
+[2021-08-19 12:29:17] production.DEBUG: complete update GL_Members  
+[2021-08-19 12:30:02] production.DEBUG: Start the process of getting data from Gettiis, type: 1 ; system kbn: 1  
+[2021-08-19 12:30:05] production.DEBUG: complete update GL_Members  
+[2021-08-19 12:31:09] production.DEBUG: Start the process of getting data from Gettiis, type: 1 ; system kbn: 1  
+[2021-08-19 12:31:12] production.DEBUG: complete update GL_Members  
+[2021-08-19 12:31:56] production.DEBUG: Start the process of getting data from Gettiis, type: 2 ; system kbn: 1  
+[2021-08-19 12:31:56] production.DEBUG: complete update GL_Members  
+[2021-08-19 12:33:03] production.DEBUG: Start the process of getting data from Gettiis, type: 2 ; system kbn: 1  
+[2021-08-19 12:33:03] production.DEBUG: complete update GL_Members  
+[2021-08-19 12:34:23] production.DEBUG: Start the process of getting data from Gettiis, type: 3 ; system kbn: 1  
+[2021-08-19 12:34:23] production.DEBUG: complete update GL_Members  
+[2021-08-19 12:35:57] production.DEBUG: Start the process of getting data from Gettiis, type: 1 ; system kbn: 1  
+[2021-08-19 12:36:03] production.DEBUG: complete update GL_Members  
+[2021-08-19 12:39:21] production.DEBUG: Start the process of getting data from Gettiis, type: 1 ; system kbn: 1  
+[2021-08-19 12:39:27] production.DEBUG: complete update GL_Members  
+[2021-08-19 12:40:17] production.DEBUG: Start the process of getting data from Gettiis, type: 2 ; system kbn: 1  
+[2021-08-19 12:40:17] production.DEBUG: complete update GL_Members  
+[2021-08-19 12:40:46] production.DEBUG: Start the process of getting data from Gettiis, type: 2 ; system kbn: 1  
+[2021-08-19 12:40:47] production.DEBUG: complete update GL_Members  
+[2021-08-19 12:41:58] production.INFO: get scheduleId 15008 detail csv.  
+[2021-08-19 12:44:19] production.INFO: get scheduleId 15008 detail csv.  
+[2021-08-19 12:45:46] production.INFO: get scheduleId 15008 detail csv.  
+[2021-08-19 12:47:43] production.INFO: get scheduleId 15008 detail csv.  
+[2021-08-19 12:49:17] production.INFO: get scheduleId 15008 detail csv.  
+[2021-08-19 12:50:56] production.INFO: get scheduleId 15008 detail csv.  
+[2021-08-19 12:54:21] production.INFO: get scheduleId 15008 detail csv.  
+[2021-08-19 13:02:49] production.INFO: get scheduleId 15008 detail csv.  
+[2021-08-19 13:10:42] production.INFO: get scheduleId 15008 detail csv.  
+[2021-08-19 13:13:54] production.INFO: get scheduleId 15008 detail csv.  
+[2021-08-19 13:27:49] production.DEBUG: Start the process of getting data from Gettiis, type: 3 ; system kbn: 1  
+[2021-08-19 13:27:49] production.DEBUG: complete update GL_Members  
+[2021-08-19 13:29:05] production.DEBUG: Start the process of getting data from Gettiis, type: 3 ; system kbn: 1  
+[2021-08-19 13:29:05] production.DEBUG: complete update GL_Members  
+[2021-08-19 13:30:17] production.DEBUG: Start the process of getting data from Gettiis, type: 3 ; system kbn: 1  
+[2021-08-19 13:30:17] production.DEBUG: complete update GL_Members  
+[2021-08-19 13:31:09] production.DEBUG: Start the process of getting data from Gettiis, type: 3 ; system kbn: 1  
+[2021-08-19 13:31:09] production.DEBUG: complete update GL_Members  

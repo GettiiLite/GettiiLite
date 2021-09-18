@@ -1,0 +1,116 @@
+[2021-07-07 15:05:42] production.DEBUG: [EventManageService] republish  
+[2021-07-07 15:05:42] production.DEBUG: has  
+[2021-07-07 15:05:42] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-07-07 15:05:42] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2209","performance_date":"2021\/07\/13","start_time":"12:00","disp_performance_date":"22:00","sch_kbn":"0","stcd":2545,"update_account_cd":633}  
+[2021-07-07 15:05:42] production.DEBUG: specDateScheduleCreateorUpdate:2209-2021/07/13-2545-12:00  
+[2021-07-07 15:05:42] production.DEBUG: specDateScheduleCreateorUpdate: id =15125  
+[2021-07-07 15:05:43] production.DEBUG: export event mst_data satart  
+[2021-07-07 15:05:43] production.ERROR: [republish]:Exception occurred - finfo::file(C:\appp\HUY\GettiiLite\public/storage/event-data/HFkx3XYu/logo/DWoZsfLR072021010707.jpg): failed to open stream: No such file or directory  
+[2021-07-07 15:05:55] production.DEBUG: [EventManageService] republish  
+[2021-07-07 15:05:55] production.DEBUG: has  
+[2021-07-07 15:05:55] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-07-07 15:05:55] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2209","performance_date":"2021\/07\/13","start_time":"12:00","disp_performance_date":"22:00","sch_kbn":"0","stcd":2546,"update_account_cd":633}  
+[2021-07-07 15:05:55] production.DEBUG: specDateScheduleCreateorUpdate:2209-2021/07/13-2546-12:00  
+[2021-07-07 15:05:55] production.DEBUG: specDateScheduleCreateorUpdate: id =15126  
+[2021-07-07 15:05:56] production.DEBUG: export event mst_data satart  
+[2021-07-07 15:05:56] production.ERROR: [republish]:Exception occurred - finfo::file(C:\appp\HUY\GettiiLite\public/storage/event-data/HFkx3XYu/logo/DWoZsfLR072021010707.jpg): failed to open stream: No such file or directory  
+[2021-07-07 15:06:15] production.DEBUG: [EventManageService] republish  
+[2021-07-07 15:06:15] production.DEBUG: has  
+[2021-07-07 15:06:15] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-07-07 15:06:15] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2209","performance_date":"2021\/07\/13","start_time":"12:00","disp_performance_date":"22:00","sch_kbn":"0","stcd":2547,"update_account_cd":633}  
+[2021-07-07 15:06:15] production.DEBUG: specDateScheduleCreateorUpdate:2209-2021/07/13-2547-12:00  
+[2021-07-07 15:06:15] production.DEBUG: specDateScheduleCreateorUpdate: id =15127  
+[2021-07-07 15:06:16] production.DEBUG: export event mst_data satart  
+[2021-07-07 15:06:16] production.ERROR: [republish]:Exception occurred - finfo::file(C:\appp\HUY\GettiiLite\public/storage/event-data/HFkx3XYu/logo/DWoZsfLR072021010707.jpg): failed to open stream: No such file or directory  
+[2021-07-07 15:06:34] production.DEBUG: [Create]The data form DB  
+[2021-07-07 15:06:46] production.DEBUG: Call eventUploadImage.  
+[2021-07-07 15:06:52] production.DEBUG: Call eventUploadImage.  
+[2021-07-07 15:07:37] production.DEBUG: ler.addData()  
+[2021-07-07 15:07:37] production.DEBUG: ***全席自由***  
+[2021-07-07 15:07:37] production.DEBUG: *** sales_term_status  ***  
+[2021-07-07 15:07:37] production.DEBUG: true  
+[2021-07-07 15:07:37] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-07 15:07:37] production.DEBUG: 1  
+[2021-07-07 15:07:37] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-07 15:07:37] production.DEBUG: 3  
+[2021-07-07 15:07:37] production.DEBUG: EvenManageServices.addData()  
+[2021-07-07 15:07:37] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-07-07 15:07:43] production.DEBUG: [EventManageService] republish  
+[2021-07-07 15:07:43] production.DEBUG: has  
+[2021-07-07 15:07:43] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-07-07 15:07:43] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2214","performance_date":"2021\/07\/23","start_time":"12:00","disp_performance_date":"u","sch_kbn":"0","stcd":2553,"update_account_cd":633}  
+[2021-07-07 15:07:43] production.DEBUG: specDateScheduleCreateorUpdate:2214-2021/07/23-2553-12:00  
+[2021-07-07 15:07:43] production.DEBUG: specDateScheduleCreateorUpdate: id =15225  
+[2021-07-07 15:07:44] production.DEBUG: export event mst_data satart  
+[2021-07-07 15:07:44] production.DEBUG: export event mst_data finished  
+[2021-07-07 15:15:26] production.DEBUG: [EventManageService] republish  
+[2021-07-07 15:15:26] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-07-07 15:15:26] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2214","performance_date":"2021\/07\/23","start_time":"12:00","disp_performance_date":"u","sch_kbn":"0","stcd":2553,"update_account_cd":633}  
+[2021-07-07 15:15:26] production.DEBUG: specDateScheduleCreateorUpdate:2214-2021/07/23-2553-12:00  
+[2021-07-07 15:15:26] production.DEBUG: specDateScheduleCreateorUpdate: id =15225  
+[2021-07-07 15:15:27] production.DEBUG: export event mst_data satart  
+[2021-07-07 15:15:27] production.ERROR: [republish]:Exception occurred - finfo::file(C:\appp\HUY\GettiiLite\public/storage/event-data/P4OBbZYD/content/cDaMtVyw072021030707.png): failed to open stream: No such file or directory  
+[2021-07-07 15:21:42] production.DEBUG: [EventManageService] republish  
+[2021-07-07 15:21:42] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-07-07 15:21:42] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2214","performance_date":"2021\/07\/23","start_time":"12:00","disp_performance_date":"u","sch_kbn":"0","stcd":2553,"update_account_cd":1}  
+[2021-07-07 15:21:42] production.DEBUG: specDateScheduleCreateorUpdate:2214-2021/07/23-2553-12:00  
+[2021-07-07 15:21:42] production.DEBUG: specDateScheduleCreateorUpdate: id =15225  
+[2021-07-07 15:21:43] production.DEBUG: export event mst_data satart  
+[2021-07-07 15:21:43] production.ERROR: [republish]:Exception occurred - finfo::file(C:\appp\HUY\GettiiLite\public/storage/event-data/P4OBbZYD/content/cDaMtVyw072021030707.png): failed to open stream: No such file or directory  
+[2021-07-07 15:23:08] production.DEBUG: [edit]The data from DB  
+[2021-07-07 15:29:36] production.DEBUG: [edit]The data from DB  
+[2021-07-07 15:30:18] production.DEBUG: Call eventUploadImage.  
+[2021-07-07 15:30:20] production.DEBUG: [EventController] update  
+[2021-07-07 15:30:20] production.DEBUG: ***全席自由***  
+[2021-07-07 15:30:20] production.DEBUG: *** sales_term_status  ***  
+[2021-07-07 15:30:20] production.DEBUG: true  
+[2021-07-07 15:30:20] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-07 15:30:20] production.DEBUG: 1  
+[2021-07-07 15:30:20] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-07 15:30:20] production.DEBUG: 3  
+[2021-07-07 15:30:20] production.DEBUG: [EventManageService]updateJson  
+[2021-07-07 15:30:20] production.DEBUG: _createHallInfo : [富山県][魚津市] -> ID => 3001298  
+[2021-07-07 15:30:21] production.DEBUG: [edit]It is old data  
+[2021-07-07 15:30:21] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-07 15:32:05] production.DEBUG: [EventManageService] republish  
+[2021-07-07 15:40:05] production.DEBUG: [EventManageService] republish  
+[2021-07-07 15:41:14] production.DEBUG: [EventManageService] republish  
+[2021-07-07 15:41:14] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-07-07 15:41:14] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2214","performance_date":"2021\/07\/23","start_time":"12:00","disp_performance_date":"u","sch_kbn":"0","stcd":2553,"update_account_cd":633}  
+[2021-07-07 15:41:14] production.DEBUG: specDateScheduleCreateorUpdate:2214-2021/07/23-2553-12:00  
+[2021-07-07 15:41:14] production.DEBUG: specDateScheduleCreateorUpdate: id =15225  
+[2021-07-07 15:41:16] production.DEBUG: export event mst_data satart  
+[2021-07-07 15:41:16] production.DEBUG: export event mst_data finished  
+[2021-07-07 15:41:24] production.DEBUG: [edit]The data from DB  
+[2021-07-07 15:41:46] production.DEBUG: [EventManageService] republish  
+[2021-07-07 15:41:46] production.DEBUG: has  
+[2021-07-07 15:41:46] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-07-07 15:41:46] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2209","performance_date":"2021\/07\/13","start_time":"12:00","disp_performance_date":"22:00","sch_kbn":"0","stcd":2554,"update_account_cd":633}  
+[2021-07-07 15:41:46] production.DEBUG: specDateScheduleCreateorUpdate:2209-2021/07/13-2554-12:00  
+[2021-07-07 15:41:46] production.DEBUG: specDateScheduleCreateorUpdate: id =15226  
+[2021-07-07 15:41:48] production.DEBUG: export event mst_data satart  
+[2021-07-07 15:41:48] production.ERROR: [republish]:Exception occurred - finfo::file(C:\appp\HUY\GettiiLite\public/storage/event-data/HFkx3XYu/logo/DWoZsfLR072021010707.jpg): failed to open stream: No such file or directory  
+[2021-07-07 15:42:17] production.DEBUG: [edit]The data from DB  
+[2021-07-07 15:42:25] production.DEBUG: has  
+[2021-07-07 15:42:34] production.DEBUG: Call eventUploadImage.  
+[2021-07-07 15:42:38] production.DEBUG: Call eventUploadImage.  
+[2021-07-07 15:42:39] production.DEBUG: [EventController] update  
+[2021-07-07 15:42:39] production.DEBUG: ***全席自由***  
+[2021-07-07 15:42:39] production.DEBUG: *** sales_term_status  ***  
+[2021-07-07 15:42:39] production.DEBUG: true  
+[2021-07-07 15:42:39] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-07 15:42:39] production.DEBUG: 1  
+[2021-07-07 15:42:39] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-07 15:42:39] production.DEBUG: 3  
+[2021-07-07 15:42:39] production.DEBUG: [EventManageService]updateJson  
+[2021-07-07 15:42:39] production.DEBUG: _createHallInfo : [富山県][魚津市] -> ID => 3001298  
+[2021-07-07 15:42:40] production.DEBUG: [edit]It is old data  
+[2021-07-07 15:42:40] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-07 15:43:46] production.DEBUG: [EventManageService] republish  
+[2021-07-07 15:43:46] production.DEBUG: has  
+[2021-07-07 15:57:57] production.DEBUG: [EventManageService] republish  
+[2021-07-07 15:57:57] production.DEBUG: has  
+[2021-07-07 15:57:57] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-07-07 15:57:57] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2208","performance_date":"2021\/07\/09","start_time":"12:00","disp_performance_date":"22:00","sch_kbn":"0","stcd":2558,"update_account_cd":633}  
+[2021-07-07 15:57:57] production.DEBUG: specDateScheduleCreateorUpdate:2208-2021/07/09-2558-12:00  
+[2021-07-07 15:57:57] production.DEBUG: specDateScheduleCreateorUpdate: id =15230  

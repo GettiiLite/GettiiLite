@@ -1,0 +1,350 @@
+[2021-07-26 10:41:31] production.DEBUG: [Create]The data form DB  
+[2021-07-26 10:43:44] production.DEBUG: Call eventUploadImage.  
+[2021-07-26 10:43:51] production.DEBUG: Call eventUploadImage.  
+[2021-07-26 10:43:58] production.DEBUG: Call eventUploadImage.  
+[2021-07-26 10:44:12] production.DEBUG: Call eventUploadImage.  
+[2021-07-26 10:45:57] production.DEBUG: ler.addData()  
+[2021-07-26 10:45:57] production.DEBUG: ***全席自由***  
+[2021-07-26 10:45:57] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-26 10:45:57] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 10:45:57] production.DEBUG: true  
+[2021-07-26 10:45:57] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 10:45:57] production.DEBUG: 0  
+[2021-07-26 10:45:57] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 10:45:57] production.DEBUG: 2  
+[2021-07-26 10:45:57] production.DEBUG: EvenManageServices.addData()  
+[2021-07-26 10:45:57] production.DEBUG: EvenManageRepositories.performanceInsert()  
+[2021-07-26 10:46:55] production.DEBUG: [edit]The data from DB  
+[2021-07-26 10:47:02] production.DEBUG: has  
+[2021-07-26 10:47:18] production.DEBUG: [EventController] update  
+[2021-07-26 10:47:18] production.DEBUG: ***全席自由***  
+[2021-07-26 10:47:18] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 10:47:18] production.DEBUG: true  
+[2021-07-26 10:47:18] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 10:47:18] production.DEBUG: 1  
+[2021-07-26 10:47:18] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 10:47:18] production.DEBUG: 3  
+[2021-07-26 10:47:18] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 10:47:18] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 10:47:20] production.DEBUG: [edit]It is old data  
+[2021-07-26 10:47:20] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 11:02:45] production.DEBUG: [edit]The data from DB  
+[2021-07-26 11:02:52] production.DEBUG: has  
+[2021-07-26 11:04:47] production.DEBUG: [edit]The data from DB  
+[2021-07-26 11:04:54] production.DEBUG: has  
+[2021-07-26 11:05:40] production.DEBUG: [edit]The data from DB  
+[2021-07-26 11:05:47] production.DEBUG: has  
+[2021-07-26 11:07:21] production.DEBUG: [edit]The data from DB  
+[2021-07-26 11:07:28] production.DEBUG: has  
+[2021-07-26 11:41:02] production.DEBUG: [edit]The data from DB  
+[2021-07-26 11:41:08] production.DEBUG: has  
+[2021-07-26 12:00:15] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:00:22] production.DEBUG: has  
+[2021-07-26 12:00:58] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:01:05] production.DEBUG: has  
+[2021-07-26 12:06:09] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:06:16] production.DEBUG: has  
+[2021-07-26 12:07:20] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:07:26] production.DEBUG: has  
+[2021-07-26 12:13:58] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:14:05] production.DEBUG: has  
+[2021-07-26 12:17:06] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:17:12] production.DEBUG: has  
+[2021-07-26 12:19:03] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:19:09] production.DEBUG: has  
+[2021-07-26 12:24:03] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:24:10] production.DEBUG: has  
+[2021-07-26 12:24:49] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:24:55] production.DEBUG: has  
+[2021-07-26 12:25:27] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:25:33] production.DEBUG: has  
+[2021-07-26 12:30:16] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:30:23] production.DEBUG: has  
+[2021-07-26 12:31:54] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:32:00] production.DEBUG: has  
+[2021-07-26 12:36:59] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:37:05] production.DEBUG: has  
+[2021-07-26 12:37:38] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:37:44] production.DEBUG: has  
+[2021-07-26 12:39:00] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:39:06] production.DEBUG: has  
+[2021-07-26 12:41:26] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:41:33] production.DEBUG: has  
+[2021-07-26 12:42:05] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:42:11] production.DEBUG: has  
+[2021-07-26 12:42:41] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:42:48] production.DEBUG: has  
+[2021-07-26 12:43:00] production.DEBUG: [EventController] update  
+[2021-07-26 12:43:00] production.DEBUG: ***全席自由***  
+[2021-07-26 12:43:00] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-26 12:43:00] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 12:43:00] production.DEBUG: true  
+[2021-07-26 12:43:00] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 12:43:00] production.DEBUG: 0  
+[2021-07-26 12:43:00] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 12:43:00] production.DEBUG: 2  
+[2021-07-26 12:43:00] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 12:43:00] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 12:43:01] production.DEBUG: [edit]It is old data  
+[2021-07-26 12:43:01] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 12:43:29] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:43:35] production.DEBUG: has  
+[2021-07-26 12:44:21] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:44:28] production.DEBUG: has  
+[2021-07-26 12:45:26] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:45:33] production.DEBUG: has  
+[2021-07-26 12:46:29] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:46:36] production.DEBUG: has  
+[2021-07-26 12:47:33] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:47:40] production.DEBUG: has  
+[2021-07-26 12:54:56] production.DEBUG: [edit]The data from DB  
+[2021-07-26 12:55:02] production.DEBUG: has  
+[2021-07-26 13:05:19] production.DEBUG: [edit]The data from DB  
+[2021-07-26 13:05:26] production.DEBUG: has  
+[2021-07-26 13:06:12] production.DEBUG: [edit]The data from DB  
+[2021-07-26 13:06:19] production.DEBUG: has  
+[2021-07-26 13:07:56] production.DEBUG: [edit]The data from DB  
+[2021-07-26 13:08:03] production.DEBUG: has  
+[2021-07-26 13:12:16] production.DEBUG: [edit]The data from DB  
+[2021-07-26 13:12:23] production.DEBUG: has  
+[2021-07-26 13:12:39] production.DEBUG: [EventController] update  
+[2021-07-26 13:12:39] production.DEBUG: ***全席自由***  
+[2021-07-26 13:12:39] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-26 13:12:39] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 13:12:39] production.DEBUG: true  
+[2021-07-26 13:12:39] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 13:12:39] production.DEBUG: 0  
+[2021-07-26 13:12:39] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 13:12:39] production.DEBUG: 2  
+[2021-07-26 13:12:39] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 13:12:39] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 13:12:41] production.DEBUG: [edit]It is old data  
+[2021-07-26 13:12:41] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 13:13:08] production.DEBUG: [EventController] update  
+[2021-07-26 13:13:08] production.DEBUG: ***全席自由***  
+[2021-07-26 13:13:08] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 13:13:08] production.DEBUG: true  
+[2021-07-26 13:13:08] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 13:13:08] production.DEBUG: 1  
+[2021-07-26 13:13:08] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 13:13:08] production.DEBUG: 3  
+[2021-07-26 13:13:08] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 13:13:08] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 13:13:10] production.DEBUG: [edit]It is old data  
+[2021-07-26 13:13:10] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 13:13:50] production.DEBUG: [EventController] update  
+[2021-07-26 13:13:50] production.DEBUG: ***全席自由***  
+[2021-07-26 13:13:50] production.DEBUG: ***券種or料金未入力***  
+[2021-07-26 13:13:50] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-26 13:13:50] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 13:13:50] production.DEBUG: true  
+[2021-07-26 13:13:50] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 13:13:50] production.DEBUG: 0  
+[2021-07-26 13:13:50] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 13:13:50] production.DEBUG: 2  
+[2021-07-26 13:13:50] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 13:13:50] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 13:13:52] production.DEBUG: [edit]It is old data  
+[2021-07-26 13:13:52] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 13:14:07] production.DEBUG: [EventController] update  
+[2021-07-26 13:14:07] production.DEBUG: ***全席自由***  
+[2021-07-26 13:14:07] production.DEBUG: ***券種or料金未入力***  
+[2021-07-26 13:14:07] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 13:14:07] production.DEBUG: true  
+[2021-07-26 13:14:07] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 13:14:07] production.DEBUG: 0  
+[2021-07-26 13:14:07] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 13:14:07] production.DEBUG: 2  
+[2021-07-26 13:14:07] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 13:14:07] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 13:14:08] production.DEBUG: [edit]It is old data  
+[2021-07-26 13:14:08] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 13:15:05] production.DEBUG: [EventController] update  
+[2021-07-26 13:15:05] production.DEBUG: ***全席自由***  
+[2021-07-26 13:15:05] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-26 13:15:05] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 13:15:05] production.DEBUG: true  
+[2021-07-26 13:15:05] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 13:15:05] production.DEBUG: 0  
+[2021-07-26 13:15:05] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 13:15:05] production.DEBUG: 2  
+[2021-07-26 13:15:05] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 13:15:05] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 13:15:07] production.DEBUG: [edit]It is old data  
+[2021-07-26 13:15:07] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 13:15:22] production.DEBUG: [EventController] update  
+[2021-07-26 13:15:22] production.DEBUG: ***全席自由***  
+[2021-07-26 13:15:22] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 13:15:22] production.DEBUG: true  
+[2021-07-26 13:15:22] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 13:15:22] production.DEBUG: 1  
+[2021-07-26 13:15:22] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 13:15:22] production.DEBUG: 3  
+[2021-07-26 13:15:22] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 13:15:22] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 13:15:23] production.DEBUG: [edit]It is old data  
+[2021-07-26 13:15:23] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 13:16:17] production.DEBUG: [EventController] update  
+[2021-07-26 13:16:17] production.DEBUG: ***全席自由***  
+[2021-07-26 13:16:17] production.DEBUG: ***券種or料金未入力***  
+[2021-07-26 13:16:17] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-26 13:16:17] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 13:16:17] production.DEBUG: true  
+[2021-07-26 13:16:17] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 13:16:17] production.DEBUG: 0  
+[2021-07-26 13:16:17] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 13:16:17] production.DEBUG: 2  
+[2021-07-26 13:16:17] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 13:16:17] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 13:16:18] production.DEBUG: [edit]It is old data  
+[2021-07-26 13:16:18] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 13:16:32] production.DEBUG: [EventController] update  
+[2021-07-26 13:16:32] production.DEBUG: ***全席自由***  
+[2021-07-26 13:16:32] production.DEBUG: ***券種or料金未入力***  
+[2021-07-26 13:16:32] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 13:16:32] production.DEBUG: true  
+[2021-07-26 13:16:32] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 13:16:32] production.DEBUG: 0  
+[2021-07-26 13:16:32] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 13:16:32] production.DEBUG: 2  
+[2021-07-26 13:16:32] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 13:16:32] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 13:16:34] production.DEBUG: [edit]It is old data  
+[2021-07-26 13:16:34] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 13:16:49] production.DEBUG: [EventController] update  
+[2021-07-26 13:16:49] production.DEBUG: ***全席自由***  
+[2021-07-26 13:16:49] production.DEBUG: ***券種or料金未入力***  
+[2021-07-26 13:16:49] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 13:16:49] production.DEBUG: true  
+[2021-07-26 13:16:49] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 13:16:49] production.DEBUG: 0  
+[2021-07-26 13:16:49] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 13:16:49] production.DEBUG: 2  
+[2021-07-26 13:16:49] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 13:16:49] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 13:16:50] production.DEBUG: [edit]It is old data  
+[2021-07-26 13:16:50] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 13:21:01] production.DEBUG: [edit]The data from DB  
+[2021-07-26 13:21:07] production.DEBUG: has  
+[2021-07-26 13:21:30] production.DEBUG: [EventController] update  
+[2021-07-26 13:21:30] production.DEBUG: ***全席自由***  
+[2021-07-26 13:21:30] production.DEBUG: ***券種or料金未入力***  
+[2021-07-26 13:21:30] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-26 13:21:30] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 13:21:30] production.DEBUG: true  
+[2021-07-26 13:21:30] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 13:21:30] production.DEBUG: 0  
+[2021-07-26 13:21:30] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 13:21:30] production.DEBUG: 2  
+[2021-07-26 13:21:30] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 13:21:30] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 13:21:31] production.DEBUG: [edit]It is old data  
+[2021-07-26 13:21:31] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 13:21:56] production.DEBUG: [EventController] update  
+[2021-07-26 13:21:56] production.DEBUG: ***全席自由***  
+[2021-07-26 13:21:56] production.DEBUG: ***券種or料金未入力***  
+[2021-07-26 13:21:56] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 13:21:56] production.DEBUG: true  
+[2021-07-26 13:21:56] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 13:21:56] production.DEBUG: 0  
+[2021-07-26 13:21:56] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 13:21:56] production.DEBUG: 2  
+[2021-07-26 13:21:56] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 13:21:56] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 13:21:57] production.DEBUG: [edit]It is old data  
+[2021-07-26 13:21:57] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 13:24:12] production.DEBUG: [edit]The data from DB  
+[2021-07-26 13:24:19] production.DEBUG: has  
+[2021-07-26 15:28:42] production.DEBUG: [edit]The data from DB  
+[2021-07-26 15:28:49] production.DEBUG: has  
+[2021-07-26 15:36:29] production.DEBUG: [edit]The data from DB  
+[2021-07-26 15:36:35] production.DEBUG: has  
+[2021-07-26 15:37:04] production.DEBUG: [edit]The data from DB  
+[2021-07-26 15:37:11] production.DEBUG: has  
+[2021-07-26 15:47:07] production.DEBUG: [edit]The data from DB  
+[2021-07-26 15:47:14] production.DEBUG: has  
+[2021-07-26 15:50:48] production.DEBUG: [edit]The data from DB  
+[2021-07-26 15:50:54] production.DEBUG: has  
+[2021-07-26 15:52:31] production.DEBUG: [edit]The data from DB  
+[2021-07-26 15:52:38] production.DEBUG: has  
+[2021-07-26 15:54:05] production.DEBUG: [edit]The data from DB  
+[2021-07-26 15:54:11] production.DEBUG: has  
+[2021-07-26 15:55:12] production.DEBUG: [edit]The data from DB  
+[2021-07-26 15:55:18] production.DEBUG: has  
+[2021-07-26 15:56:40] production.DEBUG: [edit]The data from DB  
+[2021-07-26 15:56:47] production.DEBUG: has  
+[2021-07-26 16:08:39] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:08:46] production.DEBUG: has  
+[2021-07-26 16:09:41] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:09:47] production.DEBUG: has  
+[2021-07-26 16:16:32] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:16:38] production.DEBUG: has  
+[2021-07-26 16:17:36] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:17:43] production.DEBUG: has  
+[2021-07-26 16:19:47] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:19:53] production.DEBUG: has  
+[2021-07-26 16:21:12] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:21:19] production.DEBUG: has  
+[2021-07-26 16:23:05] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:23:11] production.DEBUG: has  
+[2021-07-26 16:25:42] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:25:48] production.DEBUG: has  
+[2021-07-26 16:26:07] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:26:14] production.DEBUG: has  
+[2021-07-26 16:29:09] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:29:15] production.DEBUG: has  
+[2021-07-26 16:30:10] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:30:17] production.DEBUG: has  
+[2021-07-26 16:44:40] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:44:46] production.DEBUG: has  
+[2021-07-26 16:46:18] production.DEBUG: [EventController] update  
+[2021-07-26 16:46:18] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-26 16:46:18] production.DEBUG: ***席種・券種未設定***  
+[2021-07-26 16:46:18] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-26 16:46:18] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-26 16:46:18] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 16:46:18] production.DEBUG: true  
+[2021-07-26 16:46:18] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 16:46:18] production.DEBUG: 0  
+[2021-07-26 16:46:18] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 16:46:18] production.DEBUG: 2  
+[2021-07-26 16:46:18] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 16:46:18] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 16:46:19] production.DEBUG: [edit]It is old data  
+[2021-07-26 16:46:19] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 16:55:57] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:56:04] production.DEBUG: has  
+[2021-07-26 16:56:33] production.DEBUG: [edit]The data from DB  
+[2021-07-26 16:56:39] production.DEBUG: has  
+[2021-07-26 17:00:55] production.DEBUG: [edit]The data from DB  
+[2021-07-26 17:01:02] production.DEBUG: has  
+[2021-07-26 17:02:43] production.DEBUG: [edit]The data from DB  
+[2021-07-26 17:02:49] production.DEBUG: has  
+[2021-07-26 17:05:45] production.DEBUG: [edit]The data from DB  
+[2021-07-26 17:05:52] production.DEBUG: has  
+[2021-07-26 17:10:54] production.DEBUG: [edit]The data from DB  
+[2021-07-26 17:11:01] production.DEBUG: has  
+[2021-07-26 17:12:20] production.DEBUG: [edit]The data from DB  
+[2021-07-26 17:12:27] production.DEBUG: has  
+[2021-07-26 17:17:47] production.DEBUG: [EventController] update  
+[2021-07-26 17:17:47] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-26 17:17:47] production.DEBUG: ***全席自由***  
+[2021-07-26 17:17:47] production.DEBUG: ***席種・券種未設定***  
+[2021-07-26 17:17:47] production.DEBUG: *** sales_term_status  ***  
+[2021-07-26 17:17:47] production.DEBUG: true  
+[2021-07-26 17:17:47] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-26 17:17:47] production.DEBUG: 0  
+[2021-07-26 17:17:47] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-26 17:17:47] production.DEBUG: 2  
+[2021-07-26 17:17:47] production.DEBUG: [EventManageService]updateJson  
+[2021-07-26 17:17:47] production.DEBUG: _createHallInfo : [石川県][七尾市] -> ID => 3001316  
+[2021-07-26 17:17:49] production.DEBUG: [edit]It is old data  
+[2021-07-26 17:17:49] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-26 17:20:31] production.DEBUG: [edit]The data from DB  
+[2021-07-26 17:20:38] production.DEBUG: has  
+[2021-07-26 18:00:06] production.DEBUG: [edit]The data from DB  
+[2021-07-26 18:00:13] production.DEBUG: has  
+[2021-07-26 18:02:37] production.DEBUG: [edit]The data from DB  
+[2021-07-26 18:02:44] production.DEBUG: has  
+[2021-07-26 18:03:12] production.DEBUG: [edit]The data from DB  
+[2021-07-26 18:03:18] production.DEBUG: has  

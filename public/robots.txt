@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://lite.gettiis.jp/sitemap.xml

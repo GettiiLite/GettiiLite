@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'S_Preview' => '預覽',
+    'S_LoginError' => '登入訊息錯誤',
+    'S_LoginPage' => '登入頁',
+    'S_UserRegistered' => '立即註冊成為會員',
+    'S_Apply' => '註冊',
+    'S_CompanyId' => '會員代碼',
+    'S_UserId' => '使用者帳號',
+    'S_UserPassword' => '使用者密碼',
+    'S_UserLogin' => '會員登入',
+    'S_Login' => '登入',
+    'S_ForgetPassword' => '忘記密碼',
+    'S_ApplyNewPassword' => '管理者忘記賬號密碼_1',
+    'S_WarnTitle' => '請依下列欄位順序輸入註冊時所登記的資料後，',
+    'S_WarnSubTitle' => '我們會把新的密碼寄至註冊時登記的信箱之中',
+    'S_ApplyNewPassword' => '重置管理者密碼',
+    'S_MailPlaceholder' => '請輸入註冊時登記的EMail',
+    'S_Tel' => '電話號碼',
+    'S_TelPlaceholder' => '請輸入註冊時登記的電話號碼',
+    // 'S_LoginPage' => '一個簡單管理的票券管理系統',
+    'S_LoginPage' => '',
+    'S_NoteMSG' => '※ 請注意，當你送出重置密碼之後原密碼將立即失效，請於收到新密碼後使用新密碼登入。<br>
+                    ※ 本功能僅提供主要管理者帳號密碼重置功能，如欲重置非主要管理者帳號之密碼時，請洽貴單位之管理人員。',
+    'S_UserMail' => 'EMail',
+    'S_CompanyIdPlaceholder' => '請輸入會員代碼',
+    'S_DefaultMemberTitle' => '[尚未設定顯示名稱]',
+    'S_Timeout' => '驗證逾時，請重新登錄',
+];

@@ -1,0 +1,548 @@
+[2021-07-29 12:07:27] production.DEBUG: [edit]The data from DB  
+[2021-07-29 12:07:34] production.DEBUG: has  
+[2021-07-29 12:08:13] production.DEBUG: [EventController] update  
+[2021-07-29 12:08:13] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-29 12:08:13] production.DEBUG: ***席種・券種未設定***  
+[2021-07-29 12:08:13] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-29 12:08:13] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 12:08:13] production.DEBUG: false  
+[2021-07-29 12:08:13] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 12:08:13] production.DEBUG: 0  
+[2021-07-29 12:08:13] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 12:08:13] production.DEBUG: 0  
+[2021-07-29 12:08:17] production.DEBUG: [edit]The data from DB  
+[2021-07-29 12:08:24] production.DEBUG: has  
+[2021-07-29 12:20:11] production.DEBUG: [EventController] update  
+[2021-07-29 12:20:11] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-29 12:20:11] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 12:20:11] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 12:20:11] production.DEBUG: ***席種・券種未設定***  
+[2021-07-29 12:20:11] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-29 12:20:11] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-29 12:20:11] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-29 12:20:11] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 12:20:11] production.DEBUG: false  
+[2021-07-29 12:20:11] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 12:20:11] production.DEBUG: 0  
+[2021-07-29 12:20:11] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 12:20:11] production.DEBUG: 0  
+[2021-07-29 12:20:22] production.DEBUG: [EventController] update  
+[2021-07-29 12:20:22] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-29 12:20:22] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 12:20:22] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 12:20:22] production.DEBUG: ***席種・券種未設定***  
+[2021-07-29 12:20:22] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-29 12:20:22] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-29 12:20:22] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-29 12:20:22] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 12:20:22] production.DEBUG: false  
+[2021-07-29 12:20:22] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 12:20:22] production.DEBUG: 0  
+[2021-07-29 12:20:22] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 12:20:22] production.DEBUG: 0  
+[2021-07-29 12:20:22] production.DEBUG: [EventManageService]updateJson  
+[2021-07-29 12:20:24] production.DEBUG: [edit]It is old data  
+[2021-07-29 12:20:24] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-29 12:21:28] production.DEBUG: [EventController] update  
+[2021-07-29 12:21:28] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-29 12:21:28] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 12:21:28] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 12:21:28] production.DEBUG: ***席種・券種未設定***  
+[2021-07-29 12:21:28] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-29 12:21:28] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-29 12:21:28] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-29 12:21:28] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 12:21:28] production.DEBUG: false  
+[2021-07-29 12:21:28] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 12:21:28] production.DEBUG: 0  
+[2021-07-29 12:21:28] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 12:21:28] production.DEBUG: 0  
+[2021-07-29 12:21:28] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-29 12:21:29] production.DEBUG: [edit]It is old data  
+[2021-07-29 16:42:54] production.DEBUG: [edit]The data from DB  
+[2021-07-29 16:43:00] production.DEBUG: has  
+[2021-07-29 16:43:22] production.DEBUG: [EventController] update  
+[2021-07-29 16:43:22] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-29 16:43:22] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 16:43:22] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 16:43:22] production.DEBUG: ***席種・券種未設定***  
+[2021-07-29 16:43:22] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-29 16:43:22] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-29 16:43:22] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-29 16:43:22] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 16:43:22] production.DEBUG: false  
+[2021-07-29 16:43:22] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 16:43:22] production.DEBUG: 0  
+[2021-07-29 16:43:22] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 16:43:22] production.DEBUG: 0  
+[2021-07-29 16:43:22] production.DEBUG: [EventManageService]updateJson  
+[2021-07-29 16:43:24] production.DEBUG: [edit]It is old data  
+[2021-07-29 16:43:24] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-29 16:45:15] production.DEBUG: [EventController] update  
+[2021-07-29 16:45:15] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-29 16:45:15] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 16:45:15] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 16:45:15] production.DEBUG: ***席種・券種未設定***  
+[2021-07-29 16:45:15] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-29 16:45:15] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-29 16:45:15] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-29 16:45:15] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 16:45:15] production.DEBUG: false  
+[2021-07-29 16:45:15] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 16:45:15] production.DEBUG: 0  
+[2021-07-29 16:45:15] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 16:45:15] production.DEBUG: 0  
+[2021-07-29 16:45:15] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-29 16:45:16] production.DEBUG: [edit]It is old data  
+[2021-07-29 16:45:42] production.DEBUG: [EventController] update  
+[2021-07-29 16:45:42] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-29 16:45:42] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 16:45:42] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 16:45:42] production.DEBUG: ***席種・券種未設定***  
+[2021-07-29 16:45:42] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-29 16:45:42] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-29 16:45:42] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-29 16:45:42] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 16:45:42] production.DEBUG: false  
+[2021-07-29 16:45:42] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 16:45:42] production.DEBUG: 0  
+[2021-07-29 16:45:42] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 16:45:42] production.DEBUG: 0  
+[2021-07-29 16:45:42] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-29 16:45:43] production.DEBUG: [edit]It is old data  
+[2021-07-29 16:48:18] production.DEBUG: [EventController] update  
+[2021-07-29 16:48:18] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-29 16:48:18] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 16:48:18] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 16:48:18] production.DEBUG: ***席種・券種未設定***  
+[2021-07-29 16:48:18] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-29 16:48:18] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-29 16:48:18] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-29 16:48:18] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 16:48:18] production.DEBUG: false  
+[2021-07-29 16:48:18] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 16:48:18] production.DEBUG: 0  
+[2021-07-29 16:48:18] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 16:48:18] production.DEBUG: 0  
+[2021-07-29 16:48:18] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-29 16:48:19] production.DEBUG: [edit]It is old data  
+[2021-07-29 16:54:46] production.DEBUG: [EventController] update  
+[2021-07-29 16:54:46] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-29 16:54:46] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 16:54:46] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 16:54:46] production.DEBUG: ***席種・券種未設定***  
+[2021-07-29 16:54:46] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-29 16:54:46] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-29 16:54:46] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-29 16:54:46] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 16:54:46] production.DEBUG: false  
+[2021-07-29 16:54:46] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 16:54:46] production.DEBUG: 0  
+[2021-07-29 16:54:46] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 16:54:46] production.DEBUG: 0  
+[2021-07-29 16:55:59] production.DEBUG: [edit]The data from DB  
+[2021-07-29 16:56:05] production.DEBUG: has  
+[2021-07-29 16:56:10] production.DEBUG: [edit]The data from DB  
+[2021-07-29 16:56:17] production.DEBUG: has  
+[2021-07-29 16:56:57] production.DEBUG: [EventController] update  
+[2021-07-29 16:56:57] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-29 16:56:57] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 16:56:57] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 16:56:57] production.DEBUG: ***席種・券種未設定***  
+[2021-07-29 16:56:57] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-29 16:56:57] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-29 16:56:57] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-29 16:56:57] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 16:56:57] production.DEBUG: false  
+[2021-07-29 16:56:57] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 16:56:57] production.DEBUG: 0  
+[2021-07-29 16:56:57] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 16:56:57] production.DEBUG: 0  
+[2021-07-29 17:00:24] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:00:30] production.DEBUG: has  
+[2021-07-29 17:00:34] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:00:41] production.DEBUG: has  
+[2021-07-29 17:02:19] production.DEBUG: [EventController] update  
+[2021-07-29 17:02:19] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-29 17:02:19] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 17:02:19] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 17:02:19] production.DEBUG: ***席種・券種未設定***  
+[2021-07-29 17:02:19] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-29 17:02:19] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-29 17:02:19] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-29 17:02:19] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:02:19] production.DEBUG: false  
+[2021-07-29 17:02:19] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:02:19] production.DEBUG: 0  
+[2021-07-29 17:02:19] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:02:19] production.DEBUG: 0  
+[2021-07-29 17:02:41] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:02:48] production.DEBUG: has  
+[2021-07-29 17:04:35] production.DEBUG: [EventController] update  
+[2021-07-29 17:04:35] production.DEBUG: ***(normal)ステージ未設定***  
+[2021-07-29 17:04:35] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 17:04:35] production.DEBUG: ***先行or一般or当日未入力***  
+[2021-07-29 17:04:35] production.DEBUG: ***席種・券種未設定***  
+[2021-07-29 17:04:35] production.DEBUG: *** クレジットカード支払い or コンビニ支払い 未入力  ***  
+[2021-07-29 17:04:35] production.DEBUG: *** 座席図未登録 ***  
+[2021-07-29 17:04:35] production.DEBUG: *** 指定席または自由席設定なし ***  
+[2021-07-29 17:04:35] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:04:35] production.DEBUG: false  
+[2021-07-29 17:04:35] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:04:35] production.DEBUG: 0  
+[2021-07-29 17:04:35] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:04:35] production.DEBUG: 0  
+[2021-07-29 17:04:35] production.DEBUG: [EventManageService]updateJson  
+[2021-07-29 17:04:36] production.DEBUG: [edit]It is old data  
+[2021-07-29 17:04:36] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-29 17:06:35] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:07:20] production.DEBUG: [EventController] update  
+[2021-07-29 17:07:20] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:07:20] production.DEBUG: true  
+[2021-07-29 17:07:20] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:07:20] production.DEBUG: 1  
+[2021-07-29 17:07:20] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:07:20] production.DEBUG: 3  
+[2021-07-29 17:07:20] production.DEBUG: [EventManageService]updateJson  
+[2021-07-29 17:07:20] production.DEBUG: _createHallInfo : [富山県][射水市] -> ID => 3001297  
+[2021-07-29 17:07:21] production.DEBUG: [edit]It is old data  
+[2021-07-29 17:07:21] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-29 17:09:37] production.DEBUG: [EventManageService] republish  
+[2021-07-29 17:09:37] production.DEBUG: [EventManageService] draft_status -> 3  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/22","start_time":"12:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2787,"update_account_cd":269}  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/22-2787-12:00  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate: id =16719  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/22","start_time":"08:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2788,"update_account_cd":269}  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/22-2788-08:00  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate: id =16720  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/23","start_time":"12:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2787,"update_account_cd":269}  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/23-2787-12:00  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate: id =16721  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/23","start_time":"08:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2788,"update_account_cd":269}  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/23-2788-08:00  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate: id =16722  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/24","start_time":"12:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2787,"update_account_cd":269}  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/24-2787-12:00  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate: id =16723  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/24","start_time":"08:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2788,"update_account_cd":269}  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/24-2788-08:00  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate: id =16724  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/25","start_time":"12:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2787,"update_account_cd":269}  
+[2021-07-29 17:09:38] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/25-2787-12:00  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate: id =16725  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/25","start_time":"08:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2788,"update_account_cd":269}  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/25-2788-08:00  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate: id =16726  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/26","start_time":"12:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2787,"update_account_cd":269}  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/26-2787-12:00  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate: id =16727  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/26","start_time":"08:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2788,"update_account_cd":269}  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/26-2788-08:00  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate: id =16728  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/27","start_time":"12:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2787,"update_account_cd":269}  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/27-2787-12:00  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate: id =16729  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/27","start_time":"08:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2788,"update_account_cd":269}  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/27-2788-08:00  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate: id =16730  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/28","start_time":"12:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2787,"update_account_cd":269}  
+[2021-07-29 17:09:39] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/28-2787-12:00  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate: id =16731  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/28","start_time":"08:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2788,"update_account_cd":269}  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/28-2788-08:00  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate: id =16732  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/29","start_time":"12:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2787,"update_account_cd":269}  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/29-2787-12:00  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate: id =16733  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/29","start_time":"08:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2788,"update_account_cd":269}  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/29-2788-08:00  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate: id =16734  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/30","start_time":"12:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2787,"update_account_cd":269}  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/30-2787-12:00  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate: id =16735  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/30","start_time":"08:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2788,"update_account_cd":269}  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/30-2788-08:00  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate: id =16736  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/31","start_time":"12:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2787,"update_account_cd":269}  
+[2021-07-29 17:09:40] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/31-2787-12:00  
+[2021-07-29 17:09:41] production.DEBUG: specDateScheduleCreateorUpdate: id =16737  
+[2021-07-29 17:09:41] production.DEBUG: specDateScheduleCreateorUpdate{"performance_id":"2306","performance_date":"2021\/7\/31","start_time":"08:00","disp_performance_date":"Every","sch_kbn":"1","stcd":2788,"update_account_cd":269}  
+[2021-07-29 17:09:41] production.DEBUG: specDateScheduleCreateorUpdate:2306-2021/7/31-2788-08:00  
+[2021-07-29 17:09:41] production.DEBUG: specDateScheduleCreateorUpdate: id =16738  
+[2021-07-29 17:10:15] production.DEBUG: export event mst_data satart  
+[2021-07-29 17:10:16] production.DEBUG: export event mst_data finished  
+[2021-07-29 17:11:10] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:14:17] production.DEBUG: [EventController] update  
+[2021-07-29 17:14:17] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:14:17] production.DEBUG: true  
+[2021-07-29 17:14:17] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:14:17] production.DEBUG: 1  
+[2021-07-29 17:14:17] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:14:17] production.DEBUG: 3  
+[2021-07-29 17:14:17] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-29 17:14:18] production.DEBUG: [edit]It is old data  
+[2021-07-29 17:15:08] production.DEBUG: [EventController] update  
+[2021-07-29 17:15:08] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:15:08] production.DEBUG: true  
+[2021-07-29 17:15:08] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:15:08] production.DEBUG: 1  
+[2021-07-29 17:15:08] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:15:08] production.DEBUG: 3  
+[2021-07-29 17:15:08] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-29 17:15:09] production.DEBUG: [edit]It is old data  
+[2021-07-29 17:15:58] production.DEBUG: [EventController] update  
+[2021-07-29 17:15:58] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:15:58] production.DEBUG: true  
+[2021-07-29 17:15:58] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:15:58] production.DEBUG: 1  
+[2021-07-29 17:15:58] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:15:58] production.DEBUG: 3  
+[2021-07-29 17:15:58] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-29 17:15:59] production.DEBUG: [edit]It is old data  
+[2021-07-29 17:18:24] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:19:10] production.DEBUG: [EventController] update  
+[2021-07-29 17:19:10] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:19:10] production.DEBUG: true  
+[2021-07-29 17:19:10] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:19:10] production.DEBUG: 1  
+[2021-07-29 17:19:10] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:19:10] production.DEBUG: 3  
+[2021-07-29 17:19:10] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-29 17:19:11] production.DEBUG: [edit]It is old data  
+[2021-07-29 17:19:49] production.DEBUG: [EventController] update  
+[2021-07-29 17:19:49] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:19:49] production.DEBUG: true  
+[2021-07-29 17:19:49] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:19:49] production.DEBUG: 1  
+[2021-07-29 17:19:49] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:19:49] production.DEBUG: 3  
+[2021-07-29 17:19:49] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-29 17:19:50] production.DEBUG: [edit]It is old data  
+[2021-07-29 17:20:35] production.DEBUG: [EventController] update  
+[2021-07-29 17:20:35] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:20:35] production.DEBUG: true  
+[2021-07-29 17:20:35] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:20:35] production.DEBUG: 1  
+[2021-07-29 17:20:35] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:20:35] production.DEBUG: 3  
+[2021-07-29 17:20:35] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-29 17:20:36] production.DEBUG: [edit]It is old data  
+[2021-07-29 17:21:59] production.DEBUG: [EventController] update  
+[2021-07-29 17:21:59] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:21:59] production.DEBUG: true  
+[2021-07-29 17:21:59] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:21:59] production.DEBUG: 1  
+[2021-07-29 17:21:59] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:21:59] production.DEBUG: 3  
+[2021-07-29 17:21:59] production.DEBUG: [EventCpntroller] _validationCheck fail.  
+[2021-07-29 17:22:00] production.DEBUG: [edit]It is old data  
+[2021-07-29 17:24:17] production.ERROR: Parse error: syntax error, unexpected ';', expecting ',' or ')' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Parse error: syntax error, unexpected ';', expecting ',' or ')' at /home/vagrant/code/htest/gettiilite/app/Http/Controllers/EvenController.php:1574)
+[stacktrace]
+#0 /home/vagrant/code/htest/gettiilite/vendor/composer/ClassLoader.php(346): Composer\\Autoload\\includeFile('/home/vagrant/c...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#2 [internal function]: spl_autoload_call('App\\\\Http\\\\Contro...')
+#3 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#4 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#5 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#6 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#7 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Route.php(226): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#8 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Route.php(796): Illuminate\\Routing\\Route->getController()
+#9 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Route.php(757): Illuminate\\Routing\\Route->controllerMiddleware()
+#10 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(671): Illuminate\\Routing\\Route->gatherMiddleware()
+#11 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(651): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#12 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#13 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#14 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Router.php(590): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#15 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#16 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /home/vagrant/code/htest/gettiilite/vendor/fideloper/proxy/src/TrustProxies.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#33 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#34 /home/vagrant/code/htest/gettiilite/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#35 /home/vagrant/code/htest/gettiilite/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#36 {main}
+"} 
+[2021-07-29 17:24:34] production.DEBUG: [EventController] update  
+[2021-07-29 17:24:34] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:24:34] production.DEBUG: true  
+[2021-07-29 17:24:34] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:24:34] production.DEBUG: 1  
+[2021-07-29 17:24:34] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:24:34] production.DEBUG: 3  
+[2021-07-29 17:25:01] production.DEBUG: [EventController] update  
+[2021-07-29 17:25:01] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:25:01] production.DEBUG: true  
+[2021-07-29 17:25:01] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:25:01] production.DEBUG: 1  
+[2021-07-29 17:25:01] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:25:01] production.DEBUG: 3  
+[2021-07-29 17:26:33] production.DEBUG: [EventController] update  
+[2021-07-29 17:26:33] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:26:33] production.DEBUG: true  
+[2021-07-29 17:26:33] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:26:33] production.DEBUG: 1  
+[2021-07-29 17:26:33] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:26:33] production.DEBUG: 3  
+[2021-07-29 17:26:49] production.DEBUG: [EventController] update  
+[2021-07-29 17:26:49] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:26:49] production.DEBUG: true  
+[2021-07-29 17:26:49] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:26:49] production.DEBUG: 1  
+[2021-07-29 17:26:49] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:26:49] production.DEBUG: 3  
+[2021-07-29 17:27:19] production.DEBUG: [EventController] update  
+[2021-07-29 17:27:19] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:27:19] production.DEBUG: true  
+[2021-07-29 17:27:19] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:27:19] production.DEBUG: 1  
+[2021-07-29 17:27:19] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:27:19] production.DEBUG: 3  
+[2021-07-29 17:28:18] production.DEBUG: [EventController] update  
+[2021-07-29 17:28:18] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:28:18] production.DEBUG: true  
+[2021-07-29 17:28:18] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:28:18] production.DEBUG: 1  
+[2021-07-29 17:28:18] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:28:18] production.DEBUG: 3  
+[2021-07-29 17:28:40] production.DEBUG: [EventController] update  
+[2021-07-29 17:28:40] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:28:40] production.DEBUG: true  
+[2021-07-29 17:28:40] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:28:40] production.DEBUG: 1  
+[2021-07-29 17:28:40] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:28:40] production.DEBUG: 3  
+[2021-07-29 17:30:39] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:31:05] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:33:29] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:34:41] production.DEBUG: [EventController] update  
+[2021-07-29 17:34:41] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:34:41] production.DEBUG: true  
+[2021-07-29 17:34:41] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:34:41] production.DEBUG: 1  
+[2021-07-29 17:34:41] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:34:41] production.DEBUG: 3  
+[2021-07-29 17:34:48] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:40:15] production.DEBUG: [EventController] update  
+[2021-07-29 17:40:15] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:40:15] production.DEBUG: true  
+[2021-07-29 17:40:15] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:40:15] production.DEBUG: 1  
+[2021-07-29 17:40:15] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:40:15] production.DEBUG: 3  
+[2021-07-29 17:40:23] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:40:57] production.DEBUG: [EventController] update  
+[2021-07-29 17:40:57] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:40:57] production.DEBUG: true  
+[2021-07-29 17:40:57] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:40:57] production.DEBUG: 1  
+[2021-07-29 17:40:57] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:40:57] production.DEBUG: 3  
+[2021-07-29 17:41:04] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:42:13] production.DEBUG: [EventController] update  
+[2021-07-29 17:42:13] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:42:13] production.DEBUG: true  
+[2021-07-29 17:42:13] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:42:13] production.DEBUG: 1  
+[2021-07-29 17:42:13] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:42:13] production.DEBUG: 3  
+[2021-07-29 17:42:32] production.DEBUG: [EventController] update  
+[2021-07-29 17:42:32] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:42:32] production.DEBUG: true  
+[2021-07-29 17:42:32] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:42:32] production.DEBUG: 1  
+[2021-07-29 17:42:32] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:42:32] production.DEBUG: 3  
+[2021-07-29 17:43:03] production.DEBUG: [EventController] update  
+[2021-07-29 17:43:03] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:43:03] production.DEBUG: true  
+[2021-07-29 17:43:03] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:43:03] production.DEBUG: 1  
+[2021-07-29 17:43:03] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:43:03] production.DEBUG: 3  
+[2021-07-29 17:43:50] production.DEBUG: [EventController] update  
+[2021-07-29 17:43:50] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:43:50] production.DEBUG: true  
+[2021-07-29 17:43:50] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:43:50] production.DEBUG: 1  
+[2021-07-29 17:43:50] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:43:50] production.DEBUG: 3  
+[2021-07-29 17:43:58] production.DEBUG: [EventController] update  
+[2021-07-29 17:43:58] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:43:58] production.DEBUG: true  
+[2021-07-29 17:43:58] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:43:58] production.DEBUG: 1  
+[2021-07-29 17:43:58] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:43:58] production.DEBUG: 3  
+[2021-07-29 17:44:29] production.DEBUG: [edit]The data from DB  
+[2021-07-29 17:45:16] production.DEBUG: [EventController] update  
+[2021-07-29 17:45:16] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:45:16] production.DEBUG: true  
+[2021-07-29 17:45:16] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:45:16] production.DEBUG: 1  
+[2021-07-29 17:45:16] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:45:16] production.DEBUG: 3  
+[2021-07-29 17:45:31] production.DEBUG: [EventController] update  
+[2021-07-29 17:45:31] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:45:31] production.DEBUG: true  
+[2021-07-29 17:45:31] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:45:31] production.DEBUG: 1  
+[2021-07-29 17:45:31] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:45:31] production.DEBUG: 3  
+[2021-07-29 17:45:39] production.DEBUG: [EventController] update  
+[2021-07-29 17:45:39] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:45:39] production.DEBUG: true  
+[2021-07-29 17:45:39] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:45:39] production.DEBUG: 1  
+[2021-07-29 17:45:39] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:45:39] production.DEBUG: 3  
+[2021-07-29 17:45:55] production.DEBUG: [EventController] update  
+[2021-07-29 17:45:55] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 17:45:55] production.DEBUG: true  
+[2021-07-29 17:45:55] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 17:45:55] production.DEBUG: 1  
+[2021-07-29 17:45:55] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 17:45:55] production.DEBUG: 3  
+[2021-07-29 17:58:45] production.DEBUG: [edit]The data from DB  
+[2021-07-29 18:00:40] production.DEBUG: [EventController] update  
+[2021-07-29 18:00:40] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 18:00:40] production.DEBUG: true  
+[2021-07-29 18:00:40] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 18:00:40] production.DEBUG: 1  
+[2021-07-29 18:00:40] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 18:00:40] production.DEBUG: 3  
+[2021-07-29 18:00:40] production.DEBUG: [EventManageService]updateJson  
+[2021-07-29 18:00:40] production.DEBUG: _createHallInfo : [富山県][射水市] -> ID => 3001297  
+[2021-07-29 18:00:41] production.DEBUG: [edit]It is old data  
+[2021-07-29 18:00:41] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-29 18:01:33] production.DEBUG: [EventController] update  
+[2021-07-29 18:01:33] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 18:01:33] production.DEBUG: true  
+[2021-07-29 18:01:33] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 18:01:33] production.DEBUG: 1  
+[2021-07-29 18:01:33] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 18:01:33] production.DEBUG: 3  
+[2021-07-29 18:01:33] production.DEBUG: [EventManageService]updateJson  
+[2021-07-29 18:01:33] production.DEBUG: _createHallInfo : [富山県][射水市] -> ID => 3001297  
+[2021-07-29 18:01:34] production.DEBUG: [edit]It is old data  
+[2021-07-29 18:01:34] production.DEBUG: [edit]Reading data form draft.  
+[2021-07-29 18:04:42] production.DEBUG: [EventController] update  
+[2021-07-29 18:04:42] production.DEBUG: *** sales_term_status  ***  
+[2021-07-29 18:04:42] production.DEBUG: true  
+[2021-07-29 18:04:42] production.DEBUG: *** ticket_seat_status  ***  
+[2021-07-29 18:04:42] production.DEBUG: 1  
+[2021-07-29 18:04:42] production.DEBUG: *** PERFORMANCE STATUS ***  
+[2021-07-29 18:04:42] production.DEBUG: 3  

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1517 168 100 28.169">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5e76a5;
+      }
+
+      .cls-2 {
+        fill: #4e69a1;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 12px;
+        font-family: HiraginoSans-W6, Hiragino Sans;
+      }
+    </style>
+  </defs>
+  <g id="share_fb" transform="translate(1577 168)">
+    <rect id="長方形_367" data-name="長方形 367" class="cls-1" width="100" height="28" rx="4" transform="translate(-60 0)"/>
+    <path id="パス_226" data-name="パス 226" class="cls-2" d="M22.955,0H5.1A5.1,5.1,0,0,0,0,5.064V22.9A5.1,5.1,0,0,0,5.064,28H22.9A5.1,5.1,0,0,0,28,22.936V5.1A5.07,5.07,0,0,0,22.955,0" transform="translate(-60 0)"/>
+    <path id="パス_227" data-name="パス 227" class="cls-3" d="M45.305,17.119H47.3v-3.38a24.887,24.887,0,0,0-2.909-.139c-2.882,0-4.849,1.746-4.849,4.987v2.771H36.3v3.768h3.242v9.642h3.879V25.1h3.242l.5-3.768H43.449V18.92C43.449,17.867,43.753,17.119,45.305,17.119Z" transform="translate(-84.233 -6.6)"/>
+    <text id="シェア" class="cls-4" transform="translate(-14 19)"><tspan x="0" y="0">シェア</tspan></text>
+  </g>
+</svg>

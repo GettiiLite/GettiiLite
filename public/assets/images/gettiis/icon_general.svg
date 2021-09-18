@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1618 1338 28 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3bb12c;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 8px;
+        font-family: HiraginoSans-W6, Hiragino Sans;
+        letter-spacing: 0.004em;
+      }
+    </style>
+  </defs>
+  <g id="通常" transform="translate(1489 187)">
+    <path id="パス_242" data-name="パス 242" class="cls-1" d="M30,4.9c0-1-1.4-1-1.4-2.1S30,1.8,30,.7h0c0-.4-.6-.7-1.2-.7H3A.945.945,0,0,0,2,1V13a.945.945,0,0,0,1,1H28.8c.7,0,1.2-.3,1.2-.7h0c0-1-1.4-1-1.4-2.1s1.4-1,1.4-2.1c0-1-1.4-1-1.4-2.1C28.6,6,30,6,30,4.9Z" transform="translate(127 1151)"/>
+    <text id="一般" class="cls-2" transform="translate(132 1154)" style="font-size:8px;font-family:Arial, HiraginoSans-W6, 'Hiragino Sans';letter-spacing:0.004em;fill:#ffffff" ><tspan x="2.484" y="7">一般</tspan></text>
+  </g>
+</svg>

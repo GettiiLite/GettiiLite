@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xhtml="http://www.w3.org/1999/xhtml" >
+  <url> 
+    <loc>https://lite.gettiis.jp/</loc> 
+    <lastmod>2021-04-07</lastmod> 
+    <changefreq>daily</changefreq> 
+    <priority>1.0</priority> 
+    <xhtml:link rel="alternate" hreflang="ja" href="https://lite.gettiis.jp/"/>
+  </url> 
+  <url> 
+    <loc>https://lite.gettiis.jp/index.html</loc> 
+    <lastmod>2021-08-08</lastmod> 
+    <changefreq>daily</changefreq> 
+    <priority>1.0</priority> 
+    <xhtml:link rel="alternate" hreflang="ja" href="https://lite.gettiis.jp/index.html"/>
+  </url> 
+</urlset> 
