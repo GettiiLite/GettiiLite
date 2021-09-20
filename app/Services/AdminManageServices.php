@@ -539,7 +539,8 @@ class AdminManageServices
         );
 
         $data = array(
-            'user_data'          => $userInf,
+            // 'user_data'          => $userInf,
+            'user_data'          => isset($userInf) ? $userInf : '',
             'user_temporaryInfo' => $userData[0]['temporary_info'],
             'account_data'       => json_encode($accountInf),
         );
