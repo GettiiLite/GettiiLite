@@ -67,7 +67,6 @@ class Cell
             } else {
                 $value = $this->cell->getValue();
             }
-			$value = $this->cell->getCalculatedValue();
             if ($formatData) {
                 $style = $this->cell->getWorksheet()->getParent()->getCellXfByIndex($this->cell->getXfIndex());
                 $value = NumberFormat::toFormattedString(

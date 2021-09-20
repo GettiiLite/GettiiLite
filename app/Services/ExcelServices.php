@@ -6,9 +6,11 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Exception;
 use Log;
+//STS 2021/09/20 Update Laravel 8 start
+// use Excel;
 use App\Imports\SeatDataImport;
 use Maatwebsite\Excel\Facades\Excel;
-
+//STS 2021/09/20 Update Laravel 8 end
 class ExcelServices
 {
      /** @var  excelData */
@@ -26,23 +28,102 @@ class ExcelServices
      * 
      */
      public function excelHandle($filePath){
-     
-       $filePath = '/home/vagrant/code/gettiilite/'.$filePath;
-   
-            $a = new SeatDataImport();
+         //STS 2021/09/20 Update Laravel 8 start.
+      //  $filePath = 'storage/mapExcel/'.iconv('UTF-8', 'GBK', 'seat sample data 01').'.xlsx';
+
+    //   Excel::load($filePath, function($reader) {
+    //     $em = 1;
+    //     $seatSortData = [];
+    //     $directionData = [];
+    //     $seatInfTitle = ['row', 'number', 'floor', 'seatPriority', 'block', 'direction', 'gate'];
+
+    //     foreach ($reader->get() as $key => $item){
+    //         $seatData = $item->toArray();
+    //         foreach($seatData as $keySeat => $value){
+    //             if($value){
+    //                 $seatCoordinate = $key.'.'.$keySeat;
+    //                 $seatInf = explode("@",$value);
+    //                 if(count($seatInf) != 7)
+    //                 {
+    //                    $this->excelFormat = false;
+    //                 }
+    //                 $seatSortData[$seatCoordinate] = array(
+    //                     'em' => $em,
+    //                     'x' => $keySeat,
+    //                     'y' =>  $key,
+    //                     'row' => ' ',
+    //                     'number' => '',
+    //                     'floor' => '',
+    //                     'seatPriority' => '',
+    //                     'block' => '',
+    //                     'direction' => '',
+    //                     'gate' => '',
+    //                 );
+                
+    //                 if($this->firstSeat){
+    //                     $this->dataAttributesNum = count($seatInf);
+
+    //                     if(count($seatInf) > 4){
+    //                         if(!is_null($seatInf['4'])){
+    //                             $this->blockExist = false;
+    //                         }
+    
+    //                     }
+    //                     $this->firstSeat = false;
+    //                 }
+                   
+    //                 if($this->dataAttributesNum !== count($seatInf)){
+    //                     $this->dataError = 'Attributes had less some';
+    //                     $this->status = false; 
+    //                 }
+                 
+    //                 if(count($seatInf) > 4){
+    //                     if(is_null($seatInf['4']) !== $this->blockExist){
+    //                         $this->dataError = 'block data not sama';
+    //                         $this->status = false; 
+    //                     }
+    //                 }
+
+    //                 if(count($seatInf) > 6){
+    //                     $floorBlock = $seatInf['2'].$seatInf['4'];
+                        
+    //                     if(!array_key_exists($floorBlock, $directionData)){
+    //                         $directionData[$floorBlock] = $seatInf['5'];
+    //                     }else{
+    //                         if($directionData[$floorBlock] !== $seatInf['5']){
+    //                             $this->dataError = 'direction is not same';
+    //                             $this->status = false; 
+    //                         }
+    //                     }
+    //                 }
+
+    //                 for($num=0; $num < 7; $num++){
+    //                     $seatInfTitle[$num];
+    //                     if(array_key_exists($num,  $seatInf)){
+    //                         $seatSortData[$key.'.'.$keySeat][$seatInfTitle[$num]] = $seatInf[$num];
+    //                     }
+    //                 }
+                  
+    //             }
+    //             $em++;
+    //         }
+    //     }
+    //     $this->excelData = $seatSortData;
+    //     $this->status = true; 
+    // });
+    
+            $filePath = storage_path($filePath);
+            $seatModel = new SeatDataImport();
             $em = 1;
             $seatSortData = [];
             $directionData = [];
             $seatInfTitle = ['row', 'number', 'floor', 'seatPriority', 'block', 'direction', 'gate'];
-
-           $dataSeat =  Excel::toArray($a,  $filePath);
+            $dataSeat =  Excel::toArray($seatModel,  $filePath);
             foreach($dataSeat as  $reader ){
             foreach ($reader as $key => $item){
                 $seatData = $item;
-                // dd($seatData);
                 foreach($seatData as $keySeat => $value){
                     if($value){
-                        // dd($value);
                         $seatCoordinate = $key.'.'.$keySeat;
                         $seatInf = explode("@",$value);
                         if(count($seatInf) != 7)
@@ -113,7 +194,7 @@ class ExcelServices
             }
             $this->excelData = $seatSortData;
             $this->status = true; 
-     
+     //STS 2021/09/20 Update Laravel 8 end.
     }
     /**
      * upload excel file to storage
@@ -143,9 +224,9 @@ class ExcelServices
         try{
             $fileName = $this->excelUpload($request->file('flieMap'));
             // $fileName = "test";
-            $filePath = 'storage/app/public/map-data/'.iconv('UTF-8', 'GBK', $fileName).'.xlsx';
-            //$filePath =  'storage/app/public/map-data/'.iconv('UTF-8', 'GBK', 'test').'.xlsx';
-        
+            // $filePath = 'storage/app/public/map-data/'.iconv('UTF-8', 'GBK', $fileName).'.xlsx';// STS 2021/09/20 Update Laravel 8
+            //$filePath =  'storage/app/public/map-data/'.iconv('UTF-8', 'GBK', 'test').'.xlsx'; 
+            $filePath = 'app/public/map-data/'.iconv('UTF-8', 'GBK', $fileName).'.xlsx'; // STS 2021/09/20 Update Laravel 8
             $fileNow = 'map-data/'.$fileName.'.xlsx';
             $seatJsonData = [];
             $this->excelHandle($filePath);
