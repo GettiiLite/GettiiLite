@@ -91,7 +91,10 @@
       <div class="box-header">
         <h3 class="table-title"></h3>
         <p class="margin-fix"><span class="text-gray">{{trans('report.S_Term')}} ｜ </span>{{str_replace('-','/',$date['startDate'])}} - {{str_replace('-','/',$date['endDate'])}}</p>
-        <p class="margin-fix"><span class="text-gray">{{trans('report.S_Distributor')}} ｜ </span> {{$user['data']['user_data']['contract_name']}}</p>
+        <!-- <p class="margin-fix"><span class="text-gray">{{trans('report.S_Distributor')}} ｜ </span> {{$user['data']['user_data']['contract_name']}}</p> -->
+         <p class="margin-fix"><span class="text-gray">{{ trans('report.S_Distributor') }} ｜ </span>
+                    {{ isset($user['data']['user_data']['contract_name']) ? $user['data']['user_data']['contract_name'] : '' }}
+                </p>
       </div>
     </div>   
     <div class="box no-border">
