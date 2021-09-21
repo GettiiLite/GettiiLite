@@ -344,8 +344,12 @@ class EvenController extends Controller
         $sellSetting = json_decode($data[0]->sellData);        //販売条件    
         $mapData = json_decode($data[0]->mapData); 
         $ticketViewData = json_decode($data[0]->ticketView);
-        $performancestatus_old = $request->session()->get('oldinfo'.$performanceId)['performanceStatus'];
-        $transFlg = $request->session()->get('oldinfo'.$performanceId)['transFlg'];
+        //upgrade laravel 8 --start
+        // $performancestatus_old = $request->session()->get('oldinfo'.$performanceId)['performanceStatus'];
+        // $transFlg = $request->session()->get('oldinfo'.$performanceId)['transFlg'];
+        $performancestatus_old = isset($request->session()->get('oldinfo'.$performanceId)['performanceStatus']) ? $request->session()->get('oldinfo'.$performanceId)['performanceStatus'] : null;
+        $transFlg = isset($request->session()->get('oldinfo'.$performanceId)['transFlg']) ? $request->session()->get('oldinfo'.$performanceId)['transFlg'] : null;
+        //upgrade laravel 8 --end
         $fbgCtrl = $data[0]->fbgCtrl;
         $entry_time = $data[0]->entry_time;
 
