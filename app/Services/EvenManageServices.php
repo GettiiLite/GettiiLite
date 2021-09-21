@@ -2848,8 +2848,10 @@ class EvenManageServices
         
         // draft 資料
         $draft = $this->EvenManageRepositories->getDraft($filter_data);
-        $draft_temporary_info  = $draft['draft_info'];
-        $draft_status  = $draft['new_status'];
+        // $draft_temporary_info  = $draft['draft_info'];
+        // $draft_status  = $draft['new_status'];
+        $draft_temporary_info  = isset($draft['draft_info']) ? $draft['draft_info'] : null;//upgrade laravel 8
+        $draft_status  = isset($draft['new_status']) ? $draft['new_status'] : null;//upgrade laravel 8
         $draft_dispaly_status = $performance_dispaly_status;
         if($readDraftData) {
           $article = json_decode($temporary_info, true)['basisData']['article'];
